@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="QuotationItem" nillable="true" type="QuotationDetailEntity" />
+  <xs:complexType name="QuotationDetailEntity">
+    <xs:complexContent mixed="false">
+      <xs:extension base="QuotationDetailBaseEntity">
+        <xs:sequence>
+          <xs:element minOccurs="1" maxOccurs="1" name="Quantity" nillable="true" type="xs:int" />
+          <xs:element minOccurs="0" maxOccurs="1" name="BundledItems" type="ArrayOfQuotationDetailBundledItemEntity" />
+          <xs:element minOccurs="1" maxOccurs="1" name="PackagingQty" nillable="true" type="xs:short" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="QuotationDetailBaseEntity">
+    <xs:complexContent mixed="false">
+      <xs:extension base="OxatisEntity">
+        <xs:sequence>
+          <xs:element minOccurs="1" maxOccurs="1" name="PdtOptID" nillable="true" type="xs:int" />
+          <xs:element minOccurs="1" maxOccurs="1" name="ItemOxID" nillable="true" type="xs:int" />
+          <xs:element minOccurs="0" maxOccurs="1" name="ItemSKU" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="ItemSKUOriginal" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="ItemName" type="xs:string" />
+          <xs:element minOccurs="1" maxOccurs="1" name="GrossPrice" nillable="true" type="xs:double" />
+          <xs:element minOccurs="1" maxOccurs="1" name="GrossAmount" nillable="true" type="xs:double" />
+          <xs:element minOccurs="1" maxOccurs="1" name="TaxRate" nillable="true" type="xs:double" />
+          <xs:element minOccurs="1" maxOccurs="1" name="DiscountRate" nillable="true" type="xs:double" />
+          <xs:element minOccurs="1" maxOccurs="1" name="NetPrice" nillable="true" type="xs:double" />
+          <xs:element minOccurs="1" maxOccurs="1" name="NetAmount" nillable="true" type="xs:double" />
+          <xs:element minOccurs="1" maxOccurs="1" name="VATAmount" nillable="true" type="xs:double" />
+          <xs:element minOccurs="1" maxOccurs="1" name="EcoTaxValueTaxIncl" nillable="true" type="xs:double" />
+          <xs:element minOccurs="0" maxOccurs="1" name="DiscountCoupon" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="Attribute1Name" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="Attribute1Value" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="Attribute2Name" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="Attribute2Value" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="AttributeTextName" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="AttributeTextValue" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="ItemMainImageUrl" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="ItemThumbnailImageUrl" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="Option1Name" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="Option1Value" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="Option2Name" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="Option2Value" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="Option3Name" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="Option3Value" type="xs:string" />
+          <xs:element minOccurs="1" maxOccurs="1" name="Offered" nillable="true" type="xs:boolean" />
+          <xs:element minOccurs="0" maxOccurs="1" name="PackagingName" type="xs:string" />
+          <xs:element minOccurs="1" maxOccurs="1" name="LinkedTo" nillable="true" type="xs:int" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="OxatisEntity">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="OxID" nillable="true" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="QuotationDetailBundledItemsBaseEntity">
+    <xs:complexContent mixed="false">
+      <xs:extension base="OxatisEntity">
+        <xs:sequence>
+          <xs:element minOccurs="1" maxOccurs="1" name="ItemOxID" nillable="true" type="xs:int" />
+          <xs:element minOccurs="0" maxOccurs="1" name="ItemSKU" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="ItemName" type="xs:string" />
+          <xs:element minOccurs="1" maxOccurs="1" name="GrossPrice" nillable="true" type="xs:double" />
+          <xs:element minOccurs="0" maxOccurs="1" name="ItemMainImageUrl" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="ItemThumbnailImageUrl" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="Option1Name" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="Option1Value" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="Option2Name" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="Option2Value" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="Option3Name" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="Option3Value" type="xs:string" />
+          <xs:element minOccurs="1" maxOccurs="1" name="Offered" nillable="true" type="xs:boolean" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="QuotationDetailBundledItemEntity">
+    <xs:complexContent mixed="false">
+      <xs:extension base="QuotationDetailBundledItemsBaseEntity">
+        <xs:sequence>
+          <xs:element minOccurs="1" maxOccurs="1" name="Quantity" nillable="true" type="xs:int" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="ArrayOfQuotationDetailBundledItemEntity">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="BundledItem" nillable="true" type="QuotationDetailBundledItemEntity" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

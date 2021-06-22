@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="DiscountRule" nillable="true" type="DiscountRuleEntity" />
+  <xs:complexType name="DiscountRuleEntity">
+    <xs:complexContent mixed="false">
+      <xs:extension base="DiscountRuleIdEntity">
+        <xs:sequence>
+          <xs:element minOccurs="1" maxOccurs="1" name="DiscountType" type="ProductDiscountType" />
+          <xs:element minOccurs="1" maxOccurs="1" name="DiscountValue" type="xs:double" />
+          <xs:element minOccurs="0" maxOccurs="1" name="DiscountCoupon" type="xs:string" />
+          <xs:element minOccurs="1" maxOccurs="1" name="GridDiscountType" type="GridDiscountType" />
+          <xs:element minOccurs="1" maxOccurs="1" name="GridLowerStep1Value" nillable="true" type="xs:double" />
+          <xs:element minOccurs="1" maxOccurs="1" name="GridLowerStep1Result" nillable="true" type="xs:double" />
+          <xs:element minOccurs="1" maxOccurs="1" name="GridLowerStep2Value" nillable="true" type="xs:double" />
+          <xs:element minOccurs="1" maxOccurs="1" name="GridLowerStep2Result" nillable="true" type="xs:double" />
+          <xs:element minOccurs="1" maxOccurs="1" name="GridLowerStep3Value" nillable="true" type="xs:double" />
+          <xs:element minOccurs="1" maxOccurs="1" name="GridLowerStep3Result" nillable="true" type="xs:double" />
+          <xs:element minOccurs="1" maxOccurs="1" name="GridLowerStep4Value" nillable="true" type="xs:double" />
+          <xs:element minOccurs="1" maxOccurs="1" name="GridLowerStep4Result" nillable="true" type="xs:double" />
+          <xs:element minOccurs="1" maxOccurs="1" name="GridLowerStep5Value" nillable="true" type="xs:double" />
+          <xs:element minOccurs="1" maxOccurs="1" name="GridLowerStep5Result" nillable="true" type="xs:double" />
+          <xs:element minOccurs="1" maxOccurs="1" name="GridLowerStep6Value" nillable="true" type="xs:double" />
+          <xs:element minOccurs="1" maxOccurs="1" name="GridLowerStep6Result" nillable="true" type="xs:double" />
+          <xs:element minOccurs="1" maxOccurs="1" name="GridLowerStep7Value" nillable="true" type="xs:double" />
+          <xs:element minOccurs="1" maxOccurs="1" name="GridLowerStep7Result" nillable="true" type="xs:double" />
+          <xs:element minOccurs="1" maxOccurs="1" name="GridLowerStep8Value" nillable="true" type="xs:double" />
+          <xs:element minOccurs="1" maxOccurs="1" name="GridLowerStep8Result" nillable="true" type="xs:double" />
+          <xs:element minOccurs="1" maxOccurs="1" name="GridLowerStep9Value" nillable="true" type="xs:double" />
+          <xs:element minOccurs="1" maxOccurs="1" name="GridLowerStep9Result" nillable="true" type="xs:double" />
+          <xs:element minOccurs="1" maxOccurs="1" name="GridLowerStep10Value" nillable="true" type="xs:double" />
+          <xs:element minOccurs="1" maxOccurs="1" name="GridLowerStep10Result" nillable="true" type="xs:double" />
+          <xs:element minOccurs="1" maxOccurs="1" name="StartDate" nillable="true" type="xs:dateTime" />
+          <xs:element minOccurs="1" maxOccurs="1" name="EndDate" nillable="true" type="xs:dateTime" />
+          <xs:element minOccurs="1" maxOccurs="1" name="ShowStrikePrice" nillable="true" type="xs:boolean" />
+          <xs:element minOccurs="1" maxOccurs="1" name="Active" nillable="true" type="xs:boolean" />
+          <xs:element minOccurs="1" maxOccurs="1" name="StopProcessingDiscount" nillable="true" type="xs:boolean" />
+          <xs:element minOccurs="0" maxOccurs="1" name="OriginalDiscount" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="DiscountRuleIdEntity">
+    <xs:complexContent mixed="false">
+      <xs:extension base="OxatisEntity">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="1" name="Name" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="OxatisEntity">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="OxID" nillable="true" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:simpleType name="ProductDiscountType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Percentage" />
+      <xs:enumeration value="NewPrice" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="GridDiscountType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="None" />
+      <xs:enumeration value="Quantity" />
+      <xs:enumeration value="Amount" />
+      <xs:enumeration value="NewPrice" />
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>

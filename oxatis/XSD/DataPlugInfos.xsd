@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="DataPlugInfos" nillable="true" type="DataPlugInfosEntity" />
+  <xs:complexType name="DataPlugInfosEntity">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="MachineSerialNumber" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="DataPlugDataBaseFolder" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="DataPlugVersion" type="xs:string" />
+      <xs:element minOccurs="1" maxOccurs="1" name="LastDateOfUse" type="xs:dateTime" />
+      <xs:element minOccurs="1" maxOccurs="1" name="DataPlugMode" nillable="true" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Users" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Products" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Images" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="DiscountRules" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ProductPackaging" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Orders" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Quotations" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="OrderProressStates" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ShippingAddresses" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="CopyCurrentInfosToOld" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ConnectorInfos" type="ConnectorInfosEntity" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ConnectorInfosEntity">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="Name" type="xs:string" />
+      <xs:element minOccurs="1" maxOccurs="1" name="LastDateOfUse" type="xs:dateTime" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

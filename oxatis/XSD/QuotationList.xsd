@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="QuotationList" nillable="true" type="QuotationListHeaderEntity" />
+  <xs:complexType name="QuotationListHeaderEntity">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="SetOrderDesc" type="xs:boolean" />
+      <xs:element minOccurs="1" maxOccurs="1" name="StartDate" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="1" maxOccurs="1" name="EndDate" nillable="true" type="xs:dateTime" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

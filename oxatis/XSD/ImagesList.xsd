@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="ImagesList" nillable="true" type="ImagesListEntity" />
+  <xs:complexType name="ImagesListEntity">
+    <xs:complexContent mixed="false">
+      <xs:extension base="ImagesListIdEntity">
+        <xs:sequence>
+          <xs:element minOccurs="1" maxOccurs="1" name="ParentID" nillable="true" type="xs:int" />
+          <xs:element minOccurs="1" maxOccurs="1" name="ImgWidth" nillable="true" type="xs:short" />
+          <xs:element minOccurs="1" maxOccurs="1" name="ImgHeight" nillable="true" type="xs:short" />
+          <xs:element minOccurs="1" maxOccurs="1" name="Position" type="xs:int" />
+          <xs:element minOccurs="1" maxOccurs="1" name="ThumbnailImgWidth" nillable="true" type="xs:short" />
+          <xs:element minOccurs="1" maxOccurs="1" name="ThumbnailChangeMode" nillable="true" type="xs:unsignedByte" />
+          <xs:element minOccurs="1" maxOccurs="1" name="ZoomPosition" nillable="true" type="xs:short" />
+          <xs:element minOccurs="1" maxOccurs="1" name="ZoomWidth" nillable="true" type="xs:short" />
+          <xs:element minOccurs="1" maxOccurs="1" name="ZoomHeight" nillable="true" type="xs:short" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="ImagesListIdEntity">
+    <xs:complexContent mixed="false">
+      <xs:extension base="OxatisEntity">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="1" name="ThumbnailImgFileName" type="xs:string" />
+          <xs:element minOccurs="1" maxOccurs="1" name="ItemOxId" nillable="true" type="xs:int" />
+          <xs:element minOccurs="0" maxOccurs="1" name="ItemSKU" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="ImgFileName" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="ZoomImgFileName" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="OxatisEntity">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="OxID" nillable="true" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="OrderSource" nillable="true" type="OrderSourceEntity" />
+  <xs:complexType name="OrderSourceEntity">
+    <xs:complexContent mixed="false">
+      <xs:extension base="OrderPeriodEntity">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="1" name="SourceOrderID" type="xs:string" />
+          <xs:element minOccurs="1" maxOccurs="1" name="SourceTypeID" nillable="true" type="xs:unsignedByte" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="OrderPeriodEntity">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="StartDate" type="xs:dateTime" />
+      <xs:element minOccurs="1" maxOccurs="1" name="EndDate" type="xs:dateTime" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

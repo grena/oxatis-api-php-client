@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Attribute" nillable="true" type="Attribute" />
+  <xs:complexType name="Attribute">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="DisplayedText" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="AttributeCode" type="xs:string" />
+      <xs:element minOccurs="1" maxOccurs="1" name="AttributeCodeMethod" type="AttributeCodeMethod" />
+      <xs:element minOccurs="1" maxOccurs="1" name="AttributeProductType" type="ProductAttributeType" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Price" type="PriceVATModeEntity" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Price1" type="PriceVATModeEntity" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Price2" type="PriceVATModeEntity" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Price3" type="PriceVATModeEntity" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Price4" type="PriceVATModeEntity" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:simpleType name="AttributeCodeMethod">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Concatenate" />
+      <xs:enumeration value="Replace" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="ProductAttributeType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="None" />
+      <xs:enumeration value="Material" />
+      <xs:enumeration value="Intangible" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="PriceVATModeEntity">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="Value" nillable="true" type="xs:double" />
+      <xs:element minOccurs="1" maxOccurs="1" name="VATIncluded" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

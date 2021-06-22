@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Quotation" nillable="true" type="QuotationEntity" />
+  <xs:complexType name="QuotationEntity">
+    <xs:complexContent mixed="false">
+      <xs:extension base="QuotationBaseEntity">
+        <xs:sequence>
+          <xs:element minOccurs="1" maxOccurs="1" name="TotalWeight" nillable="true" type="xs:int" />
+          <xs:element minOccurs="0" maxOccurs="1" name="QuotationItems" type="ArrayOfQuotationDetailEntity" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="QuotationBaseEntity">
+    <xs:complexContent mixed="false">
+      <xs:extension base="QuotationSummaryEntity">
+        <xs:sequence>
+          <xs:element minOccurs="1" maxOccurs="1" name="UserEmail" nillable="true" type="xs:string" />
+          <xs:element minOccurs="1" maxOccurs="1" name="UserOxID" nillable="true" type="xs:int" />
+          <xs:element minOccurs="1" maxOccurs="1" name="BillingTitle" nillable="true" type="xs:string" />
+          <xs:element minOccurs="1" maxOccurs="1" name="BillingCompany" nillable="true" type="xs:string" />
+          <xs:element minOccurs="1" maxOccurs="1" name="BillingAddress" nillable="true" type="xs:string" />
+          <xs:element minOccurs="1" maxOccurs="1" name="BillingAddressL1" nillable="true" type="xs:string" />
+          <xs:element minOccurs="1" maxOccurs="1" name="BillingAddressL2" nillable="true" type="xs:string" />
+          <xs:element minOccurs="1" maxOccurs="1" name="BillingAddressL3" nillable="true" type="xs:string" />
+          <xs:element minOccurs="1" maxOccurs="1" name="BillingAddressL4" nillable="true" type="xs:string" />
+          <xs:element minOccurs="1" maxOccurs="1" name="BillingAddressFloor" nillable="true" type="xs:string" />
+          <xs:element minOccurs="1" maxOccurs="1" name="BillingAddressBuilding" nillable="true" type="xs:string" />
+          <xs:element minOccurs="1" maxOccurs="1" name="BillingAddressStreet" nillable="true" type="xs:string" />
+          <xs:element minOccurs="1" maxOccurs="1" name="BillingAddressOtherInfo" nillable="true" type="xs:string" />
+          <xs:element minOccurs="1" maxOccurs="1" name="BillingZipCode" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="BillingCity" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="BillingState" type="xs:string" />
+          <xs:element minOccurs="1" maxOccurs="1" name="BillingStateName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="1" maxOccurs="1" name="BillingCountryISOCode" nillable="true" type="xs:string" />
+          <xs:element minOccurs="1" maxOccurs="1" name="BillingCountryName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="1" maxOccurs="1" name="BillingPhone" nillable="true" type="xs:string" />
+          <xs:element minOccurs="1" maxOccurs="1" name="BillingCellPhone" nillable="true" type="xs:string" />
+          <xs:element minOccurs="1" maxOccurs="1" name="BillingFax" nillable="true" type="xs:string" />
+          <xs:element minOccurs="1" maxOccurs="1" name="CompanyVATNumber" nillable="true" type="xs:string" />
+          <xs:element minOccurs="1" maxOccurs="1" name="ShippingCompany" nillable="true" type="xs:string" />
+          <xs:element minOccurs="1" maxOccurs="1" name="ShippingTitle" nillable="true" type="xs:string" />
+          <xs:element minOccurs="1" maxOccurs="1" name="ShippingFirstName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="1" maxOccurs="1" name="ShippingLastName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="1" maxOccurs="1" name="ShippingAddress" nillable="true" type="xs:string" />
+          <xs:element minOccurs="1" maxOccurs="1" name="ShippingAddressL1" nillable="true" type="xs:string" />
+          <xs:element minOccurs="1" maxOccurs="1" name="ShippingAddressL2" nillable="true" type="xs:string" />
+          <xs:element minOccurs="1" maxOccurs="1" name="ShippingAddressL3" nillable="true" type="xs:string" />
+          <xs:element minOccurs="1" maxOccurs="1" name="ShippingAddressL4" nillable="true" type="xs:string" />
+          <xs:element minOccurs="1" maxOccurs="1" name="ShippingAddressFloor" nillable="true" type="xs:string" />
+          <xs:element minOccurs="1" maxOccurs="1" name="ShippingAddressBuilding" nillable="true" type="xs:string" />
+          <xs:element minOccurs="1" maxOccurs="1" name="ShippingAddressStreet" nillable="true" type="xs:string" />
+          <xs:element minOccurs="1" maxOccurs="1" name="ShippingAddressOtherInfo" nillable="true" type="xs:string" />
+          <xs:element minOccurs="1" maxOccurs="1" name="ShippingZipCode" nillable="true" type="xs:string" />
+          <xs:element minOccurs="1" maxOccurs="1" name="ShippingCity" nillable="true" type="xs:string" />
+          <xs:element minOccurs="1" maxOccurs="1" name="ShippingState" nillable="true" type="xs:string" />
+          <xs:element minOccurs="1" maxOccurs="1" name="ShippingStateName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="1" maxOccurs="1" name="ShippingCountryISOCode" nillable="true" type="xs:string" />
+          <xs:element minOccurs="1" maxOccurs="1" name="ShippingCountryName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="1" maxOccurs="1" name="ShippingPhone" nillable="true" type="xs:string" />
+          <xs:element minOccurs="1" maxOccurs="1" name="ShippingInfo" nillable="true" type="xs:string" />
+          <xs:element minOccurs="1" maxOccurs="1" name="VATIncluded" nillable="true" type="xs:boolean" />
+          <xs:element minOccurs="1" maxOccurs="1" name="EcoTaxIncluded" nillable="true" type="xs:boolean" />
+          <xs:element minOccurs="1" maxOccurs="1" name="SubTotalNet" nillable="true" type="xs:double" />
+          <xs:element minOccurs="1" maxOccurs="1" name="SubTotalNetDiscounted" nillable="true" type="xs:double" />
+          <xs:element minOccurs="1" maxOccurs="1" name="GlobalDiscountRate" nillable="true" type="xs:double" />
+          <xs:element minOccurs="1" maxOccurs="1" name="GlobalDiscountAmount" nillable="true" type="xs:double" />
+          <xs:element minOccurs="1" maxOccurs="1" name="ShippingID" nillable="true" type="xs:int" />
+          <xs:element minOccurs="1" maxOccurs="1" name="ShippingMethodName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="1" maxOccurs="1" name="ShippingProcessorCode" nillable="true" type="xs:short" />
+          <xs:element minOccurs="1" maxOccurs="1" name="ShippingParam1" nillable="true" type="xs:string" />
+          <xs:element minOccurs="1" maxOccurs="1" name="ShippingParam2" nillable="true" type="xs:string" />
+          <xs:element minOccurs="1" maxOccurs="1" name="ShippingTaxRate" nillable="true" type="xs:double" />
+          <xs:element minOccurs="1" maxOccurs="1" name="ShippingPriceTaxIncl" nillable="true" type="xs:double" />
+          <xs:element minOccurs="1" maxOccurs="1" name="EcoTaxAmountTaxIncl" nillable="true" type="xs:double" />
+          <xs:element minOccurs="1" maxOccurs="1" name="CartCoupon" nillable="true" type="xs:string" />
+          <xs:element minOccurs="1" maxOccurs="1" name="Language" nillable="true" type="xs:string" />
+          <xs:element minOccurs="1" maxOccurs="1" name="RemoteIPAddr" nillable="true" type="xs:string" />
+          <xs:element minOccurs="1" maxOccurs="1" name="SalesRepCode" nillable="true" type="xs:string" />
+          <xs:element minOccurs="1" maxOccurs="1" name="SalesRepFirstName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="1" maxOccurs="1" name="SalesRepLastName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="1" maxOccurs="1" name="SpecialInstructions" nillable="true" type="xs:string" />
+          <xs:element minOccurs="1" maxOccurs="1" name="CurrencyCode" nillable="true" type="xs:string" />
+          <xs:element minOccurs="1" maxOccurs="1" name="InternalNote" nillable="true" type="xs:string" />
+          <xs:element minOccurs="1" maxOccurs="1" name="FiscalCode" nillable="true" type="xs:string" />
+          <xs:element minOccurs="1" maxOccurs="1" name="CustomFieldText1" nillable="true" type="xs:string" />
+          <xs:element minOccurs="1" maxOccurs="1" name="CustomFieldText2" nillable="true" type="xs:string" />
+          <xs:element minOccurs="1" maxOccurs="1" name="CustomFieldText3" nillable="true" type="xs:string" />
+          <xs:element minOccurs="1" maxOccurs="1" name="CustomFieldText4" nillable="true" type="xs:string" />
+          <xs:element minOccurs="1" maxOccurs="1" name="CustomFieldNumeric1" nillable="true" type="xs:double" />
+          <xs:element minOccurs="1" maxOccurs="1" name="CustomFieldNumeric2" nillable="true" type="xs:double" />
+          <xs:element minOccurs="1" maxOccurs="1" name="CustomFieldDate" nillable="true" type="xs:dateTime" />
+          <xs:element minOccurs="0" maxOccurs="1" name="QuotationTaxDetails" type="ArrayOfQuotationTaxDetailEntity" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="QuotationSummaryEntity">
+    <xs:complexContent mixed="false">
+      <xs:extension base="QuotationIdEntity">
+        <xs:sequence>
+          <xs:element minOccurs="1" maxOccurs="1" name="Date" nillable="true" type="xs:dateTime" />
+          <xs:element minOccurs="0" maxOccurs="1" name="BillingFirstName" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="BillingLastName" type="xs:string" />
+          <xs:element minOccurs="1" maxOccurs="1" name="SubTotalVAT" nillable="true" type="xs:double" />
+          <xs:element minOccurs="1" maxOccurs="1" name="ShippingPriceTaxExcl" nillable="true" type="xs:double" />
+          <xs:element minOccurs="1" maxOccurs="1" name="NetAmountDue" nillable="true" type="xs:double" />
+          <xs:element minOccurs="1" maxOccurs="1" name="ShippingVATAmount" nillable="true" type="xs:double" />
+          <xs:element minOccurs="1" maxOccurs="1" name="FollowUp" nillable="true" type="xs:boolean" />
+          <xs:element minOccurs="1" maxOccurs="1" name="SubTotalNetVATExcluded" nillable="true" type="xs:double" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="QuotationIdEntity">
+    <xs:complexContent mixed="false">
+      <xs:extension base="OxatisEntity" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="OxatisEntity">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="OxID" nillable="true" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="QuotationDetailBundledItemsBaseEntity">
+    <xs:complexContent mixed="false">
+      <xs:extension base="OxatisEntity">
+        <xs:sequence>
+          <xs:element minOccurs="1" maxOccurs="1" name="ItemOxID" nillable="true" type="xs:int" />
+          <xs:element minOccurs="0" maxOccurs="1" name="ItemSKU" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="ItemName" type="xs:string" />
+          <xs:element minOccurs="1" maxOccurs="1" name="GrossPrice" nillable="true" type="xs:double" />
+          <xs:element minOccurs="0" maxOccurs="1" name="ItemMainImageUrl" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="ItemThumbnailImageUrl" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="Option1Name" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="Option1Value" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="Option2Name" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="Option2Value" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="Option3Name" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="Option3Value" type="xs:string" />
+          <xs:element minOccurs="1" maxOccurs="1" name="Offered" nillable="true" type="xs:boolean" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="QuotationDetailBundledItemEntity">
+    <xs:complexContent mixed="false">
+      <xs:extension base="QuotationDetailBundledItemsBaseEntity">
+        <xs:sequence>
+          <xs:element minOccurs="1" maxOccurs="1" name="Quantity" nillable="true" type="xs:int" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="QuotationDetailBaseEntity">
+    <xs:complexContent mixed="false">
+      <xs:extension base="OxatisEntity">
+        <xs:sequence>
+          <xs:element minOccurs="1" maxOccurs="1" name="PdtOptID" nillable="true" type="xs:int" />
+          <xs:element minOccurs="1" maxOccurs="1" name="ItemOxID" nillable="true" type="xs:int" />
+          <xs:element minOccurs="0" maxOccurs="1" name="ItemSKU" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="ItemSKUOriginal" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="ItemName" type="xs:string" />
+          <xs:element minOccurs="1" maxOccurs="1" name="GrossPrice" nillable="true" type="xs:double" />
+          <xs:element minOccurs="1" maxOccurs="1" name="GrossAmount" nillable="true" type="xs:double" />
+          <xs:element minOccurs="1" maxOccurs="1" name="TaxRate" nillable="true" type="xs:double" />
+          <xs:element minOccurs="1" maxOccurs="1" name="DiscountRate" nillable="true" type="xs:double" />
+          <xs:element minOccurs="1" maxOccurs="1" name="NetPrice" nillable="true" type="xs:double" />
+          <xs:element minOccurs="1" maxOccurs="1" name="NetAmount" nillable="true" type="xs:double" />
+          <xs:element minOccurs="1" maxOccurs="1" name="VATAmount" nillable="true" type="xs:double" />
+          <xs:element minOccurs="1" maxOccurs="1" name="EcoTaxValueTaxIncl" nillable="true" type="xs:double" />
+          <xs:element minOccurs="0" maxOccurs="1" name="DiscountCoupon" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="Attribute1Name" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="Attribute1Value" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="Attribute2Name" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="Attribute2Value" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="AttributeTextName" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="AttributeTextValue" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="ItemMainImageUrl" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="ItemThumbnailImageUrl" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="Option1Name" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="Option1Value" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="Option2Name" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="Option2Value" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="Option3Name" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="Option3Value" type="xs:string" />
+          <xs:element minOccurs="1" maxOccurs="1" name="Offered" nillable="true" type="xs:boolean" />
+          <xs:element minOccurs="0" maxOccurs="1" name="PackagingName" type="xs:string" />
+          <xs:element minOccurs="1" maxOccurs="1" name="LinkedTo" nillable="true" type="xs:int" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="QuotationDetailEntity">
+    <xs:complexContent mixed="false">
+      <xs:extension base="QuotationDetailBaseEntity">
+        <xs:sequence>
+          <xs:element minOccurs="1" maxOccurs="1" name="Quantity" nillable="true" type="xs:int" />
+          <xs:element minOccurs="0" maxOccurs="1" name="BundledItems" type="ArrayOfQuotationDetailBundledItemEntity" />
+          <xs:element minOccurs="1" maxOccurs="1" name="PackagingQty" nillable="true" type="xs:short" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="ArrayOfQuotationDetailBundledItemEntity">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="BundledItem" nillable="true" type="QuotationDetailBundledItemEntity" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="OrderTaxDetailEntity">
+    <xs:complexContent mixed="false">
+      <xs:extension base="OxatisEntity">
+        <xs:sequence>
+          <xs:element minOccurs="1" maxOccurs="1" name="TotalNetTaxExcl" nillable="true" type="xs:double" />
+          <xs:element minOccurs="1" maxOccurs="1" name="TaxRate" nillable="true" type="xs:double" />
+          <xs:element minOccurs="1" maxOccurs="1" name="TotalNetVATAmount" nillable="true" type="xs:double" />
+          <xs:element minOccurs="1" maxOccurs="1" name="TaxZoneRateID" nillable="true" type="xs:int" />
+          <xs:element minOccurs="1" maxOccurs="1" name="TaxZoneRateName" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="QuotationTaxDetailEntity">
+    <xs:complexContent mixed="false">
+      <xs:extension base="OrderTaxDetailEntity" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="ArrayOfQuotationTaxDetailEntity">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Item" nillable="true" type="QuotationTaxDetailEntity" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ArrayOfQuotationDetailEntity">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Item" nillable="true" type="QuotationDetailEntity" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

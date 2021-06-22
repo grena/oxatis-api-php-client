@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import namespace="https://webservices.oxatis.com/" />
+  <xs:element name="ProgressState" nillable="true" type="OrderProgressStateLogEntity" />
+  <xs:complexType name="OrderProgressStateLogEntity">
+    <xs:complexContent mixed="false">
+      <xs:extension base="OxatisEntity">
+        <xs:sequence>
+          <xs:element minOccurs="1" maxOccurs="1" name="OrderID" type="xs:int" />
+          <xs:element minOccurs="1" maxOccurs="1" name="Date" type="xs:dateTime" />
+          <xs:element minOccurs="0" maxOccurs="1" name="ProgressStateMnemonicName" type="xs:string" />
+          <xs:element minOccurs="1" maxOccurs="1" name="ProgressStateID" nillable="true" type="xs:int" />
+          <xs:element minOccurs="0" maxOccurs="1" name="Comment" type="xs:string" />
+          <xs:element minOccurs="1" maxOccurs="1" name="Publish" type="xs:boolean" />
+          <xs:element minOccurs="1" maxOccurs="1" name="SendEmail" type="xs:boolean" />
+          <xs:element minOccurs="1" maxOccurs="1" name="UpdateOrderProgressState" type="xs:boolean" />
+          <xs:element minOccurs="1" maxOccurs="1" name="CreateInvoice" nillable="true" type="xs:boolean" />
+          <xs:element minOccurs="0" maxOccurs="1" name="AttachmentFileName" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="InvoiceID" type="xs:string" />
+          <xs:element minOccurs="1" maxOccurs="1" name="InvoiceDate" nillable="true" type="xs:dateTime" />
+          <xs:element minOccurs="0" maxOccurs="1" name="Invoice" xmlns:q1="https://webservices.oxatis.com/" type="q1:BinStreamObject" />
+          <xs:element minOccurs="0" maxOccurs="1" name="InvoiceFileName" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="Attachment" xmlns:q2="https://webservices.oxatis.com/" type="q2:BinStreamObject" />
+          <xs:element minOccurs="0" maxOccurs="1" name="ReplaceField1" type="ReplaceFieldEntity" />
+          <xs:element minOccurs="0" maxOccurs="1" name="ReplaceField2" type="ReplaceFieldEntity" />
+          <xs:element minOccurs="0" maxOccurs="1" name="ReplaceField3" type="ReplaceFieldEntity" />
+          <xs:element minOccurs="0" maxOccurs="1" name="ReplaceField4" type="ReplaceFieldEntity" />
+          <xs:element minOccurs="0" maxOccurs="1" name="ReplaceField5" type="ReplaceFieldEntity" />
+          <xs:element minOccurs="1" maxOccurs="1" name="LockOrder" nillable="true" type="xs:boolean" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="OxatisEntity">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="OxID" nillable="true" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ReplaceFieldEntity">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="Name" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Value" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
