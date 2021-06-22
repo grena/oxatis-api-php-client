@@ -27,7 +27,9 @@
         "psr/http-message-implementation": "^1.0",
         "php-http/httplug": "^2.0",
         "php-http/discovery": "^1.6",
-        "php-http/multipart-stream-builder": "^1.0"
+        "php-http/multipart-stream-builder": "^1.0",
+        "goetas-webservices/xsd2php-runtime": "v0.2.15",
+        "jms/serializer": "^3.12"
     },
     "require-dev": {
         "friendsofphp/php-cs-fixer": "^2.14",
@@ -36,7 +38,8 @@
         "symfony/yaml": "^4.2",
         "donatj/mock-webserver": "^2.0",
         "http-interop/http-factory-guzzle": "^1.0",
-        "php-http/guzzle6-adapter": "^2.0"
+        "php-http/guzzle6-adapter": "^2.0",
+        "goetas-webservices/xsd2php": "0.4.3"
     },
     "config": {
         "bin-dir": "bin",
