@@ -1,0 +1,14 @@
+Heavymind\Oxatis\ApiClient\Type\SalesRepListEntityType:
+    properties:
+        salesRepsID:
+            expose: true
+            access_type: public_method
+            serialized_name: SalesRepsID
+            accessor:
+                getter: getSalesRepsID
+                setter: setSalesRepsID
+            type: array<Heavymind\Oxatis\ApiClient\Type\SalesRepIdEntityType>
+            xml_list:
+                inline: false
+                entry_name: SalesRepID
+                skip_when_empty: true

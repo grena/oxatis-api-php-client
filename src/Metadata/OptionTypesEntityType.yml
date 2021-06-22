@@ -1,0 +1,18 @@
+Heavymind\Oxatis\ApiClient\Type\OptionTypesEntityType:
+    properties:
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: Name
+            accessor:
+                getter: getName
+                setter: setName
+            type: string
+        systemName:
+            expose: true
+            access_type: public_method
+            serialized_name: SystemName
+            accessor:
+                getter: getSystemName
+                setter: setSystemName
+            type: string

@@ -1,0 +1,13 @@
+Heavymind\Oxatis\ApiClient\Type\ArrayOfTaxZoneRateOxIdEntityType:
+    properties:
+        taxZoneRate:
+            expose: true
+            access_type: public_method
+            serialized_name: TaxZoneRate
+            accessor:
+                getter: getTaxZoneRate
+                setter: setTaxZoneRate
+            xml_list:
+                inline: true
+                entry_name: TaxZoneRate
+            type: array<Heavymind\Oxatis\ApiClient\Type\TaxZoneRateOxIdEntityType>

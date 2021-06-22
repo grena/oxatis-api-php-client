@@ -1,0 +1,70 @@
+Heavymind\Oxatis\ApiClient\Type\ProductListEntityType:
+    properties:
+        latestModifiedDateStart:
+            expose: true
+            access_type: public_method
+            serialized_name: LatestModifiedDateStart
+            accessor:
+                getter: getLatestModifiedDateStart
+                setter: setLatestModifiedDateStart
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        latestModifiedDateEnd:
+            expose: true
+            access_type: public_method
+            serialized_name: LatestModifiedDateEnd
+            accessor:
+                getter: getLatestModifiedDateEnd
+                setter: setLatestModifiedDateEnd
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        visible:
+            expose: true
+            access_type: public_method
+            serialized_name: Visible
+            accessor:
+                getter: getVisible
+                setter: setVisible
+            type: bool
+        category1:
+            expose: true
+            access_type: public_method
+            serialized_name: Category1
+            accessor:
+                getter: getCategory1
+                setter: setCategory1
+            type: Heavymind\Oxatis\ApiClient\Type\CategoryEntityType
+        category2:
+            expose: true
+            access_type: public_method
+            serialized_name: Category2
+            accessor:
+                getter: getCategory2
+                setter: setCategory2
+            type: Heavymind\Oxatis\ApiClient\Type\CategoryEntityType
+        category3:
+            expose: true
+            access_type: public_method
+            serialized_name: Category3
+            accessor:
+                getter: getCategory3
+                setter: setCategory3
+            type: Heavymind\Oxatis\ApiClient\Type\CategoryEntityType
+        category4:
+            expose: true
+            access_type: public_method
+            serialized_name: Category4
+            accessor:
+                getter: getCategory4
+                setter: setCategory4
+            type: Heavymind\Oxatis\ApiClient\Type\CategoryEntityType
+        productsID:
+            expose: true
+            access_type: public_method
+            serialized_name: ProductsID
+            accessor:
+                getter: getProductsID
+                setter: setProductsID
+            type: array<Heavymind\Oxatis\ApiClient\Type\ProductIdEntityType>
+            xml_list:
+                inline: false
+                entry_name: ProductID
+                skip_when_empty: true

@@ -1,0 +1,26 @@
+Heavymind\Oxatis\ApiClient\Type\QuotationListHeaderEntityType:
+    properties:
+        setOrderDesc:
+            expose: true
+            access_type: public_method
+            serialized_name: SetOrderDesc
+            accessor:
+                getter: getSetOrderDesc
+                setter: setSetOrderDesc
+            type: bool
+        startDate:
+            expose: true
+            access_type: public_method
+            serialized_name: StartDate
+            accessor:
+                getter: getStartDate
+                setter: setStartDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        endDate:
+            expose: true
+            access_type: public_method
+            serialized_name: EndDate
+            accessor:
+                getter: getEndDate
+                setter: setEndDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime

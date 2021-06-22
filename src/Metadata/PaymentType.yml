@@ -1,0 +1,2 @@
+Heavymind\Oxatis\ApiClient\Type\PaymentType:
+    xml_root_name: PaymentType

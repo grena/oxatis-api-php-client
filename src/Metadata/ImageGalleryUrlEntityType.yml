@@ -1,0 +1,10 @@
+Heavymind\Oxatis\ApiClient\Type\ImageGalleryUrlEntityType:
+    properties:
+        url:
+            expose: true
+            access_type: public_method
+            serialized_name: Url
+            accessor:
+                getter: getUrl
+                setter: setUrl
+            type: string

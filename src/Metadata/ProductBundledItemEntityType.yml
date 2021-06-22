@@ -1,0 +1,10 @@
+Heavymind\Oxatis\ApiClient\Type\ProductBundledItemEntityType:
+    properties:
+        quantity:
+            expose: true
+            access_type: public_method
+            serialized_name: Quantity
+            accessor:
+                getter: getQuantity
+                setter: setQuantity
+            type: int

@@ -1,0 +1,2 @@
+Heavymind\Oxatis\ApiClient\Type\ProductPackaging:
+    xml_root_name: ProductPackaging

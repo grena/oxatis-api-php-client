@@ -1,0 +1,30 @@
+Heavymind\Oxatis\ApiClient\Type\CatalogAccessTypeEntityType:
+    properties:
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: Name
+            accessor:
+                getter: getName
+                setter: setName
+            type: string
+        systemName:
+            expose: true
+            access_type: public_method
+            serialized_name: SystemName
+            accessor:
+                getter: getSystemName
+                setter: setSystemName
+            type: string
+        catalogAccessValues:
+            expose: true
+            access_type: public_method
+            serialized_name: CatalogAccessValues
+            accessor:
+                getter: getCatalogAccessValues
+                setter: setCatalogAccessValues
+            type: array<Heavymind\Oxatis\ApiClient\Type\CatalogAccessValueEntityType>
+            xml_list:
+                inline: false
+                entry_name: CatalogAccessValue
+                skip_when_empty: true

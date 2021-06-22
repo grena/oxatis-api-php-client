@@ -1,0 +1,50 @@
+Heavymind\Oxatis\ApiClient\Type\EmailQueueEntityType:
+    properties:
+        subject:
+            expose: true
+            access_type: public_method
+            serialized_name: Subject
+            accessor:
+                getter: getSubject
+                setter: setSubject
+            type: string
+        body:
+            expose: true
+            access_type: public_method
+            serialized_name: Body
+            accessor:
+                getter: getBody
+                setter: setBody
+            type: string
+        sendDate:
+            expose: true
+            access_type: public_method
+            serialized_name: SendDate
+            accessor:
+                getter: getSendDate
+                setter: setSendDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        priority:
+            expose: true
+            access_type: public_method
+            serialized_name: Priority
+            accessor:
+                getter: getPriority
+                setter: setPriority
+            type: string
+        importance:
+            expose: true
+            access_type: public_method
+            serialized_name: Importance
+            accessor:
+                getter: getImportance
+                setter: setImportance
+            type: string
+        messageFormat:
+            expose: true
+            access_type: public_method
+            serialized_name: MessageFormat
+            accessor:
+                getter: getMessageFormat
+                setter: setMessageFormat
+            type: string

@@ -1,0 +1,26 @@
+Heavymind\Oxatis\ApiClient\Type\CategoryEntityType:
+    properties:
+        language:
+            expose: true
+            access_type: public_method
+            serialized_name: Language
+            accessor:
+                getter: getLanguage
+                setter: setLanguage
+            type: string
+        parentOxId:
+            expose: true
+            access_type: public_method
+            serialized_name: ParentOxId
+            accessor:
+                getter: getParentOxId
+                setter: setParentOxId
+            type: int
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: Name
+            accessor:
+                getter: getName
+                setter: setName
+            type: string

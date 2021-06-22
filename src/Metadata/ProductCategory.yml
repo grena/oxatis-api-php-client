@@ -1,0 +1,2 @@
+Heavymind\Oxatis\ApiClient\Type\ProductCategory:
+    xml_root_name: ProductCategory

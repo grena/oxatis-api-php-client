@@ -1,0 +1,2 @@
+Heavymind\Oxatis\ApiClient\Type\Product:
+    xml_root_name: Product

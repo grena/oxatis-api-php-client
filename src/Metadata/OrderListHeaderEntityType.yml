@@ -1,0 +1,114 @@
+Heavymind\Oxatis\ApiClient\Type\OrderListHeaderEntityType:
+    properties:
+        ordersShipped:
+            expose: true
+            access_type: public_method
+            serialized_name: OrdersShipped
+            accessor:
+                getter: getOrdersShipped
+                setter: setOrdersShipped
+            type: bool
+        setOrderDesc:
+            expose: true
+            access_type: public_method
+            serialized_name: SetOrderDesc
+            accessor:
+                getter: getSetOrderDesc
+                setter: setSetOrderDesc
+            type: bool
+        orderDateStart:
+            expose: true
+            access_type: public_method
+            serialized_name: OrderDateStart
+            accessor:
+                getter: getOrderDateStart
+                setter: setOrderDateStart
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        orderDateEnd:
+            expose: true
+            access_type: public_method
+            serialized_name: OrderDateEnd
+            accessor:
+                getter: getOrderDateEnd
+                setter: setOrderDateEnd
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        paymentStatusDateStart:
+            expose: true
+            access_type: public_method
+            serialized_name: PaymentStatusDateStart
+            accessor:
+                getter: getPaymentStatusDateStart
+                setter: setPaymentStatusDateStart
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        paymentStatusDateEnd:
+            expose: true
+            access_type: public_method
+            serialized_name: PaymentStatusDateEnd
+            accessor:
+                getter: getPaymentStatusDateEnd
+                setter: setPaymentStatusDateEnd
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        logisticDateStart:
+            expose: true
+            access_type: public_method
+            serialized_name: LogisticDateStart
+            accessor:
+                getter: getLogisticDateStart
+                setter: setLogisticDateStart
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        logisticDateEnd:
+            expose: true
+            access_type: public_method
+            serialized_name: LogisticDateEnd
+            accessor:
+                getter: getLogisticDateEnd
+                setter: setLogisticDateEnd
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        paymentStatusCode:
+            expose: true
+            access_type: public_method
+            serialized_name: PaymentStatusCode
+            accessor:
+                getter: getPaymentStatusCode
+                setter: setPaymentStatusCode
+            type: int
+        orderStatus:
+            expose: true
+            access_type: public_method
+            serialized_name: OrderStatus
+            accessor:
+                getter: getOrderStatus
+                setter: setOrderStatus
+            type: int
+        ordersProcessed:
+            expose: true
+            access_type: public_method
+            serialized_name: OrdersProcessed
+            accessor:
+                getter: getOrdersProcessed
+                setter: setOrdersProcessed
+            type: bool
+        ordersInvoiced:
+            expose: true
+            access_type: public_method
+            serialized_name: OrdersInvoiced
+            accessor:
+                getter: getOrdersInvoiced
+                setter: setOrdersInvoiced
+            type: bool
+        invoiceDateStart:
+            expose: true
+            access_type: public_method
+            serialized_name: InvoiceDateStart
+            accessor:
+                getter: getInvoiceDateStart
+                setter: setInvoiceDateStart
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        invoiceDateEnd:
+            expose: true
+            access_type: public_method
+            serialized_name: InvoiceDateEnd
+            accessor:
+                getter: getInvoiceDateEnd
+                setter: setInvoiceDateEnd
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime

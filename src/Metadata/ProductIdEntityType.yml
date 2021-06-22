@@ -1,0 +1,90 @@
+Heavymind\Oxatis\ApiClient\Type\ProductIdEntityType:
+    properties:
+        itemSKU:
+            expose: true
+            access_type: public_method
+            serialized_name: ItemSKU
+            accessor:
+                getter: getItemSKU
+                setter: setItemSKU
+            type: string
+        productLanguage:
+            expose: true
+            access_type: public_method
+            serialized_name: ProductLanguage
+            accessor:
+                getter: getProductLanguage
+                setter: setProductLanguage
+            type: string
+        optionValues1:
+            expose: true
+            access_type: public_method
+            serialized_name: OptionValues1
+            accessor:
+                getter: getOptionValues1
+                setter: setOptionValues1
+            type: Heavymind\Oxatis\ApiClient\Type\OptionValuesEntityType
+        optionValues2:
+            expose: true
+            access_type: public_method
+            serialized_name: OptionValues2
+            accessor:
+                getter: getOptionValues2
+                setter: setOptionValues2
+            type: Heavymind\Oxatis\ApiClient\Type\OptionValuesEntityType
+        optionValues3:
+            expose: true
+            access_type: public_method
+            serialized_name: OptionValues3
+            accessor:
+                getter: getOptionValues3
+                setter: setOptionValues3
+            type: Heavymind\Oxatis\ApiClient\Type\OptionValuesEntityType
+        optionTypes1:
+            expose: true
+            access_type: public_method
+            serialized_name: OptionTypes1
+            accessor:
+                getter: getOptionTypes1
+                setter: setOptionTypes1
+            type: Heavymind\Oxatis\ApiClient\Type\OptionTypesEntityType
+        optionTypes2:
+            expose: true
+            access_type: public_method
+            serialized_name: OptionTypes2
+            accessor:
+                getter: getOptionTypes2
+                setter: setOptionTypes2
+            type: Heavymind\Oxatis\ApiClient\Type\OptionTypesEntityType
+        optionTypes3:
+            expose: true
+            access_type: public_method
+            serialized_name: OptionTypes3
+            accessor:
+                getter: getOptionTypes3
+                setter: setOptionTypes3
+            type: Heavymind\Oxatis\ApiClient\Type\OptionTypesEntityType
+        parentItemID:
+            expose: true
+            access_type: public_method
+            serialized_name: ParentItemID
+            accessor:
+                getter: getParentItemID
+                setter: setParentItemID
+            type: int
+        parentItemSKU:
+            expose: true
+            access_type: public_method
+            serialized_name: ParentItemSKU
+            accessor:
+                getter: getParentItemSKU
+                setter: setParentItemSKU
+            type: string
+        productType:
+            expose: true
+            access_type: public_method
+            serialized_name: ProductType
+            accessor:
+                getter: getProductType
+                setter: setProductType
+            type: int

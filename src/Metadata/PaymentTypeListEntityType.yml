@@ -1,0 +1,14 @@
+Heavymind\Oxatis\ApiClient\Type\PaymentTypeListEntityType:
+    properties:
+        paymentTypeIDs:
+            expose: true
+            access_type: public_method
+            serialized_name: PaymentTypeIDs
+            accessor:
+                getter: getPaymentTypeIDs
+                setter: setPaymentTypeIDs
+            type: array<Heavymind\Oxatis\ApiClient\Type\PaymentTypeEntityType>
+            xml_list:
+                inline: false
+                entry_name: PaymentTypeID
+                skip_when_empty: true

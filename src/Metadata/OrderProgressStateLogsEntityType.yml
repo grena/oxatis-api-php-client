@@ -1,0 +1,14 @@
+Heavymind\Oxatis\ApiClient\Type\OrderProgressStateLogsEntityType:
+    properties:
+        orderProgressStateLogs:
+            expose: true
+            access_type: public_method
+            serialized_name: OrderProgressStateLogs
+            accessor:
+                getter: getOrderProgressStateLogs
+                setter: setOrderProgressStateLogs
+            type: array<Heavymind\Oxatis\ApiClient\Type\OrderProgressStateHistoryEntityType>
+            xml_list:
+                inline: false
+                entry_name: OrderProgressStateHistoryEntity
+                skip_when_empty: true

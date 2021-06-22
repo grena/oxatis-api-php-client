@@ -1,0 +1,26 @@
+Heavymind\Oxatis\ApiClient\Type\ProductAttributesEntityType:
+    properties:
+        textAttribute:
+            expose: true
+            access_type: public_method
+            serialized_name: TextAttribute
+            accessor:
+                getter: getTextAttribute
+                setter: setTextAttribute
+            type: Heavymind\Oxatis\ApiClient\Type\ProductAttributeTextEntityType
+        multipleAttribute1:
+            expose: true
+            access_type: public_method
+            serialized_name: MultipleAttribute1
+            accessor:
+                getter: getMultipleAttribute1
+                setter: setMultipleAttribute1
+            type: Heavymind\Oxatis\ApiClient\Type\ProductMultipleAttributeEntityType
+        multipleAttribute2:
+            expose: true
+            access_type: public_method
+            serialized_name: MultipleAttribute2
+            accessor:
+                getter: getMultipleAttribute2
+                setter: setMultipleAttribute2
+            type: Heavymind\Oxatis\ApiClient\Type\ProductMultipleAttributeEntityType

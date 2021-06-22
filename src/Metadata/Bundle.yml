@@ -1,0 +1,2 @@
+Heavymind\Oxatis\ApiClient\Type\Bundle:
+    xml_root_name: Bundle

@@ -1,0 +1,722 @@
+Heavymind\Oxatis\ApiClient\Type\ProductBaseEntityType:
+    properties:
+        optPropertyID:
+            expose: true
+            access_type: public_method
+            serialized_name: OptPropertyID
+            accessor:
+                getter: getOptPropertyID
+                setter: setOptPropertyID
+            type: int
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: Name
+            accessor:
+                getter: getName
+                setter: setName
+            type: string
+        description:
+            expose: true
+            access_type: public_method
+            serialized_name: Description
+            accessor:
+                getter: getDescription
+                setter: setDescription
+            type: string
+        price:
+            expose: true
+            access_type: public_method
+            serialized_name: Price
+            accessor:
+                getter: getPrice
+                setter: setPrice
+            type: Heavymind\Oxatis\ApiClient\Type\PriceVATModeEntityType
+        taxRate:
+            expose: true
+            access_type: public_method
+            serialized_name: TaxRate
+            accessor:
+                getter: getTaxRate
+                setter: setTaxRate
+            type: float
+        ecotaxTI:
+            expose: true
+            access_type: public_method
+            serialized_name: EcotaxTI
+            accessor:
+                getter: getEcotaxTI
+                setter: setEcotaxTI
+            type: float
+        longDescription:
+            expose: true
+            access_type: public_method
+            serialized_name: LongDescription
+            accessor:
+                getter: getLongDescription
+                setter: setLongDescription
+            type: string
+        bigImgFileName:
+            expose: true
+            access_type: public_method
+            serialized_name: BigImgFileName
+            accessor:
+                getter: getBigImgFileName
+                setter: setBigImgFileName
+            type: string
+        smallImgFileName:
+            expose: true
+            access_type: public_method
+            serialized_name: SmallImgFileName
+            accessor:
+                getter: getSmallImgFileName
+                setter: setSmallImgFileName
+            type: string
+        category1:
+            expose: true
+            access_type: public_method
+            serialized_name: Category1
+            accessor:
+                getter: getCategory1
+                setter: setCategory1
+            type: Heavymind\Oxatis\ApiClient\Type\CategoryEntityType
+        category2:
+            expose: true
+            access_type: public_method
+            serialized_name: Category2
+            accessor:
+                getter: getCategory2
+                setter: setCategory2
+            type: Heavymind\Oxatis\ApiClient\Type\CategoryEntityType
+        category3:
+            expose: true
+            access_type: public_method
+            serialized_name: Category3
+            accessor:
+                getter: getCategory3
+                setter: setCategory3
+            type: Heavymind\Oxatis\ApiClient\Type\CategoryEntityType
+        familyName:
+            expose: true
+            access_type: public_method
+            serialized_name: FamilyName
+            accessor:
+                getter: getFamilyName
+                setter: setFamilyName
+            type: string
+        brand:
+            expose: true
+            access_type: public_method
+            serialized_name: Brand
+            accessor:
+                getter: getBrand
+                setter: setBrand
+            type: Heavymind\Oxatis\ApiClient\Type\BrandEntityType
+        showInStockNote:
+            expose: true
+            access_type: public_method
+            serialized_name: ShowInStockNote
+            accessor:
+                getter: getShowInStockNote
+                setter: setShowInStockNote
+            type: bool
+        showStockLevel:
+            expose: true
+            access_type: public_method
+            serialized_name: ShowStockLevel
+            accessor:
+                getter: getShowStockLevel
+                setter: setShowStockLevel
+            type: bool
+        daysToShip:
+            expose: true
+            access_type: public_method
+            serialized_name: DaysToShip
+            accessor:
+                getter: getDaysToShip
+                setter: setDaysToShip
+            type: int
+        showIfOutOfStock:
+            expose: true
+            access_type: public_method
+            serialized_name: ShowIfOutOfStock
+            accessor:
+                getter: getShowIfOutOfStock
+                setter: setShowIfOutOfStock
+            type: bool
+        saleIfOutOfStock:
+            expose: true
+            access_type: public_method
+            serialized_name: SaleIfOutOfStock
+            accessor:
+                getter: getSaleIfOutOfStock
+                setter: setSaleIfOutOfStock
+            type: bool
+        saleIfOutOfStockScenario:
+            expose: true
+            access_type: public_method
+            serialized_name: SaleIfOutOfStockScenario
+            accessor:
+                getter: getSaleIfOutOfStockScenario
+                setter: setSaleIfOutOfStockScenario
+            type: int
+        showDaysToship:
+            expose: true
+            access_type: public_method
+            serialized_name: ShowDaysToship
+            accessor:
+                getter: getShowDaysToship
+                setter: setShowDaysToship
+            type: bool
+        weight:
+            expose: true
+            access_type: public_method
+            serialized_name: Weight
+            accessor:
+                getter: getWeight
+                setter: setWeight
+            type: int
+        dimensionHeight:
+            expose: true
+            access_type: public_method
+            serialized_name: DimensionHeight
+            accessor:
+                getter: getDimensionHeight
+                setter: setDimensionHeight
+            type: int
+        dimensionWidth:
+            expose: true
+            access_type: public_method
+            serialized_name: DimensionWidth
+            accessor:
+                getter: getDimensionWidth
+                setter: setDimensionWidth
+            type: int
+        dimensionLength:
+            expose: true
+            access_type: public_method
+            serialized_name: DimensionLength
+            accessor:
+                getter: getDimensionLength
+                setter: setDimensionLength
+            type: int
+        handlingSurcharge1ST:
+            expose: true
+            access_type: public_method
+            serialized_name: HandlingSurcharge1ST
+            accessor:
+                getter: getHandlingSurcharge1ST
+                setter: setHandlingSurcharge1ST
+            type: float
+        handlingSurchargeOthers:
+            expose: true
+            access_type: public_method
+            serialized_name: HandlingSurchargeOthers
+            accessor:
+                getter: getHandlingSurchargeOthers
+                setter: setHandlingSurchargeOthers
+            type: float
+        shipPrice:
+            expose: true
+            access_type: public_method
+            serialized_name: ShipPrice
+            accessor:
+                getter: getShipPrice
+                setter: setShipPrice
+            type: float
+        discountGridCode:
+            expose: true
+            access_type: public_method
+            serialized_name: DiscountGridCode
+            accessor:
+                getter: getDiscountGridCode
+                setter: setDiscountGridCode
+            type: string
+        metaTitle:
+            expose: true
+            access_type: public_method
+            serialized_name: MetaTitle
+            accessor:
+                getter: getMetaTitle
+                setter: setMetaTitle
+            type: string
+        metaDescription:
+            expose: true
+            access_type: public_method
+            serialized_name: MetaDescription
+            accessor:
+                getter: getMetaDescription
+                setter: setMetaDescription
+            type: string
+        metaKeywords:
+            expose: true
+            access_type: public_method
+            serialized_name: MetaKeywords
+            accessor:
+                getter: getMetaKeywords
+                setter: setMetaKeywords
+            type: string
+        price1:
+            expose: true
+            access_type: public_method
+            serialized_name: Price1
+            accessor:
+                getter: getPrice1
+                setter: setPrice1
+            type: Heavymind\Oxatis\ApiClient\Type\PriceVATModeEntityType
+        price2:
+            expose: true
+            access_type: public_method
+            serialized_name: Price2
+            accessor:
+                getter: getPrice2
+                setter: setPrice2
+            type: Heavymind\Oxatis\ApiClient\Type\PriceVATModeEntityType
+        price3:
+            expose: true
+            access_type: public_method
+            serialized_name: Price3
+            accessor:
+                getter: getPrice3
+                setter: setPrice3
+            type: Heavymind\Oxatis\ApiClient\Type\PriceVATModeEntityType
+        price4:
+            expose: true
+            access_type: public_method
+            serialized_name: Price4
+            accessor:
+                getter: getPrice4
+                setter: setPrice4
+            type: Heavymind\Oxatis\ApiClient\Type\PriceVATModeEntityType
+        price5:
+            expose: true
+            access_type: public_method
+            serialized_name: Price5
+            accessor:
+                getter: getPrice5
+                setter: setPrice5
+            type: Heavymind\Oxatis\ApiClient\Type\PriceVATModeEntityType
+        price6:
+            expose: true
+            access_type: public_method
+            serialized_name: Price6
+            accessor:
+                getter: getPrice6
+                setter: setPrice6
+            type: Heavymind\Oxatis\ApiClient\Type\PriceVATModeEntityType
+        price7:
+            expose: true
+            access_type: public_method
+            serialized_name: Price7
+            accessor:
+                getter: getPrice7
+                setter: setPrice7
+            type: Heavymind\Oxatis\ApiClient\Type\PriceVATModeEntityType
+        price8:
+            expose: true
+            access_type: public_method
+            serialized_name: Price8
+            accessor:
+                getter: getPrice8
+                setter: setPrice8
+            type: Heavymind\Oxatis\ApiClient\Type\PriceVATModeEntityType
+        price9:
+            expose: true
+            access_type: public_method
+            serialized_name: Price9
+            accessor:
+                getter: getPrice9
+                setter: setPrice9
+            type: Heavymind\Oxatis\ApiClient\Type\PriceVATModeEntityType
+        lastUpdateDate:
+            expose: true
+            access_type: public_method
+            serialized_name: LastUpdateDate
+            accessor:
+                getter: getLastUpdateDate
+                setter: setLastUpdateDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        additionalImagesWidth:
+            expose: true
+            access_type: public_method
+            serialized_name: AdditionalImagesWidth
+            accessor:
+                getter: getAdditionalImagesWidth
+                setter: setAdditionalImagesWidth
+            type: int
+        additionalImagesHeight:
+            expose: true
+            access_type: public_method
+            serialized_name: AdditionalImagesHeight
+            accessor:
+                getter: getAdditionalImagesHeight
+                setter: setAdditionalImagesHeight
+            type: int
+        additionalImagesThumbnailWidth:
+            expose: true
+            access_type: public_method
+            serialized_name: AdditionalImagesThumbnailWidth
+            accessor:
+                getter: getAdditionalImagesThumbnailWidth
+                setter: setAdditionalImagesThumbnailWidth
+            type: int
+        additionalImagesThumbnailChangeMode:
+            expose: true
+            access_type: public_method
+            serialized_name: AdditionalImagesThumbnailChangeMode
+            accessor:
+                getter: getAdditionalImagesThumbnailChangeMode
+                setter: setAdditionalImagesThumbnailChangeMode
+            type: int
+        additionalImagesZoomWidth:
+            expose: true
+            access_type: public_method
+            serialized_name: AdditionalImagesZoomWidth
+            accessor:
+                getter: getAdditionalImagesZoomWidth
+                setter: setAdditionalImagesZoomWidth
+            type: int
+        additionalImagesZoomPosition:
+            expose: true
+            access_type: public_method
+            serialized_name: AdditionalImagesZoomPosition
+            accessor:
+                getter: getAdditionalImagesZoomPosition
+                setter: setAdditionalImagesZoomPosition
+            type: int
+        additionalImagesZoomHeight:
+            expose: true
+            access_type: public_method
+            serialized_name: AdditionalImagesZoomHeight
+            accessor:
+                getter: getAdditionalImagesZoomHeight
+                setter: setAdditionalImagesZoomHeight
+            type: int
+        linkedItemID:
+            expose: true
+            access_type: public_method
+            serialized_name: LinkedItemID
+            accessor:
+                getter: getLinkedItemID
+                setter: setLinkedItemID
+            type: int
+        linkedItemSKU:
+            expose: true
+            access_type: public_method
+            serialized_name: LinkedItemSKU
+            accessor:
+                getter: getLinkedItemSKU
+                setter: setLinkedItemSKU
+            type: string
+        linkedItemLanguage:
+            expose: true
+            access_type: public_method
+            serialized_name: LinkedItemLanguage
+            accessor:
+                getter: getLinkedItemLanguage
+                setter: setLinkedItemLanguage
+            type: string
+        linkedUpdating:
+            expose: true
+            access_type: public_method
+            serialized_name: LinkedUpdating
+            accessor:
+                getter: getLinkedUpdating
+                setter: setLinkedUpdating
+            type: bool
+        urlExternalLink:
+            expose: true
+            access_type: public_method
+            serialized_name: UrlExternalLink
+            accessor:
+                getter: getUrlExternalLink
+                setter: setUrlExternalLink
+            type: string
+        optionIsDefault:
+            expose: true
+            access_type: public_method
+            serialized_name: OptionIsDefault
+            accessor:
+                getter: getOptionIsDefault
+                setter: setOptionIsDefault
+            type: bool
+        eANCode:
+            expose: true
+            access_type: public_method
+            serialized_name: EANCode
+            accessor:
+                getter: getEANCode
+                setter: setEANCode
+            type: string
+        itemCondition:
+            expose: true
+            access_type: public_method
+            serialized_name: ItemCondition
+            accessor:
+                getter: getItemCondition
+                setter: setItemCondition
+            type: int
+        guarantee:
+            expose: true
+            access_type: public_method
+            serialized_name: Guarantee
+            accessor:
+                getter: getGuarantee
+                setter: setGuarantee
+            type: int
+        visible:
+            expose: true
+            access_type: public_method
+            serialized_name: Visible
+            accessor:
+                getter: getVisible
+                setter: setVisible
+            type: bool
+        position:
+            expose: true
+            access_type: public_method
+            serialized_name: Position
+            accessor:
+                getter: getPosition
+                setter: setPosition
+            type: int
+        mPN:
+            expose: true
+            access_type: public_method
+            serialized_name: MPN
+            accessor:
+                getter: getMPN
+                setter: setMPN
+            type: string
+        strikethroughPrice:
+            expose: true
+            access_type: public_method
+            serialized_name: StrikethroughPrice
+            accessor:
+                getter: getStrikethroughPrice
+                setter: setStrikethroughPrice
+            type: Heavymind\Oxatis\ApiClient\Type\PriceVATModeEntityType
+        strikethroughPrice1:
+            expose: true
+            access_type: public_method
+            serialized_name: StrikethroughPrice1
+            accessor:
+                getter: getStrikethroughPrice1
+                setter: setStrikethroughPrice1
+            type: Heavymind\Oxatis\ApiClient\Type\PriceVATModeEntityType
+        strikethroughPrice2:
+            expose: true
+            access_type: public_method
+            serialized_name: StrikethroughPrice2
+            accessor:
+                getter: getStrikethroughPrice2
+                setter: setStrikethroughPrice2
+            type: Heavymind\Oxatis\ApiClient\Type\PriceVATModeEntityType
+        strikethroughPrice3:
+            expose: true
+            access_type: public_method
+            serialized_name: StrikethroughPrice3
+            accessor:
+                getter: getStrikethroughPrice3
+                setter: setStrikethroughPrice3
+            type: Heavymind\Oxatis\ApiClient\Type\PriceVATModeEntityType
+        strikethroughPrice4:
+            expose: true
+            access_type: public_method
+            serialized_name: StrikethroughPrice4
+            accessor:
+                getter: getStrikethroughPrice4
+                setter: setStrikethroughPrice4
+            type: Heavymind\Oxatis\ApiClient\Type\PriceVATModeEntityType
+        strikethroughPrice5:
+            expose: true
+            access_type: public_method
+            serialized_name: StrikethroughPrice5
+            accessor:
+                getter: getStrikethroughPrice5
+                setter: setStrikethroughPrice5
+            type: Heavymind\Oxatis\ApiClient\Type\PriceVATModeEntityType
+        strikethroughPrice6:
+            expose: true
+            access_type: public_method
+            serialized_name: StrikethroughPrice6
+            accessor:
+                getter: getStrikethroughPrice6
+                setter: setStrikethroughPrice6
+            type: Heavymind\Oxatis\ApiClient\Type\PriceVATModeEntityType
+        strikethroughPrice7:
+            expose: true
+            access_type: public_method
+            serialized_name: StrikethroughPrice7
+            accessor:
+                getter: getStrikethroughPrice7
+                setter: setStrikethroughPrice7
+            type: Heavymind\Oxatis\ApiClient\Type\PriceVATModeEntityType
+        strikethroughPrice8:
+            expose: true
+            access_type: public_method
+            serialized_name: StrikethroughPrice8
+            accessor:
+                getter: getStrikethroughPrice8
+                setter: setStrikethroughPrice8
+            type: Heavymind\Oxatis\ApiClient\Type\PriceVATModeEntityType
+        strikethroughPrice9:
+            expose: true
+            access_type: public_method
+            serialized_name: StrikethroughPrice9
+            accessor:
+                getter: getStrikethroughPrice9
+                setter: setStrikethroughPrice9
+            type: Heavymind\Oxatis\ApiClient\Type\PriceVATModeEntityType
+        canonicalURLCustomizedContent:
+            expose: true
+            access_type: public_method
+            serialized_name: CanonicalURLCustomizedContent
+            accessor:
+                getter: getCanonicalURLCustomizedContent
+                setter: setCanonicalURLCustomizedContent
+            type: string
+        taxCountryISOCode:
+            expose: true
+            access_type: public_method
+            serialized_name: TaxCountryISOCode
+            accessor:
+                getter: getTaxCountryISOCode
+                setter: setTaxCountryISOCode
+            type: string
+        cost:
+            expose: true
+            access_type: public_method
+            serialized_name: Cost
+            accessor:
+                getter: getCost
+                setter: setCost
+            type: float
+        reviewRating:
+            expose: true
+            access_type: public_method
+            serialized_name: ReviewRating
+            accessor:
+                getter: getReviewRating
+                setter: setReviewRating
+            type: float
+        reviewCount:
+            expose: true
+            access_type: public_method
+            serialized_name: ReviewCount
+            accessor:
+                getter: getReviewCount
+                setter: setReviewCount
+            type: int
+        productImagesListEntity:
+            expose: true
+            access_type: public_method
+            serialized_name: ProductImagesListEntity
+            accessor:
+                getter: getProductImagesListEntity
+                setter: setProductImagesListEntity
+            type: array<Heavymind\Oxatis\ApiClient\Type\ImagesListIdEntityType>
+            xml_list:
+                inline: false
+                entry_name: ImagesListIdEntity
+                skip_when_empty: true
+        discountRuleId:
+            expose: true
+            access_type: public_method
+            serialized_name: DiscountRuleId
+            accessor:
+                getter: getDiscountRuleId
+                setter: setDiscountRuleId
+            type: Heavymind\Oxatis\ApiClient\Type\DiscountRuleIdEntityType
+        discountRuleId1:
+            expose: true
+            access_type: public_method
+            serialized_name: DiscountRuleId1
+            accessor:
+                getter: getDiscountRuleId1
+                setter: setDiscountRuleId1
+            type: Heavymind\Oxatis\ApiClient\Type\DiscountRuleIdEntityType
+        discountRuleId2:
+            expose: true
+            access_type: public_method
+            serialized_name: DiscountRuleId2
+            accessor:
+                getter: getDiscountRuleId2
+                setter: setDiscountRuleId2
+            type: Heavymind\Oxatis\ApiClient\Type\DiscountRuleIdEntityType
+        discountRuleId3:
+            expose: true
+            access_type: public_method
+            serialized_name: DiscountRuleId3
+            accessor:
+                getter: getDiscountRuleId3
+                setter: setDiscountRuleId3
+            type: Heavymind\Oxatis\ApiClient\Type\DiscountRuleIdEntityType
+        discountRuleId4:
+            expose: true
+            access_type: public_method
+            serialized_name: DiscountRuleId4
+            accessor:
+                getter: getDiscountRuleId4
+                setter: setDiscountRuleId4
+            type: Heavymind\Oxatis\ApiClient\Type\DiscountRuleIdEntityType
+        discountRuleId5:
+            expose: true
+            access_type: public_method
+            serialized_name: DiscountRuleId5
+            accessor:
+                getter: getDiscountRuleId5
+                setter: setDiscountRuleId5
+            type: Heavymind\Oxatis\ApiClient\Type\DiscountRuleIdEntityType
+        discountRuleId6:
+            expose: true
+            access_type: public_method
+            serialized_name: DiscountRuleId6
+            accessor:
+                getter: getDiscountRuleId6
+                setter: setDiscountRuleId6
+            type: Heavymind\Oxatis\ApiClient\Type\DiscountRuleIdEntityType
+        discountRuleId7:
+            expose: true
+            access_type: public_method
+            serialized_name: DiscountRuleId7
+            accessor:
+                getter: getDiscountRuleId7
+                setter: setDiscountRuleId7
+            type: Heavymind\Oxatis\ApiClient\Type\DiscountRuleIdEntityType
+        discountRuleId8:
+            expose: true
+            access_type: public_method
+            serialized_name: DiscountRuleId8
+            accessor:
+                getter: getDiscountRuleId8
+                setter: setDiscountRuleId8
+            type: Heavymind\Oxatis\ApiClient\Type\DiscountRuleIdEntityType
+        discountRuleId9:
+            expose: true
+            access_type: public_method
+            serialized_name: DiscountRuleId9
+            accessor:
+                getter: getDiscountRuleId9
+                setter: setDiscountRuleId9
+            type: Heavymind\Oxatis\ApiClient\Type\DiscountRuleIdEntityType
+        imagesList:
+            expose: true
+            access_type: public_method
+            serialized_name: ImagesList
+            accessor:
+                getter: getImagesList
+                setter: setImagesList
+            type: array<Heavymind\Oxatis\ApiClient\Type\ImagesListIdEntityType>
+            xml_list:
+                inline: false
+                entry_name: ImageList
+                skip_when_empty: true
+        taxClass:
+            expose: true
+            access_type: public_method
+            serialized_name: TaxClass
+            accessor:
+                getter: getTaxClass
+                setter: setTaxClass
+            type: Heavymind\Oxatis\ApiClient\Type\TaxClassEntityType

@@ -1,0 +1,2 @@
+Heavymind\Oxatis\ApiClient\Type\AccessType:
+    xml_root_name: AccessType

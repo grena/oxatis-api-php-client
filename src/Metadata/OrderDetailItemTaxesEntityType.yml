@@ -1,0 +1,34 @@
+Heavymind\Oxatis\ApiClient\Type\OrderDetailItemTaxesEntityType:
+    properties:
+        taxZoneRateID:
+            expose: true
+            access_type: public_method
+            serialized_name: TaxZoneRateID
+            accessor:
+                getter: getTaxZoneRateID
+                setter: setTaxZoneRateID
+            type: int
+        taxZoneRateName:
+            expose: true
+            access_type: public_method
+            serialized_name: TaxZoneRateName
+            accessor:
+                getter: getTaxZoneRateName
+                setter: setTaxZoneRateName
+            type: string
+        taxRate:
+            expose: true
+            access_type: public_method
+            serialized_name: TaxRate
+            accessor:
+                getter: getTaxRate
+                setter: setTaxRate
+            type: float
+        relatedOperation:
+            expose: true
+            access_type: public_method
+            serialized_name: RelatedOperation
+            accessor:
+                getter: getRelatedOperation
+                setter: setRelatedOperation
+            type: string

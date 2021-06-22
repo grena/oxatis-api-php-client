@@ -1,0 +1,2 @@
+Heavymind\Oxatis\ApiClient\Type\QuotationTaxDetail:
+    xml_root_name: QuotationTaxDetail

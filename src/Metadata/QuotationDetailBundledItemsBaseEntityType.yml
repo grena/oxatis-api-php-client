@@ -1,0 +1,106 @@
+Heavymind\Oxatis\ApiClient\Type\QuotationDetailBundledItemsBaseEntityType:
+    properties:
+        itemOxID:
+            expose: true
+            access_type: public_method
+            serialized_name: ItemOxID
+            accessor:
+                getter: getItemOxID
+                setter: setItemOxID
+            type: int
+        itemSKU:
+            expose: true
+            access_type: public_method
+            serialized_name: ItemSKU
+            accessor:
+                getter: getItemSKU
+                setter: setItemSKU
+            type: string
+        itemName:
+            expose: true
+            access_type: public_method
+            serialized_name: ItemName
+            accessor:
+                getter: getItemName
+                setter: setItemName
+            type: string
+        grossPrice:
+            expose: true
+            access_type: public_method
+            serialized_name: GrossPrice
+            accessor:
+                getter: getGrossPrice
+                setter: setGrossPrice
+            type: float
+        itemMainImageUrl:
+            expose: true
+            access_type: public_method
+            serialized_name: ItemMainImageUrl
+            accessor:
+                getter: getItemMainImageUrl
+                setter: setItemMainImageUrl
+            type: string
+        itemThumbnailImageUrl:
+            expose: true
+            access_type: public_method
+            serialized_name: ItemThumbnailImageUrl
+            accessor:
+                getter: getItemThumbnailImageUrl
+                setter: setItemThumbnailImageUrl
+            type: string
+        option1Name:
+            expose: true
+            access_type: public_method
+            serialized_name: Option1Name
+            accessor:
+                getter: getOption1Name
+                setter: setOption1Name
+            type: string
+        option1Value:
+            expose: true
+            access_type: public_method
+            serialized_name: Option1Value
+            accessor:
+                getter: getOption1Value
+                setter: setOption1Value
+            type: string
+        option2Name:
+            expose: true
+            access_type: public_method
+            serialized_name: Option2Name
+            accessor:
+                getter: getOption2Name
+                setter: setOption2Name
+            type: string
+        option2Value:
+            expose: true
+            access_type: public_method
+            serialized_name: Option2Value
+            accessor:
+                getter: getOption2Value
+                setter: setOption2Value
+            type: string
+        option3Name:
+            expose: true
+            access_type: public_method
+            serialized_name: Option3Name
+            accessor:
+                getter: getOption3Name
+                setter: setOption3Name
+            type: string
+        option3Value:
+            expose: true
+            access_type: public_method
+            serialized_name: Option3Value
+            accessor:
+                getter: getOption3Value
+                setter: setOption3Value
+            type: string
+        offered:
+            expose: true
+            access_type: public_method
+            serialized_name: Offered
+            accessor:
+                getter: getOffered
+                setter: setOffered
+            type: bool

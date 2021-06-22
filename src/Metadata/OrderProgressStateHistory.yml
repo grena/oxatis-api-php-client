@@ -1,0 +1,2 @@
+Heavymind\Oxatis\ApiClient\Type\OrderProgressStateHistory:
+    xml_root_name: OrderProgressStateHistory

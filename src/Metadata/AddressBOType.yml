@@ -1,0 +1,66 @@
+Heavymind\Oxatis\ApiClient\Type\AddressBOType:
+    properties:
+        floor:
+            expose: true
+            access_type: public_method
+            serialized_name: Floor
+            accessor:
+                getter: getFloor
+                setter: setFloor
+            type: string
+        building:
+            expose: true
+            access_type: public_method
+            serialized_name: Building
+            accessor:
+                getter: getBuilding
+                setter: setBuilding
+            type: string
+        street:
+            expose: true
+            access_type: public_method
+            serialized_name: Street
+            accessor:
+                getter: getStreet
+                setter: setStreet
+            type: string
+        otherInfo:
+            expose: true
+            access_type: public_method
+            serialized_name: OtherInfo
+            accessor:
+                getter: getOtherInfo
+                setter: setOtherInfo
+            type: string
+        city:
+            expose: true
+            access_type: public_method
+            serialized_name: City
+            accessor:
+                getter: getCity
+                setter: setCity
+            type: string
+        countryISOCode:
+            expose: true
+            access_type: public_method
+            serialized_name: CountryISOCode
+            accessor:
+                getter: getCountryISOCode
+                setter: setCountryISOCode
+            type: string
+        state:
+            expose: true
+            access_type: public_method
+            serialized_name: State
+            accessor:
+                getter: getState
+                setter: setState
+            type: string
+        zipCode:
+            expose: true
+            access_type: public_method
+            serialized_name: ZipCode
+            accessor:
+                getter: getZipCode
+                setter: setZipCode
+            type: string

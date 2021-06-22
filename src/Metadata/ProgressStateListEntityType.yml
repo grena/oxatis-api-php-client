@@ -1,0 +1,14 @@
+Heavymind\Oxatis\ApiClient\Type\ProgressStateListEntityType:
+    properties:
+        progressStateList:
+            expose: true
+            access_type: public_method
+            serialized_name: ProgressStateList
+            accessor:
+                getter: getProgressStateList
+                setter: setProgressStateList
+            type: array<Heavymind\Oxatis\ApiClient\Type\ProgressStateEntityType>
+            xml_list:
+                inline: false
+                entry_name: ProgressState
+                skip_when_empty: true

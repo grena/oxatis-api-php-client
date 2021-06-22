@@ -1,0 +1,13 @@
+Heavymind\Oxatis\ApiClient\Type\ArrayOfQuotationTaxDetailEntityType:
+    properties:
+        item:
+            expose: true
+            access_type: public_method
+            serialized_name: Item
+            accessor:
+                getter: getItem
+                setter: setItem
+            xml_list:
+                inline: true
+                entry_name: Item
+            type: array<Heavymind\Oxatis\ApiClient\Type\QuotationTaxDetailEntityType>

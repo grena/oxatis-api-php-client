@@ -1,0 +1,26 @@
+Heavymind\Oxatis\ApiClient\Type\ImageGalleryIdEntityType:
+    properties:
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: Name
+            accessor:
+                getter: getName
+                setter: setName
+            type: string
+        fileName:
+            expose: true
+            access_type: public_method
+            serialized_name: FileName
+            accessor:
+                getter: getFileName
+                setter: setFileName
+            type: string
+        imageUrl:
+            expose: true
+            access_type: public_method
+            serialized_name: ImageUrl
+            accessor:
+                getter: getImageUrl
+                setter: setImageUrl
+            type: string

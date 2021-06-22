@@ -1,0 +1,2 @@
+Heavymind\Oxatis\ApiClient\Type\Contact:
+    xml_root_name: Contact

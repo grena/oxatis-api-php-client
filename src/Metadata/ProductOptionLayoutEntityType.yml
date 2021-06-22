@@ -1,0 +1,10 @@
+Heavymind\Oxatis\ApiClient\Type\ProductOptionLayoutEntityType:
+    properties:
+        layoutType:
+            expose: true
+            access_type: public_method
+            serialized_name: LayoutType
+            accessor:
+                getter: getLayoutType
+                setter: setLayoutType
+            type: int

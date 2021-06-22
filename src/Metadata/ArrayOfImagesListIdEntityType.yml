@@ -1,0 +1,13 @@
+Heavymind\Oxatis\ApiClient\Type\ArrayOfImagesListIdEntityType:
+    properties:
+        imagesListIdEntity:
+            expose: true
+            access_type: public_method
+            serialized_name: ImagesListIdEntity
+            accessor:
+                getter: getImagesListIdEntity
+                setter: setImagesListIdEntity
+            xml_list:
+                inline: true
+                entry_name: ImagesListIdEntity
+            type: array<Heavymind\Oxatis\ApiClient\Type\ImagesListIdEntityType>

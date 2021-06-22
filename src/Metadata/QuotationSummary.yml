@@ -1,0 +1,2 @@
+Heavymind\Oxatis\ApiClient\Type\QuotationSummary:
+    xml_root_name: QuotationSummary

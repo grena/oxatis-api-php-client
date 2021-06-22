@@ -1,0 +1,42 @@
+Heavymind\Oxatis\ApiClient\Type\OrderTaxDetailEntityType:
+    properties:
+        totalNetTaxExcl:
+            expose: true
+            access_type: public_method
+            serialized_name: TotalNetTaxExcl
+            accessor:
+                getter: getTotalNetTaxExcl
+                setter: setTotalNetTaxExcl
+            type: float
+        taxRate:
+            expose: true
+            access_type: public_method
+            serialized_name: TaxRate
+            accessor:
+                getter: getTaxRate
+                setter: setTaxRate
+            type: float
+        totalNetVATAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: TotalNetVATAmount
+            accessor:
+                getter: getTotalNetVATAmount
+                setter: setTotalNetVATAmount
+            type: float
+        taxZoneRateID:
+            expose: true
+            access_type: public_method
+            serialized_name: TaxZoneRateID
+            accessor:
+                getter: getTaxZoneRateID
+                setter: setTaxZoneRateID
+            type: int
+        taxZoneRateName:
+            expose: true
+            access_type: public_method
+            serialized_name: TaxZoneRateName
+            accessor:
+                getter: getTaxZoneRateName
+                setter: setTaxZoneRateName
+            type: string

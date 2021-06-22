@@ -1,0 +1,13 @@
+Heavymind\Oxatis\ApiClient\Type\ArrayOfOrderIdEntityType:
+    properties:
+        orderID:
+            expose: true
+            access_type: public_method
+            serialized_name: OrderID
+            accessor:
+                getter: getOrderID
+                setter: setOrderID
+            xml_list:
+                inline: true
+                entry_name: OrderID
+            type: array<Heavymind\Oxatis\ApiClient\Type\OrderIdEntityType>

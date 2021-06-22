@@ -1,0 +1,18 @@
+Heavymind\Oxatis\ApiClient\Type\ImageGalleryHeaderEntityType:
+    properties:
+        refPathFileName:
+            expose: true
+            access_type: public_method
+            serialized_name: RefPathFileName
+            accessor:
+                getter: getRefPathFileName
+                setter: setRefPathFileName
+            type: string
+        category:
+            expose: true
+            access_type: public_method
+            serialized_name: Category
+            accessor:
+                getter: getCategory
+                setter: setCategory
+            type: Heavymind\Oxatis\ApiClient\Type\CategoryEntityType

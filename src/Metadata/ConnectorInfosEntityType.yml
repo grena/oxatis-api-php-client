@@ -1,0 +1,18 @@
+Heavymind\Oxatis\ApiClient\Type\ConnectorInfosEntityType:
+    properties:
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: Name
+            accessor:
+                getter: getName
+                setter: setName
+            type: string
+        lastDateOfUse:
+            expose: true
+            access_type: public_method
+            serialized_name: LastDateOfUse
+            accessor:
+                getter: getLastDateOfUse
+                setter: setLastDateOfUse
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime

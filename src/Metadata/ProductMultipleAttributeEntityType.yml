@@ -1,0 +1,30 @@
+Heavymind\Oxatis\ApiClient\Type\ProductMultipleAttributeEntityType:
+    properties:
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: Name
+            accessor:
+                getter: getName
+                setter: setName
+            type: string
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: Type
+            accessor:
+                getter: getType
+                setter: setType
+            type: string
+        attributes:
+            expose: true
+            access_type: public_method
+            serialized_name: Attributes
+            accessor:
+                getter: getAttributes
+                setter: setAttributes
+            type: array<Heavymind\Oxatis\ApiClient\Type\AttributeType>
+            xml_list:
+                inline: false
+                entry_name: Attribute
+                skip_when_empty: true

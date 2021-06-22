@@ -1,0 +1,10 @@
+Heavymind\Oxatis\ApiClient\Type\ProductPriceIndexEntityType:
+    properties:
+        priceIndex:
+            expose: true
+            access_type: public_method
+            serialized_name: PriceIndex
+            accessor:
+                getter: getPriceIndex
+                setter: setPriceIndex
+            type: int

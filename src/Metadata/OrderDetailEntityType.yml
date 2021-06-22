@@ -1,0 +1,30 @@
+Heavymind\Oxatis\ApiClient\Type\OrderDetailEntityType:
+    properties:
+        quantity:
+            expose: true
+            access_type: public_method
+            serialized_name: Quantity
+            accessor:
+                getter: getQuantity
+                setter: setQuantity
+            type: int
+        packagingQty:
+            expose: true
+            access_type: public_method
+            serialized_name: PackagingQty
+            accessor:
+                getter: getPackagingQty
+                setter: setPackagingQty
+            type: int
+        bundledItems:
+            expose: true
+            access_type: public_method
+            serialized_name: BundledItems
+            accessor:
+                getter: getBundledItems
+                setter: setBundledItems
+            type: array<Heavymind\Oxatis\ApiClient\Type\OrderDetailBundledItemEntityType>
+            xml_list:
+                inline: false
+                entry_name: BundledItem
+                skip_when_empty: true

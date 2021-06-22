@@ -1,0 +1,18 @@
+Heavymind\Oxatis\ApiClient\Type\ProductKeyEntityType:
+    properties:
+        itemSKU:
+            expose: true
+            access_type: public_method
+            serialized_name: ItemSKU
+            accessor:
+                getter: getItemSKU
+                setter: setItemSKU
+            type: string
+        productLanguage:
+            expose: true
+            access_type: public_method
+            serialized_name: ProductLanguage
+            accessor:
+                getter: getProductLanguage
+                setter: setProductLanguage
+            type: string

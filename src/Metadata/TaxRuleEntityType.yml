@@ -1,0 +1,54 @@
+Heavymind\Oxatis\ApiClient\Type\TaxRuleEntityType:
+    properties:
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: Name
+            accessor:
+                getter: getName
+                setter: setName
+            type: string
+        priority:
+            expose: true
+            access_type: public_method
+            serialized_name: Priority
+            accessor:
+                getter: getPriority
+                setter: setPriority
+            type: int
+        userTaxClassArray:
+            expose: true
+            access_type: public_method
+            serialized_name: UserTaxClassArray
+            accessor:
+                getter: getUserTaxClassArray
+                setter: setUserTaxClassArray
+            type: array<Heavymind\Oxatis\ApiClient\Type\TaxClassOxIdEntityType>
+            xml_list:
+                inline: false
+                entry_name: UserTaxClass
+                skip_when_empty: true
+        productTaxClassArray:
+            expose: true
+            access_type: public_method
+            serialized_name: ProductTaxClassArray
+            accessor:
+                getter: getProductTaxClassArray
+                setter: setProductTaxClassArray
+            type: array<Heavymind\Oxatis\ApiClient\Type\TaxClassOxIdEntityType>
+            xml_list:
+                inline: false
+                entry_name: ProductTaxClass
+                skip_when_empty: true
+        taxZoneRateArray:
+            expose: true
+            access_type: public_method
+            serialized_name: TaxZoneRateArray
+            accessor:
+                getter: getTaxZoneRateArray
+                setter: setTaxZoneRateArray
+            type: array<Heavymind\Oxatis\ApiClient\Type\TaxZoneRateOxIdEntityType>
+            xml_list:
+                inline: false
+                entry_name: TaxZoneRate
+                skip_when_empty: true

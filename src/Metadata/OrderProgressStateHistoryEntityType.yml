@@ -1,0 +1,106 @@
+Heavymind\Oxatis\ApiClient\Type\OrderProgressStateHistoryEntityType:
+    properties:
+        progressStateNameEN:
+            expose: true
+            access_type: public_method
+            serialized_name: ProgressStateNameEN
+            accessor:
+                getter: getProgressStateNameEN
+                setter: setProgressStateNameEN
+            type: string
+        progressStateNameES:
+            expose: true
+            access_type: public_method
+            serialized_name: ProgressStateNameES
+            accessor:
+                getter: getProgressStateNameES
+                setter: setProgressStateNameES
+            type: string
+        progressStateNameIT:
+            expose: true
+            access_type: public_method
+            serialized_name: ProgressStateNameIT
+            accessor:
+                getter: getProgressStateNameIT
+                setter: setProgressStateNameIT
+            type: string
+        progressStateNameNL:
+            expose: true
+            access_type: public_method
+            serialized_name: ProgressStateNameNL
+            accessor:
+                getter: getProgressStateNameNL
+                setter: setProgressStateNameNL
+            type: string
+        progressStateNameDE:
+            expose: true
+            access_type: public_method
+            serialized_name: ProgressStateNameDE
+            accessor:
+                getter: getProgressStateNameDE
+                setter: setProgressStateNameDE
+            type: string
+        progressStateNameCA:
+            expose: true
+            access_type: public_method
+            serialized_name: ProgressStateNameCA
+            accessor:
+                getter: getProgressStateNameCA
+                setter: setProgressStateNameCA
+            type: string
+        color:
+            expose: true
+            access_type: public_method
+            serialized_name: Color
+            accessor:
+                getter: getColor
+                setter: setColor
+            type: string
+        orderID:
+            expose: true
+            access_type: public_method
+            serialized_name: OrderID
+            accessor:
+                getter: getOrderID
+                setter: setOrderID
+            type: int
+        date:
+            expose: true
+            access_type: public_method
+            serialized_name: Date
+            accessor:
+                getter: getDate
+                setter: setDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        progressStateName:
+            expose: true
+            access_type: public_method
+            serialized_name: ProgressStateName
+            accessor:
+                getter: getProgressStateName
+                setter: setProgressStateName
+            type: string
+        comment:
+            expose: true
+            access_type: public_method
+            serialized_name: Comment
+            accessor:
+                getter: getComment
+                setter: setComment
+            type: string
+        published:
+            expose: true
+            access_type: public_method
+            serialized_name: Published
+            accessor:
+                getter: getPublished
+                setter: setPublished
+            type: bool
+        fileAttachment:
+            expose: true
+            access_type: public_method
+            serialized_name: FileAttachment
+            accessor:
+                getter: getFileAttachment
+                setter: setFileAttachment
+            type: string

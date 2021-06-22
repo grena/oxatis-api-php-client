@@ -1,0 +1,18 @@
+Heavymind\Oxatis\ApiClient\Type\DiscountRuleCustomPriceEntityType:
+    properties:
+        userIdEntity:
+            expose: true
+            access_type: public_method
+            serialized_name: UserIdEntity
+            accessor:
+                getter: getUserIdEntity
+                setter: setUserIdEntity
+            type: Heavymind\Oxatis\ApiClient\Type\UserIdEntityType
+        discountRuleEntity:
+            expose: true
+            access_type: public_method
+            serialized_name: DiscountRuleEntity
+            accessor:
+                getter: getDiscountRuleEntity
+                setter: setDiscountRuleEntity
+            type: Heavymind\Oxatis\ApiClient\Type\DiscountRuleEntityType

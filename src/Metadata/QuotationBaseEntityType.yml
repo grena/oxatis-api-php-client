@@ -1,0 +1,614 @@
+Heavymind\Oxatis\ApiClient\Type\QuotationBaseEntityType:
+    properties:
+        userEmail:
+            expose: true
+            access_type: public_method
+            serialized_name: UserEmail
+            accessor:
+                getter: getUserEmail
+                setter: setUserEmail
+            type: string
+        userOxID:
+            expose: true
+            access_type: public_method
+            serialized_name: UserOxID
+            accessor:
+                getter: getUserOxID
+                setter: setUserOxID
+            type: int
+        billingTitle:
+            expose: true
+            access_type: public_method
+            serialized_name: BillingTitle
+            accessor:
+                getter: getBillingTitle
+                setter: setBillingTitle
+            type: string
+        billingCompany:
+            expose: true
+            access_type: public_method
+            serialized_name: BillingCompany
+            accessor:
+                getter: getBillingCompany
+                setter: setBillingCompany
+            type: string
+        billingAddress:
+            expose: true
+            access_type: public_method
+            serialized_name: BillingAddress
+            accessor:
+                getter: getBillingAddress
+                setter: setBillingAddress
+            type: string
+        billingAddressL1:
+            expose: true
+            access_type: public_method
+            serialized_name: BillingAddressL1
+            accessor:
+                getter: getBillingAddressL1
+                setter: setBillingAddressL1
+            type: string
+        billingAddressL2:
+            expose: true
+            access_type: public_method
+            serialized_name: BillingAddressL2
+            accessor:
+                getter: getBillingAddressL2
+                setter: setBillingAddressL2
+            type: string
+        billingAddressL3:
+            expose: true
+            access_type: public_method
+            serialized_name: BillingAddressL3
+            accessor:
+                getter: getBillingAddressL3
+                setter: setBillingAddressL3
+            type: string
+        billingAddressL4:
+            expose: true
+            access_type: public_method
+            serialized_name: BillingAddressL4
+            accessor:
+                getter: getBillingAddressL4
+                setter: setBillingAddressL4
+            type: string
+        billingAddressFloor:
+            expose: true
+            access_type: public_method
+            serialized_name: BillingAddressFloor
+            accessor:
+                getter: getBillingAddressFloor
+                setter: setBillingAddressFloor
+            type: string
+        billingAddressBuilding:
+            expose: true
+            access_type: public_method
+            serialized_name: BillingAddressBuilding
+            accessor:
+                getter: getBillingAddressBuilding
+                setter: setBillingAddressBuilding
+            type: string
+        billingAddressStreet:
+            expose: true
+            access_type: public_method
+            serialized_name: BillingAddressStreet
+            accessor:
+                getter: getBillingAddressStreet
+                setter: setBillingAddressStreet
+            type: string
+        billingAddressOtherInfo:
+            expose: true
+            access_type: public_method
+            serialized_name: BillingAddressOtherInfo
+            accessor:
+                getter: getBillingAddressOtherInfo
+                setter: setBillingAddressOtherInfo
+            type: string
+        billingZipCode:
+            expose: true
+            access_type: public_method
+            serialized_name: BillingZipCode
+            accessor:
+                getter: getBillingZipCode
+                setter: setBillingZipCode
+            type: string
+        billingCity:
+            expose: true
+            access_type: public_method
+            serialized_name: BillingCity
+            accessor:
+                getter: getBillingCity
+                setter: setBillingCity
+            type: string
+        billingState:
+            expose: true
+            access_type: public_method
+            serialized_name: BillingState
+            accessor:
+                getter: getBillingState
+                setter: setBillingState
+            type: string
+        billingStateName:
+            expose: true
+            access_type: public_method
+            serialized_name: BillingStateName
+            accessor:
+                getter: getBillingStateName
+                setter: setBillingStateName
+            type: string
+        billingCountryISOCode:
+            expose: true
+            access_type: public_method
+            serialized_name: BillingCountryISOCode
+            accessor:
+                getter: getBillingCountryISOCode
+                setter: setBillingCountryISOCode
+            type: string
+        billingCountryName:
+            expose: true
+            access_type: public_method
+            serialized_name: BillingCountryName
+            accessor:
+                getter: getBillingCountryName
+                setter: setBillingCountryName
+            type: string
+        billingPhone:
+            expose: true
+            access_type: public_method
+            serialized_name: BillingPhone
+            accessor:
+                getter: getBillingPhone
+                setter: setBillingPhone
+            type: string
+        billingCellPhone:
+            expose: true
+            access_type: public_method
+            serialized_name: BillingCellPhone
+            accessor:
+                getter: getBillingCellPhone
+                setter: setBillingCellPhone
+            type: string
+        billingFax:
+            expose: true
+            access_type: public_method
+            serialized_name: BillingFax
+            accessor:
+                getter: getBillingFax
+                setter: setBillingFax
+            type: string
+        companyVATNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: CompanyVATNumber
+            accessor:
+                getter: getCompanyVATNumber
+                setter: setCompanyVATNumber
+            type: string
+        shippingCompany:
+            expose: true
+            access_type: public_method
+            serialized_name: ShippingCompany
+            accessor:
+                getter: getShippingCompany
+                setter: setShippingCompany
+            type: string
+        shippingTitle:
+            expose: true
+            access_type: public_method
+            serialized_name: ShippingTitle
+            accessor:
+                getter: getShippingTitle
+                setter: setShippingTitle
+            type: string
+        shippingFirstName:
+            expose: true
+            access_type: public_method
+            serialized_name: ShippingFirstName
+            accessor:
+                getter: getShippingFirstName
+                setter: setShippingFirstName
+            type: string
+        shippingLastName:
+            expose: true
+            access_type: public_method
+            serialized_name: ShippingLastName
+            accessor:
+                getter: getShippingLastName
+                setter: setShippingLastName
+            type: string
+        shippingAddress:
+            expose: true
+            access_type: public_method
+            serialized_name: ShippingAddress
+            accessor:
+                getter: getShippingAddress
+                setter: setShippingAddress
+            type: string
+        shippingAddressL1:
+            expose: true
+            access_type: public_method
+            serialized_name: ShippingAddressL1
+            accessor:
+                getter: getShippingAddressL1
+                setter: setShippingAddressL1
+            type: string
+        shippingAddressL2:
+            expose: true
+            access_type: public_method
+            serialized_name: ShippingAddressL2
+            accessor:
+                getter: getShippingAddressL2
+                setter: setShippingAddressL2
+            type: string
+        shippingAddressL3:
+            expose: true
+            access_type: public_method
+            serialized_name: ShippingAddressL3
+            accessor:
+                getter: getShippingAddressL3
+                setter: setShippingAddressL3
+            type: string
+        shippingAddressL4:
+            expose: true
+            access_type: public_method
+            serialized_name: ShippingAddressL4
+            accessor:
+                getter: getShippingAddressL4
+                setter: setShippingAddressL4
+            type: string
+        shippingAddressFloor:
+            expose: true
+            access_type: public_method
+            serialized_name: ShippingAddressFloor
+            accessor:
+                getter: getShippingAddressFloor
+                setter: setShippingAddressFloor
+            type: string
+        shippingAddressBuilding:
+            expose: true
+            access_type: public_method
+            serialized_name: ShippingAddressBuilding
+            accessor:
+                getter: getShippingAddressBuilding
+                setter: setShippingAddressBuilding
+            type: string
+        shippingAddressStreet:
+            expose: true
+            access_type: public_method
+            serialized_name: ShippingAddressStreet
+            accessor:
+                getter: getShippingAddressStreet
+                setter: setShippingAddressStreet
+            type: string
+        shippingAddressOtherInfo:
+            expose: true
+            access_type: public_method
+            serialized_name: ShippingAddressOtherInfo
+            accessor:
+                getter: getShippingAddressOtherInfo
+                setter: setShippingAddressOtherInfo
+            type: string
+        shippingZipCode:
+            expose: true
+            access_type: public_method
+            serialized_name: ShippingZipCode
+            accessor:
+                getter: getShippingZipCode
+                setter: setShippingZipCode
+            type: string
+        shippingCity:
+            expose: true
+            access_type: public_method
+            serialized_name: ShippingCity
+            accessor:
+                getter: getShippingCity
+                setter: setShippingCity
+            type: string
+        shippingState:
+            expose: true
+            access_type: public_method
+            serialized_name: ShippingState
+            accessor:
+                getter: getShippingState
+                setter: setShippingState
+            type: string
+        shippingStateName:
+            expose: true
+            access_type: public_method
+            serialized_name: ShippingStateName
+            accessor:
+                getter: getShippingStateName
+                setter: setShippingStateName
+            type: string
+        shippingCountryISOCode:
+            expose: true
+            access_type: public_method
+            serialized_name: ShippingCountryISOCode
+            accessor:
+                getter: getShippingCountryISOCode
+                setter: setShippingCountryISOCode
+            type: string
+        shippingCountryName:
+            expose: true
+            access_type: public_method
+            serialized_name: ShippingCountryName
+            accessor:
+                getter: getShippingCountryName
+                setter: setShippingCountryName
+            type: string
+        shippingPhone:
+            expose: true
+            access_type: public_method
+            serialized_name: ShippingPhone
+            accessor:
+                getter: getShippingPhone
+                setter: setShippingPhone
+            type: string
+        shippingInfo:
+            expose: true
+            access_type: public_method
+            serialized_name: ShippingInfo
+            accessor:
+                getter: getShippingInfo
+                setter: setShippingInfo
+            type: string
+        vATIncluded:
+            expose: true
+            access_type: public_method
+            serialized_name: VATIncluded
+            accessor:
+                getter: getVATIncluded
+                setter: setVATIncluded
+            type: bool
+        ecoTaxIncluded:
+            expose: true
+            access_type: public_method
+            serialized_name: EcoTaxIncluded
+            accessor:
+                getter: getEcoTaxIncluded
+                setter: setEcoTaxIncluded
+            type: bool
+        subTotalNet:
+            expose: true
+            access_type: public_method
+            serialized_name: SubTotalNet
+            accessor:
+                getter: getSubTotalNet
+                setter: setSubTotalNet
+            type: float
+        subTotalNetDiscounted:
+            expose: true
+            access_type: public_method
+            serialized_name: SubTotalNetDiscounted
+            accessor:
+                getter: getSubTotalNetDiscounted
+                setter: setSubTotalNetDiscounted
+            type: float
+        globalDiscountRate:
+            expose: true
+            access_type: public_method
+            serialized_name: GlobalDiscountRate
+            accessor:
+                getter: getGlobalDiscountRate
+                setter: setGlobalDiscountRate
+            type: float
+        globalDiscountAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: GlobalDiscountAmount
+            accessor:
+                getter: getGlobalDiscountAmount
+                setter: setGlobalDiscountAmount
+            type: float
+        shippingID:
+            expose: true
+            access_type: public_method
+            serialized_name: ShippingID
+            accessor:
+                getter: getShippingID
+                setter: setShippingID
+            type: int
+        shippingMethodName:
+            expose: true
+            access_type: public_method
+            serialized_name: ShippingMethodName
+            accessor:
+                getter: getShippingMethodName
+                setter: setShippingMethodName
+            type: string
+        shippingProcessorCode:
+            expose: true
+            access_type: public_method
+            serialized_name: ShippingProcessorCode
+            accessor:
+                getter: getShippingProcessorCode
+                setter: setShippingProcessorCode
+            type: int
+        shippingParam1:
+            expose: true
+            access_type: public_method
+            serialized_name: ShippingParam1
+            accessor:
+                getter: getShippingParam1
+                setter: setShippingParam1
+            type: string
+        shippingParam2:
+            expose: true
+            access_type: public_method
+            serialized_name: ShippingParam2
+            accessor:
+                getter: getShippingParam2
+                setter: setShippingParam2
+            type: string
+        shippingTaxRate:
+            expose: true
+            access_type: public_method
+            serialized_name: ShippingTaxRate
+            accessor:
+                getter: getShippingTaxRate
+                setter: setShippingTaxRate
+            type: float
+        shippingPriceTaxIncl:
+            expose: true
+            access_type: public_method
+            serialized_name: ShippingPriceTaxIncl
+            accessor:
+                getter: getShippingPriceTaxIncl
+                setter: setShippingPriceTaxIncl
+            type: float
+        ecoTaxAmountTaxIncl:
+            expose: true
+            access_type: public_method
+            serialized_name: EcoTaxAmountTaxIncl
+            accessor:
+                getter: getEcoTaxAmountTaxIncl
+                setter: setEcoTaxAmountTaxIncl
+            type: float
+        cartCoupon:
+            expose: true
+            access_type: public_method
+            serialized_name: CartCoupon
+            accessor:
+                getter: getCartCoupon
+                setter: setCartCoupon
+            type: string
+        language:
+            expose: true
+            access_type: public_method
+            serialized_name: Language
+            accessor:
+                getter: getLanguage
+                setter: setLanguage
+            type: string
+        remoteIPAddr:
+            expose: true
+            access_type: public_method
+            serialized_name: RemoteIPAddr
+            accessor:
+                getter: getRemoteIPAddr
+                setter: setRemoteIPAddr
+            type: string
+        salesRepCode:
+            expose: true
+            access_type: public_method
+            serialized_name: SalesRepCode
+            accessor:
+                getter: getSalesRepCode
+                setter: setSalesRepCode
+            type: string
+        salesRepFirstName:
+            expose: true
+            access_type: public_method
+            serialized_name: SalesRepFirstName
+            accessor:
+                getter: getSalesRepFirstName
+                setter: setSalesRepFirstName
+            type: string
+        salesRepLastName:
+            expose: true
+            access_type: public_method
+            serialized_name: SalesRepLastName
+            accessor:
+                getter: getSalesRepLastName
+                setter: setSalesRepLastName
+            type: string
+        specialInstructions:
+            expose: true
+            access_type: public_method
+            serialized_name: SpecialInstructions
+            accessor:
+                getter: getSpecialInstructions
+                setter: setSpecialInstructions
+            type: string
+        currencyCode:
+            expose: true
+            access_type: public_method
+            serialized_name: CurrencyCode
+            accessor:
+                getter: getCurrencyCode
+                setter: setCurrencyCode
+            type: string
+        internalNote:
+            expose: true
+            access_type: public_method
+            serialized_name: InternalNote
+            accessor:
+                getter: getInternalNote
+                setter: setInternalNote
+            type: string
+        fiscalCode:
+            expose: true
+            access_type: public_method
+            serialized_name: FiscalCode
+            accessor:
+                getter: getFiscalCode
+                setter: setFiscalCode
+            type: string
+        customFieldText1:
+            expose: true
+            access_type: public_method
+            serialized_name: CustomFieldText1
+            accessor:
+                getter: getCustomFieldText1
+                setter: setCustomFieldText1
+            type: string
+        customFieldText2:
+            expose: true
+            access_type: public_method
+            serialized_name: CustomFieldText2
+            accessor:
+                getter: getCustomFieldText2
+                setter: setCustomFieldText2
+            type: string
+        customFieldText3:
+            expose: true
+            access_type: public_method
+            serialized_name: CustomFieldText3
+            accessor:
+                getter: getCustomFieldText3
+                setter: setCustomFieldText3
+            type: string
+        customFieldText4:
+            expose: true
+            access_type: public_method
+            serialized_name: CustomFieldText4
+            accessor:
+                getter: getCustomFieldText4
+                setter: setCustomFieldText4
+            type: string
+        customFieldNumeric1:
+            expose: true
+            access_type: public_method
+            serialized_name: CustomFieldNumeric1
+            accessor:
+                getter: getCustomFieldNumeric1
+                setter: setCustomFieldNumeric1
+            type: float
+        customFieldNumeric2:
+            expose: true
+            access_type: public_method
+            serialized_name: CustomFieldNumeric2
+            accessor:
+                getter: getCustomFieldNumeric2
+                setter: setCustomFieldNumeric2
+            type: float
+        customFieldDate:
+            expose: true
+            access_type: public_method
+            serialized_name: CustomFieldDate
+            accessor:
+                getter: getCustomFieldDate
+                setter: setCustomFieldDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        quotationTaxDetails:
+            expose: true
+            access_type: public_method
+            serialized_name: QuotationTaxDetails
+            accessor:
+                getter: getQuotationTaxDetails
+                setter: setQuotationTaxDetails
+            type: array<Heavymind\Oxatis\ApiClient\Type\QuotationTaxDetailEntityType>
+            xml_list:
+                inline: false
+                entry_name: Item
+                skip_when_empty: true

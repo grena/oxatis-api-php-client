@@ -1,0 +1,14 @@
+Heavymind\Oxatis\ApiClient\Type\TaxClassListEntityType:
+    properties:
+        taxClasseArray:
+            expose: true
+            access_type: public_method
+            serialized_name: TaxClasseArray
+            accessor:
+                getter: getTaxClasseArray
+                setter: setTaxClasseArray
+            type: array<Heavymind\Oxatis\ApiClient\Type\TaxClassEntityType>
+            xml_list:
+                inline: false
+                entry_name: TaxClass
+                skip_when_empty: true

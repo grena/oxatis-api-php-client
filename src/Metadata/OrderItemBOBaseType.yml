@@ -1,0 +1,90 @@
+Heavymind\Oxatis\ApiClient\Type\OrderItemBOBaseType:
+    properties:
+        weight:
+            expose: true
+            access_type: public_method
+            serialized_name: Weight
+            accessor:
+                getter: getWeight
+                setter: setWeight
+            type: int
+        pdtOptDesc:
+            expose: true
+            access_type: public_method
+            serialized_name: PdtOptDesc
+            accessor:
+                getter: getPdtOptDesc
+                setter: setPdtOptDesc
+            type: string
+        parentID:
+            expose: true
+            access_type: public_method
+            serialized_name: ParentID
+            accessor:
+                getter: getParentID
+                setter: setParentID
+            type: int
+        code:
+            expose: true
+            access_type: public_method
+            serialized_name: Code
+            accessor:
+                getter: getCode
+                setter: setCode
+            type: string
+        productLanguageISOCode:
+            expose: true
+            access_type: public_method
+            serialized_name: ProductLanguageISOCode
+            accessor:
+                getter: getProductLanguageISOCode
+                setter: setProductLanguageISOCode
+            type: string
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: Name
+            accessor:
+                getter: getName
+                setter: setName
+            type: string
+        unitPriceVATIncluded:
+            expose: true
+            access_type: public_method
+            serialized_name: UnitPriceVATIncluded
+            accessor:
+                getter: getUnitPriceVATIncluded
+                setter: setUnitPriceVATIncluded
+            type: float
+        taxRate:
+            expose: true
+            access_type: public_method
+            serialized_name: TaxRate
+            accessor:
+                getter: getTaxRate
+                setter: setTaxRate
+            type: float
+        discountRate:
+            expose: true
+            access_type: public_method
+            serialized_name: DiscountRate
+            accessor:
+                getter: getDiscountRate
+                setter: setDiscountRate
+            type: float
+        ecoTaxValueTaxIncluded:
+            expose: true
+            access_type: public_method
+            serialized_name: EcoTaxValueTaxIncluded
+            accessor:
+                getter: getEcoTaxValueTaxIncluded
+                setter: setEcoTaxValueTaxIncluded
+            type: float
+        unitPriceVATExcluded:
+            expose: true
+            access_type: public_method
+            serialized_name: UnitPriceVATExcluded
+            accessor:
+                getter: getUnitPriceVATExcluded
+                setter: setUnitPriceVATExcluded
+            type: float

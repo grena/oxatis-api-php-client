@@ -1,0 +1,2 @@
+Heavymind\Oxatis\ApiClient\Type\PaymentTypeList:
+    xml_root_name: PaymentTypeList

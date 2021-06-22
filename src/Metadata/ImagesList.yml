@@ -1,0 +1,2 @@
+Heavymind\Oxatis\ApiClient\Type\ImagesList:
+    xml_root_name: ImagesList

@@ -1,0 +1,2 @@
+Heavymind\Oxatis\ApiClient\Type\OrderId:
+    xml_root_name: OrderId

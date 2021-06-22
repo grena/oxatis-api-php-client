@@ -1,0 +1,10 @@
+Heavymind\Oxatis\ApiClient\Type\ProductPackagingOptionsEntityType:
+    properties:
+        usePackagingOptionalItems:
+            expose: true
+            access_type: public_method
+            serialized_name: UsePackagingOptionalItems
+            accessor:
+                getter: getUsePackagingOptionalItems
+                setter: setUsePackagingOptionalItems
+            type: bool

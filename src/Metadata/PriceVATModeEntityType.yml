@@ -1,0 +1,18 @@
+Heavymind\Oxatis\ApiClient\Type\PriceVATModeEntityType:
+    properties:
+        value:
+            expose: true
+            access_type: public_method
+            serialized_name: Value
+            accessor:
+                getter: getValue
+                setter: setValue
+            type: float
+        vATIncluded:
+            expose: true
+            access_type: public_method
+            serialized_name: VATIncluded
+            accessor:
+                getter: getVATIncluded
+                setter: setVATIncluded
+            type: bool

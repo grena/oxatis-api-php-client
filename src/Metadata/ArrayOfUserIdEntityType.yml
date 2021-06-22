@@ -1,0 +1,13 @@
+Heavymind\Oxatis\ApiClient\Type\ArrayOfUserIdEntityType:
+    properties:
+        userID:
+            expose: true
+            access_type: public_method
+            serialized_name: UserID
+            accessor:
+                getter: getUserID
+                setter: setUserID
+            xml_list:
+                inline: true
+                entry_name: UserID
+            type: array<Heavymind\Oxatis\ApiClient\Type\UserIdEntityType>

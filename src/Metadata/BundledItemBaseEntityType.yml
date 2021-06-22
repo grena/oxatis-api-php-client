@@ -1,0 +1,10 @@
+Heavymind\Oxatis\ApiClient\Type\BundledItemBaseEntityType:
+    properties:
+        productId:
+            expose: true
+            access_type: public_method
+            serialized_name: ProductId
+            accessor:
+                getter: getProductId
+                setter: setProductId
+            type: Heavymind\Oxatis\ApiClient\Type\ProductIdEntityType

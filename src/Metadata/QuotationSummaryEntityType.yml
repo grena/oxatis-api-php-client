@@ -1,0 +1,74 @@
+Heavymind\Oxatis\ApiClient\Type\QuotationSummaryEntityType:
+    properties:
+        date:
+            expose: true
+            access_type: public_method
+            serialized_name: Date
+            accessor:
+                getter: getDate
+                setter: setDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        billingFirstName:
+            expose: true
+            access_type: public_method
+            serialized_name: BillingFirstName
+            accessor:
+                getter: getBillingFirstName
+                setter: setBillingFirstName
+            type: string
+        billingLastName:
+            expose: true
+            access_type: public_method
+            serialized_name: BillingLastName
+            accessor:
+                getter: getBillingLastName
+                setter: setBillingLastName
+            type: string
+        subTotalVAT:
+            expose: true
+            access_type: public_method
+            serialized_name: SubTotalVAT
+            accessor:
+                getter: getSubTotalVAT
+                setter: setSubTotalVAT
+            type: float
+        shippingPriceTaxExcl:
+            expose: true
+            access_type: public_method
+            serialized_name: ShippingPriceTaxExcl
+            accessor:
+                getter: getShippingPriceTaxExcl
+                setter: setShippingPriceTaxExcl
+            type: float
+        netAmountDue:
+            expose: true
+            access_type: public_method
+            serialized_name: NetAmountDue
+            accessor:
+                getter: getNetAmountDue
+                setter: setNetAmountDue
+            type: float
+        shippingVATAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: ShippingVATAmount
+            accessor:
+                getter: getShippingVATAmount
+                setter: setShippingVATAmount
+            type: float
+        followUp:
+            expose: true
+            access_type: public_method
+            serialized_name: FollowUp
+            accessor:
+                getter: getFollowUp
+                setter: setFollowUp
+            type: bool
+        subTotalNetVATExcluded:
+            expose: true
+            access_type: public_method
+            serialized_name: SubTotalNetVATExcluded
+            accessor:
+                getter: getSubTotalNetVATExcluded
+                setter: setSubTotalNetVATExcluded
+            type: float

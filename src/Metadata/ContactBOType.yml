@@ -1,0 +1,50 @@
+Heavymind\Oxatis\ApiClient\Type\ContactBOType:
+    properties:
+        phone:
+            expose: true
+            access_type: public_method
+            serialized_name: Phone
+            accessor:
+                getter: getPhone
+                setter: setPhone
+            type: string
+        title:
+            expose: true
+            access_type: public_method
+            serialized_name: Title
+            accessor:
+                getter: getTitle
+                setter: setTitle
+            type: string
+        firstName:
+            expose: true
+            access_type: public_method
+            serialized_name: FirstName
+            accessor:
+                getter: getFirstName
+                setter: setFirstName
+            type: string
+        lastName:
+            expose: true
+            access_type: public_method
+            serialized_name: LastName
+            accessor:
+                getter: getLastName
+                setter: setLastName
+            type: string
+        company:
+            expose: true
+            access_type: public_method
+            serialized_name: Company
+            accessor:
+                getter: getCompany
+                setter: setCompany
+            type: string
+        address:
+            expose: true
+            access_type: public_method
+            serialized_name: Address
+            accessor:
+                getter: getAddress
+                setter: setAddress
+            type: Heavymind\Oxatis\ApiClient\Type\AddressBOType

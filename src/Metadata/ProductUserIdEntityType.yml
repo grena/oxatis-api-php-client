@@ -1,0 +1,10 @@
+Heavymind\Oxatis\ApiClient\Type\ProductUserIdEntityType:
+    properties:
+        userId:
+            expose: true
+            access_type: public_method
+            serialized_name: UserId
+            accessor:
+                getter: getUserId
+                setter: setUserId
+            type: Heavymind\Oxatis\ApiClient\Type\UserIdEntityType
