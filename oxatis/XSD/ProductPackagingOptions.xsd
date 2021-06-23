@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
-  <xs:element name="ProductPackagingOptions" nillable="true" type="ProductPackagingOptionsEntity" />
-  <xs:complexType name="ProductPackagingOptionsEntity">
-    <xs:sequence>
-      <xs:element minOccurs="1" maxOccurs="1" name="UsePackagingOptionalItems" type="xs:boolean" />
-    </xs:sequence>
-  </xs:complexType>
-</xs:schema>

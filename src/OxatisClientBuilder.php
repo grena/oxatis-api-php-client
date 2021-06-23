@@ -4,6 +4,8 @@ declare(strict_types=1);
 
 namespace Heavymind\Oxatis\ApiClient;
 
+use Heavymind\Oxatis\ApiClient\Security\Authentication;
+
 /**
  * Builder of the OxatisClient.
  *
@@ -11,17 +13,6 @@ namespace Heavymind\Oxatis\ApiClient;
  */
 class OxatisClientBuilder
 {
-    /** @var string */
-    protected $baseUri;
-
-    /**
-     * @param string $baseUri Base uri to request the API
-     */
-    public function __construct(string $baseUri)
-    {
-        $this->baseUri = $baseUri;
-    }
-
     /**
      * Build the Oxatis client authenticated with AppID and token.
      *
@@ -32,6 +23,20 @@ class OxatisClientBuilder
      */
     public function buildAuthenticatedByToken(string $appId, string $token): OxatisClientInterface
     {
+        $authentication = Authentication::fromToken($appId, $token);
 
+        return $this->buildAuthenticatedClient($authentication);
+    }
+
+    /**
+     * @param Authentication $authentication
+     *
+     * @return OxatisClientInterface
+     */
+    protected function buildAuthenticatedClient(Authentication $authentication): OxatisClientInterface
+    {
+        $client = new OxatisClient($authentication);
+
+        return $client;
     }
 }

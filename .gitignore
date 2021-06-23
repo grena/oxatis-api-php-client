@@ -5,3 +5,4 @@ phpspec.yml
 phpunit.xml
 .php_cs.cache
 composer.phar
+test.php
