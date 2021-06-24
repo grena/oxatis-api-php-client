@@ -2,6 +2,8 @@
 
 This is a PHP API Client for any [Oxatis](https://www.oxatis.com/) SaaS instance.
 
+[![Build Status](https://travis-ci.org/grena/oxatis-api-php-client.svg?branch=main)](https://travis-ci.org/grena/oxatis-api-php-client)
+
 ## Requirements
 - PHP >= 7.4
 - Composer
