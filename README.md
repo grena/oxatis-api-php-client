@@ -2,6 +2,11 @@
 
 This is a PHP API Client for any [Oxatis](https://www.oxatis.com/) SaaS instance.
 
+## Requirements
+- PHP >= 7.4
+- Composer
+
+
 ## Install
 
 ```bash
