@@ -59,5 +59,6 @@ Clone this project, then:
 
 ```bash
 cp docker-compose.yml.dist docker-compose.yml
+docker-compose up --build
 docker-compose run php_74 ./composer.phar install
 ```
