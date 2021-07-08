@@ -1,18 +1,27 @@
 <?php
 
+use Laminas\Code\Generator\PropertyGenerator;
 use Phpro\SoapClient\CodeGenerator\Assembler;
 use Phpro\SoapClient\CodeGenerator\Rules;
 use Phpro\SoapClient\CodeGenerator\Config\Config;
 use Phpro\SoapClient\Soap\Driver\ExtSoap\ExtSoapOptions;
 use Phpro\SoapClient\Soap\Driver\ExtSoap\ExtSoapEngineFactory;
+use Symfony\Component\DomCrawler\Crawler;
+use Symfony\Component\HttpClient\CurlHttpClient;
 
-return Config::create()
+$wsdlUri = 'https://webservices.oxatis.com/webservices/HttpServices/SOAP/IdentityServices.asmx?WSDL';
+$typeNamespace = 'Heavymind\Oxatis\ApiClient\Type';
+
+$config = Config::create()
     ->setEngine($engine = ExtSoapEngineFactory::fromOptions(
-        ExtSoapOptions::defaults('https://webservices.oxatis.com/webservices/HttpServices/SOAP/IdentityServices.asmx?WSDL', [])
+        ExtSoapOptions::defaults($wsdlUri, [])
             ->disableWsdlCache()
     ))
+    ->setRuleSet(new Rules\RuleSet([
+            new Rules\AssembleRule(new Assembler\PropertyAssembler('protected')),
+    ]))
     ->setTypeDestination('src/Type')
-    ->setTypeNamespace('Heavymind\Oxatis\ApiClient\Type')
+    ->setTypeNamespace($typeNamespace)
     ->setClientDestination('src/Services/IdentityServices')
     ->setClientName('IdentityServicesClient')
     ->setClientNamespace('Heavymind\Oxatis\ApiClient\Services\IdentityServices')
@@ -50,3 +59,34 @@ return Config::create()
         )
     )
 ;
+
+$httpClient = new CurlHttpClient();
+$wsdlResponse = $httpClient->request('GET', $wsdlUri);
+
+$crawler = new Crawler($wsdlResponse->getContent());
+$extendConfig = [];
+
+foreach ($crawler->filter('s|extension') as $domElement) {
+    $tnsName = $domElement->attributes->getNamedItem('base')->nodeValue;
+    $extendedClassName = \sprintf(
+        '%s\\%s',
+        $typeNamespace,
+        \explode('tns:', $tnsName)[1]
+    );
+    $subClassString = $domElement->parentNode->parentNode->attributes->getNamedItem('name')->nodeValue;
+    $parentClassString = \explode('tns:', $tnsName)[1];
+    $config->addRule(
+        new Rules\TypenameMatchesRule(
+            new Rules\AssembleRule(new Assembler\ExtendAssembler($extendedClassName)),
+            \sprintf('/\b%s\b/', $subClassString)
+        )
+    );
+    $config->addRule(
+        new Rules\TypenameMatchesRule(
+            new Rules\AssembleRule(new Assembler\PropertyAssembler(PropertyGenerator::VISIBILITY_PROTECTED)),
+            \sprintf('/\b%s\b/', $parentClassString)
+        )
+    );
+}
+
+return $config;
