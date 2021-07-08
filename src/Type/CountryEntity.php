@@ -8,7 +8,7 @@ class CountryEntity
     /**
      * @var string
      */
-    private $Code;
+    protected $Code;
 
     /**
      * @return string

@@ -11,12 +11,12 @@ class OptionTypesGet implements RequestInterface
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\WSIdentitySoap
      */
-    private $WSIdentitySoap;
+    protected $WSIdentitySoap;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\OptionTypesEntity
      */
-    private $OptionTypes;
+    protected $OptionTypes;
 
     /**
      * Constructor

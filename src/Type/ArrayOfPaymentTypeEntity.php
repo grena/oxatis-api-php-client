@@ -2,6 +2,7 @@
 
 namespace Heavymind\Oxatis\ApiClient\Type;
 
+
 use IteratorAggregate;
 
 class ArrayOfPaymentTypeEntity implements IteratorAggregate
@@ -10,7 +11,7 @@ class ArrayOfPaymentTypeEntity implements IteratorAggregate
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\PaymentTypeEntity
      */
-    private $PaymentTypeID;
+    protected $PaymentTypeID;
 
     /**
      * @return \ArrayIterator

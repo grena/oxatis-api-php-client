@@ -2,13 +2,13 @@
 
 namespace Heavymind\Oxatis\ApiClient\Type;
 
-class DiscountRuleLinkToProductPriceEntity
+class DiscountRuleLinkToProductPriceEntity extends \Heavymind\Oxatis\ApiClient\Type\ProductPriceIndexEntity
 {
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\DiscountRuleEntity
      */
-    private $DiscountRuleEntity;
+    protected $DiscountRuleEntity;
 
     /**
      * @return \Heavymind\Oxatis\ApiClient\Type\DiscountRuleEntity

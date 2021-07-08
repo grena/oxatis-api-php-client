@@ -8,7 +8,7 @@ class QuotationListData
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\QuotationListEntity
      */
-    private $QuotationList;
+    protected $QuotationList;
 
     /**
      * @return \Heavymind\Oxatis\ApiClient\Type\QuotationListEntity

@@ -2,7 +2,6 @@
 
 namespace Heavymind\Oxatis\ApiClient\Type;
 
-
 use Phpro\SoapClient\Type\RequestInterface;
 
 class ProductGetRelatedItems implements RequestInterface
@@ -11,12 +10,12 @@ class ProductGetRelatedItems implements RequestInterface
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\WSIdentitySoap
      */
-    private $WSIdentitySoap;
+    protected $WSIdentitySoap;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\ProductItemSKULanguageIdEntity
      */
-    private $ProductItemSKULanguageId;
+    protected $ProductItemSKULanguageId;
 
     /**
      * Constructor

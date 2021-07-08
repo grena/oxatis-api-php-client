@@ -2,18 +2,18 @@
 
 namespace Heavymind\Oxatis\ApiClient\Type;
 
-class SalesRepEntity
+class SalesRepEntity extends \Heavymind\Oxatis\ApiClient\Type\SalesRepIdEntity
 {
 
     /**
      * @var string
      */
-    private $FirstName;
+    protected $FirstName;
 
     /**
      * @var string
      */
-    private $LastName;
+    protected $LastName;
 
     /**
      * @return string

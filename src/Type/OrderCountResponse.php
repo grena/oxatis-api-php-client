@@ -2,7 +2,6 @@
 
 namespace Heavymind\Oxatis\ApiClient\Type;
 
-
 use Phpro\SoapClient\Type\ResultInterface;
 
 class OrderCountResponse implements ResultInterface
@@ -11,7 +10,7 @@ class OrderCountResponse implements ResultInterface
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\SoapDataResultServiceOfCountDataInt32
      */
-    private $DataResultService;
+    protected $DataResultService;
 
     /**
      * @return \Heavymind\Oxatis\ApiClient\Type\SoapDataResultServiceOfCountDataInt32

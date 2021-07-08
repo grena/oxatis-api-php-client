@@ -2,13 +2,13 @@
 
 namespace Heavymind\Oxatis\ApiClient\Type;
 
-class ProductUserIdEntity
+class ProductUserIdEntity extends \Heavymind\Oxatis\ApiClient\Type\OxatisEntity
 {
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\UserIdEntity
      */
-    private $UserId;
+    protected $UserId;
 
     /**
      * @return \Heavymind\Oxatis\ApiClient\Type\UserIdEntity

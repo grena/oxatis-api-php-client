@@ -8,7 +8,7 @@ class DataAccountProperties
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\AccountProperties
      */
-    private $AccountProperties;
+    protected $AccountProperties;
 
     /**
      * @return \Heavymind\Oxatis\ApiClient\Type\AccountProperties

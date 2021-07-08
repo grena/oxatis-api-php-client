@@ -8,22 +8,22 @@ class ProductPackagingItemBaseEntity
     /**
      * @var string
      */
-    private $ItemSKU;
+    protected $ItemSKU;
 
     /**
      * @var string
      */
-    private $Name;
+    protected $Name;
 
     /**
      * @var float
      */
-    private $Price;
+    protected $Price;
 
     /**
      * @var bool
      */
-    private $Optional;
+    protected $Optional;
 
     /**
      * @return string

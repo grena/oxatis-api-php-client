@@ -2,7 +2,6 @@
 
 namespace Heavymind\Oxatis\ApiClient\Type;
 
-
 use Phpro\SoapClient\Type\ResultInterface;
 
 class ProductUpdateItemQtyListResponse implements ResultInterface
@@ -11,7 +10,7 @@ class ProductUpdateItemQtyListResponse implements ResultInterface
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\SummaryListResultService
      */
-    private $SummaryListResultService;
+    protected $SummaryListResultService;
 
     /**
      * @return \Heavymind\Oxatis\ApiClient\Type\SummaryListResultService

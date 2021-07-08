@@ -8,167 +8,167 @@ class OrderBOBase
     /**
      * @var string
      */
-    private $Email;
+    protected $Email;
 
     /**
      * @var \DateTimeInterface
      */
-    private $Date;
+    protected $Date;
 
     /**
      * @var string
      */
-    private $SourceOrderId;
+    protected $SourceOrderId;
 
     /**
      * @var string
      */
-    private $CurrencyISOCode;
+    protected $CurrencyISOCode;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\ContactBO
      */
-    private $BillingContact;
+    protected $BillingContact;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\ContactBO
      */
-    private $ShippingContact;
+    protected $ShippingContact;
 
     /**
      * @var string
      */
-    private $CellPhone;
+    protected $CellPhone;
 
     /**
      * @var string
      */
-    private $Fax;
+    protected $Fax;
 
     /**
      * @var int
      */
-    private $UserTypology;
+    protected $UserTypology;
 
     /**
      * @var string
      */
-    private $VATNumber;
+    protected $VATNumber;
 
     /**
      * @var string
      */
-    private $FiscalCode;
+    protected $FiscalCode;
 
     /**
      * @var string
      */
-    private $LegalForm;
+    protected $LegalForm;
 
     /**
      * @var string
      */
-    private $NAFCode;
+    protected $NAFCode;
 
     /**
      * @var float
      */
-    private $GlobalDiscountRate;
+    protected $GlobalDiscountRate;
 
     /**
      * @var string
      */
-    private $ShippingInfo;
+    protected $ShippingInfo;
 
     /**
      * @var string
      */
-    private $ShippingMethodName;
+    protected $ShippingMethodName;
 
     /**
      * @var float
      */
-    private $ShippingPriceVATIncluded;
+    protected $ShippingPriceVATIncluded;
 
     /**
      * @var float
      */
-    private $ShippingPriceVATExcluded;
+    protected $ShippingPriceVATExcluded;
 
     /**
      * @var float
      */
-    private $ShippingTaxRate;
+    protected $ShippingTaxRate;
 
     /**
      * @var float
      */
-    private $PaymentFeesVATIncluded;
+    protected $PaymentFeesVATIncluded;
 
     /**
      * @var float
      */
-    private $PaymentFeesVATExcluded;
+    protected $PaymentFeesVATExcluded;
 
     /**
      * @var float
      */
-    private $PaymentFeesTaxRate;
+    protected $PaymentFeesTaxRate;
 
     /**
      * @var bool
      */
-    private $UpdateStock;
+    protected $UpdateStock;
 
     /**
      * @var float
      */
-    private $GrandTotalVATIncluded;
+    protected $GrandTotalVATIncluded;
 
     /**
      * @var string
      */
-    private $SpecialInstructions;
+    protected $SpecialInstructions;
 
     /**
      * @var string
      */
-    private $PaymentMethodName;
+    protected $PaymentMethodName;
 
     /**
      * @var string
      */
-    private $LanguageISOCode;
+    protected $LanguageISOCode;
 
     /**
      * @var bool
      */
-    private $ComputeOrderInVATExcludedMode;
+    protected $ComputeOrderInVATExcludedMode;
 
     /**
      * @var bool
      */
-    private $AddEcoTaxToPrice;
+    protected $AddEcoTaxToPrice;
 
     /**
      * @var bool
      */
-    private $ApplyLoyaltyProgram;
+    protected $ApplyLoyaltyProgram;
 
     /**
      * @var int
      */
-    private $OrderStatusCode;
+    protected $OrderStatusCode;
 
     /**
      * @var int
      */
-    private $SourceTypeId;
+    protected $SourceTypeId;
 
     /**
      * @var int
      */
-    private $PaymentTypeID;
+    protected $PaymentTypeID;
 
     /**
      * @return string

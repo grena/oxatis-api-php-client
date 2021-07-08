@@ -2,18 +2,18 @@
 
 namespace Heavymind\Oxatis\ApiClient\Type;
 
-class ProductKeyEntity
+class ProductKeyEntity extends \Heavymind\Oxatis\ApiClient\Type\OxatisEntity
 {
 
     /**
      * @var string
      */
-    private $ItemSKU;
+    protected $ItemSKU;
 
     /**
      * @var string
      */
-    private $ProductLanguage;
+    protected $ProductLanguage;
 
     /**
      * @return string

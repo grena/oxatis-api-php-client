@@ -2,23 +2,23 @@
 
 namespace Heavymind\Oxatis\ApiClient\Type;
 
-class OrderLogisticsServiceProviderEntity
+class OrderLogisticsServiceProviderEntity extends \Heavymind\Oxatis\ApiClient\Type\OxatisEntity
 {
 
     /**
      * @var int
      */
-    private $OrderID;
+    protected $OrderID;
 
     /**
      * @var \DateTimeInterface
      */
-    private $Date;
+    protected $Date;
 
     /**
      * @var string
      */
-    private $Instructions;
+    protected $Instructions;
 
     /**
      * @return int

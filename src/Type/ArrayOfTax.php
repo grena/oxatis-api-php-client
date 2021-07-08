@@ -5,13 +5,13 @@ namespace Heavymind\Oxatis\ApiClient\Type;
 
 use IteratorAggregate;
 
-class ArrayOfTax implements IteratorAggregate, Traversable
+class ArrayOfTax implements IteratorAggregate
 {
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\Tax
      */
-    private $TaxAmount;
+    protected $TaxAmount;
 
     /**
      * @return \ArrayIterator

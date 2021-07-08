@@ -2,58 +2,58 @@
 
 namespace Heavymind\Oxatis\ApiClient\Type;
 
-class ProductCategoryEntity
+class ProductCategoryEntity extends \Heavymind\Oxatis\ApiClient\Type\CategoryEntity
 {
 
     /**
      * @var string
      */
-    private $Header;
+    protected $Header;
 
     /**
      * @var string
      */
-    private $MetaKeywords;
+    protected $MetaKeywords;
 
     /**
      * @var string
      */
-    private $MetaDescription;
+    protected $MetaDescription;
 
     /**
      * @var string
      */
-    private $MetaTitle;
+    protected $MetaTitle;
 
     /**
      * @var string
      */
-    private $ImgFileName;
+    protected $ImgFileName;
 
     /**
      * @var string
      */
-    private $Description;
+    protected $Description;
 
     /**
      * @var string
      */
-    private $MobileHeader;
+    protected $MobileHeader;
 
     /**
      * @var string
      */
-    private $CanonicalURLCustomizedContent;
+    protected $CanonicalURLCustomizedContent;
 
     /**
      * @var string
      */
-    private $LogicalName;
+    protected $LogicalName;
 
     /**
      * @var int
      */
-    private $Visibility;
+    protected $Visibility;
 
     /**
      * @return string

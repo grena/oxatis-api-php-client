@@ -8,7 +8,7 @@ class ProductBundleData
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\ProductBundleEntity
      */
-    private $ProductBundle;
+    protected $ProductBundle;
 
     /**
      * @return \Heavymind\Oxatis\ApiClient\Type\ProductBundleEntity

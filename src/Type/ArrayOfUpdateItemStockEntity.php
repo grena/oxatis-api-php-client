@@ -10,7 +10,7 @@ class ArrayOfUpdateItemStockEntity implements IteratorAggregate
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\UpdateItemStockEntity
      */
-    private $UpdateItemStockEntity;
+    protected $UpdateItemStockEntity;
 
     /**
      * @return \ArrayIterator

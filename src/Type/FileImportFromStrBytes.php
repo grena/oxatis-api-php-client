@@ -11,12 +11,12 @@ class FileImportFromStrBytes implements RequestInterface
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\WSIdentitySoap
      */
-    private $WSIdentitySoap;
+    protected $WSIdentitySoap;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\FileGalleryEntity
      */
-    private $FileGallery;
+    protected $FileGallery;
 
     /**
      * Constructor

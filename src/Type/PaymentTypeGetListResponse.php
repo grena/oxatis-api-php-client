@@ -12,7 +12,7 @@ class PaymentTypeGetListResponse implements ResultInterface
      * @var
      * \Heavymind\Oxatis\ApiClient\Type\SoapDataResultServiceOfPaymentTypeListDataPaymentTypeListEntity
      */
-    private $DataResultService;
+    protected $DataResultService;
 
     /**
      * @return \Heavymind\Oxatis\ApiClient\Type\SoapDataResultServiceOfPaymentTypeListDataPaymentTypeListEntity

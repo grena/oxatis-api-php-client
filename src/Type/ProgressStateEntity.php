@@ -2,163 +2,163 @@
 
 namespace Heavymind\Oxatis\ApiClient\Type;
 
-class ProgressStateEntity
+class ProgressStateEntity extends \Heavymind\Oxatis\ApiClient\Type\ProgressStateIdEntity
 {
 
     /**
      * @var string
      */
-    private $Color;
+    protected $Color;
 
     /**
      * @var string
      */
-    private $Code;
+    protected $Code;
 
     /**
      * @var string
      */
-    private $NameFR;
+    protected $NameFR;
 
     /**
      * @var string
      */
-    private $NameEN;
+    protected $NameEN;
 
     /**
      * @var string
      */
-    private $NameES;
+    protected $NameES;
 
     /**
      * @var string
      */
-    private $NameDE;
+    protected $NameDE;
 
     /**
      * @var string
      */
-    private $NameIT;
+    protected $NameIT;
 
     /**
      * @var string
      */
-    private $NameNL;
+    protected $NameNL;
 
     /**
      * @var string
      */
-    private $CommentFR;
+    protected $CommentFR;
 
     /**
      * @var string
      */
-    private $CommentEN;
+    protected $CommentEN;
 
     /**
      * @var string
      */
-    private $CommentES;
+    protected $CommentES;
 
     /**
      * @var string
      */
-    private $CommentDE;
+    protected $CommentDE;
 
     /**
      * @var string
      */
-    private $CommentIT;
+    protected $CommentIT;
 
     /**
      * @var string
      */
-    private $CommentNL;
+    protected $CommentNL;
 
     /**
      * @var bool
      */
-    private $Publish;
+    protected $Publish;
 
     /**
      * @var bool
      */
-    private $SendMail;
+    protected $SendMail;
 
     /**
      * @var bool
      */
-    private $UpdateOrders;
+    protected $UpdateOrders;
 
     /**
      * @var bool
      */
-    private $CreateInvoice;
+    protected $CreateInvoice;
 
     /**
      * @var string
      */
-    private $NameCA;
+    protected $NameCA;
 
     /**
      * @var string
      */
-    private $NamePT;
+    protected $NamePT;
 
     /**
      * @var string
      */
-    private $CommentCA;
+    protected $CommentCA;
 
     /**
      * @var string
      */
-    private $CommentPT;
+    protected $CommentPT;
 
     /**
      * @var bool
      */
-    private $SendSMS;
+    protected $SendSMS;
 
     /**
      * @var string
      */
-    private $CommentSMSFR;
+    protected $CommentSMSFR;
 
     /**
      * @var string
      */
-    private $CommentSMSEN;
+    protected $CommentSMSEN;
 
     /**
      * @var string
      */
-    private $CommentSMSES;
+    protected $CommentSMSES;
 
     /**
      * @var string
      */
-    private $CommentSMSDE;
+    protected $CommentSMSDE;
 
     /**
      * @var string
      */
-    private $CommentSMSIT;
+    protected $CommentSMSIT;
 
     /**
      * @var string
      */
-    private $CommentSMSNL;
+    protected $CommentSMSNL;
 
     /**
      * @var string
      */
-    private $CommentSMSCA;
+    protected $CommentSMSCA;
 
     /**
      * @var string
      */
-    private $CommentSMSPT;
+    protected $CommentSMSPT;
 
     /**
      * @return string

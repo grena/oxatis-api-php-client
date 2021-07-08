@@ -2,13 +2,13 @@
 
 namespace Heavymind\Oxatis\ApiClient\Type;
 
-class UpdateItemStockEntity
+class UpdateItemStockEntity extends ProductIdEntity
 {
 
     /**
      * @var int
      */
-    private $QtyInStock;
+    protected $QtyInStock;
 
     /**
      * @return int

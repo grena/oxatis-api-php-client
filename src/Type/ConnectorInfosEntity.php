@@ -8,12 +8,12 @@ class ConnectorInfosEntity
     /**
      * @var string
      */
-    private $Name;
+    protected $Name;
 
     /**
      * @var \DateTimeInterface
      */
-    private $LastDateOfUse;
+    protected $LastDateOfUse;
 
     /**
      * @return string

@@ -12,7 +12,7 @@ class GetTaskQueueInfosResponse implements ResultInterface
      * @var
      * \Heavymind\Oxatis\ApiClient\Type\SoapDataResultServiceOfTaskQueueDataTaskQueueEntity
      */
-    private $DataResultService;
+    protected $DataResultService;
 
     /**
      * @return \Heavymind\Oxatis\ApiClient\Type\SoapDataResultServiceOfTaskQueueDataTaskQueueEntity

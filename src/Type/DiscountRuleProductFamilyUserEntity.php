@@ -2,7 +2,7 @@
 
 namespace Heavymind\Oxatis\ApiClient\Type;
 
-class DiscountRuleProductFamilyUserEntity
+class DiscountRuleProductFamilyUserEntity extends DiscountRuleProductFamilyCustomPriceEntity
 {
 
 

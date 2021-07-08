@@ -2,13 +2,13 @@
 
 namespace Heavymind\Oxatis\ApiClient\Type;
 
-class SoapDataResultServiceOfProductCategoryTreeCollectionDataProductCategoryTreeCollectionEntity
+class SoapDataResultServiceOfProductCategoryTreeCollectionDataProductCategoryTreeCollectionEntity extends \Heavymind\Oxatis\ApiClient\Type\SoapResultService
 {
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\ProductCategoryTreeCollectionData
      */
-    private $Data;
+    protected $Data;
 
     /**
      * @return \Heavymind\Oxatis\ApiClient\Type\ProductCategoryTreeCollectionData

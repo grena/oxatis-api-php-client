@@ -10,7 +10,7 @@ class ArrayOfImagesListEntity implements IteratorAggregate
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\ImagesListEntity
      */
-    private $Image;
+    protected $Image;
 
     /**
      * @return \ArrayIterator

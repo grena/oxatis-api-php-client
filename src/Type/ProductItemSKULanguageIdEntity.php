@@ -2,18 +2,18 @@
 
 namespace Heavymind\Oxatis\ApiClient\Type;
 
-class ProductItemSKULanguageIdEntity
+class ProductItemSKULanguageIdEntity extends OxatisEntity
 {
 
     /**
      * @var string
      */
-    private $ItemSKU;
+    protected $ItemSKU;
 
     /**
      * @var string
      */
-    private $ProductLanguage;
+    protected $ProductLanguage;
 
     /**
      * @return string

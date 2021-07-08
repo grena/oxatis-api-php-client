@@ -8,12 +8,12 @@ class FileObject
     /**
      * @var string
      */
-    private $MediaType;
+    protected $MediaType;
 
     /**
      * @var string
      */
-    private $StrBytes;
+    protected $StrBytes;
 
     /**
      * @return string

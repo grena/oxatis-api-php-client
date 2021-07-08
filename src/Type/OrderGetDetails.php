@@ -2,7 +2,6 @@
 
 namespace Heavymind\Oxatis\ApiClient\Type;
 
-
 use Phpro\SoapClient\Type\RequestInterface;
 
 class OrderGetDetails implements RequestInterface
@@ -11,12 +10,12 @@ class OrderGetDetails implements RequestInterface
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\WSIdentitySoap
      */
-    private $WSIdentitySoap;
+    protected $WSIdentitySoap;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\OrderIdEntity
      */
-    private $OrderId;
+    protected $OrderId;
 
     /**
      * Constructor

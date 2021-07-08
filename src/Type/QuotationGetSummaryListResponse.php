@@ -12,7 +12,7 @@ class QuotationGetSummaryListResponse implements ResultInterface
      * @var
      * \Heavymind\Oxatis\ApiClient\Type\SoapDataResultServiceOfQuotationSummaryListDataQuotationSummaryListEntity
      */
-    private $DataResultService;
+    protected $DataResultService;
 
     /**
      * @return \Heavymind\Oxatis\ApiClient\Type\SoapDataResultServiceOfQuotationSummaryListDataQuotationSummaryListEntity

@@ -8,7 +8,7 @@ class OxatisEntity
     /**
      * @var int
      */
-    private $OxID;
+    protected $OxID;
 
     /**
      * @return int

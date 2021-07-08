@@ -8,27 +8,27 @@ class CharacteristicEntity
     /**
      * @var bool
      */
-    private $SupportAllLanguages;
+    protected $SupportAllLanguages;
 
     /**
      * @var string
      */
-    private $Name;
+    protected $Name;
 
     /**
      * @var string
      */
-    private $SysName;
+    protected $SysName;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\ArrayOfString
      */
-    private $Values;
+    protected $Values;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\ArrayOfString
      */
-    private $ValueCodes;
+    protected $ValueCodes;
 
     /**
      * @return bool

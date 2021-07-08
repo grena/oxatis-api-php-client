@@ -11,12 +11,12 @@ class ProductUpdateUserPricePerPackaging implements RequestInterface
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\WSIdentitySoap
      */
-    private $WSIdentitySoap;
+    protected $WSIdentitySoap;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\ProductUserPricePerPackagingEntity
      */
-    private $ProductUserPricePerPackaging;
+    protected $ProductUserPricePerPackaging;
 
     /**
      * Constructor

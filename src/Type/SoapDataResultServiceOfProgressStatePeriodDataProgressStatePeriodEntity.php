@@ -2,13 +2,13 @@
 
 namespace Heavymind\Oxatis\ApiClient\Type;
 
-class SoapDataResultServiceOfProgressStatePeriodDataProgressStatePeriodEntity
+class SoapDataResultServiceOfProgressStatePeriodDataProgressStatePeriodEntity extends SoapResultService
 {
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\ProgressStatePeriodData
      */
-    private $Data;
+    protected $Data;
 
     /**
      * @return \Heavymind\Oxatis\ApiClient\Type\ProgressStatePeriodData

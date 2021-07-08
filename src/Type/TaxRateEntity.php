@@ -2,33 +2,33 @@
 
 namespace Heavymind\Oxatis\ApiClient\Type;
 
-class TaxRateEntity
+class TaxRateEntity extends \Heavymind\Oxatis\ApiClient\Type\OxatisEntity
 {
 
     /**
      * @var string
      */
-    private $CountryName;
+    protected $CountryName;
 
     /**
      * @var string
      */
-    private $CountryISOCode;
+    protected $CountryISOCode;
 
     /**
      * @var int
      */
-    private $Code;
+    protected $Code;
 
     /**
      * @var string
      */
-    private $Name;
+    protected $Name;
 
     /**
      * @var float
      */
-    private $Value;
+    protected $Value;
 
     /**
      * @return string

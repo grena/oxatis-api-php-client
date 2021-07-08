@@ -8,7 +8,7 @@ class DiscountRuleComputeModeEntity
     /**
      * @var int
      */
-    private $ComputeMode;
+    protected $ComputeMode;
 
     /**
      * @return int

@@ -8,12 +8,12 @@ class OrderPeriodEntity
     /**
      * @var \DateTimeInterface
      */
-    private $StartDate;
+    protected $StartDate;
 
     /**
      * @var \DateTimeInterface
      */
-    private $EndDate;
+    protected $EndDate;
 
     /**
      * @return \DateTimeInterface

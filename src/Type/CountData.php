@@ -8,7 +8,7 @@ class CountData
     /**
      * @var int
      */
-    private $Count;
+    protected $Count;
 
     /**
      * @return int

@@ -8,7 +8,7 @@ class DataBool
     /**
      * @var bool
      */
-    private $IsDuplicated;
+    protected $IsDuplicated;
 
     /**
      * @return bool

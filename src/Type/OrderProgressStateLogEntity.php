@@ -2,123 +2,123 @@
 
 namespace Heavymind\Oxatis\ApiClient\Type;
 
-class OrderProgressStateLogEntity
+class OrderProgressStateLogEntity extends \Heavymind\Oxatis\ApiClient\Type\OxatisEntity
 {
 
     /**
      * @var int
      */
-    private $OrderID;
+    protected $OrderID;
 
     /**
      * @var \DateTimeInterface
      */
-    private $Date;
+    protected $Date;
 
     /**
      * @var string
      */
-    private $ProgressStateMnemonicName;
+    protected $ProgressStateMnemonicName;
 
     /**
      * @var int
      */
-    private $ProgressStateID;
+    protected $ProgressStateID;
 
     /**
      * @var string
      */
-    private $Comment;
+    protected $Comment;
 
     /**
      * @var bool
      */
-    private $Publish;
+    protected $Publish;
 
     /**
      * @var bool
      */
-    private $SendEmail;
+    protected $SendEmail;
 
     /**
      * @var bool
      */
-    private $UpdateOrderProgressState;
+    protected $UpdateOrderProgressState;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\ReplaceFieldEntity
      */
-    private $ReplaceField1;
+    protected $ReplaceField1;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\ReplaceFieldEntity
      */
-    private $ReplaceField2;
+    protected $ReplaceField2;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\ReplaceFieldEntity
      */
-    private $ReplaceField3;
+    protected $ReplaceField3;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\ReplaceFieldEntity
      */
-    private $ReplaceField4;
+    protected $ReplaceField4;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\ReplaceFieldEntity
      */
-    private $ReplaceField5;
+    protected $ReplaceField5;
 
     /**
      * @var string
      */
-    private $AttachmentFileName;
+    protected $AttachmentFileName;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\BinStreamObject
      */
-    private $Attachment;
+    protected $Attachment;
 
     /**
      * @var bool
      */
-    private $CreateInvoice;
+    protected $CreateInvoice;
 
     /**
      * @var string
      */
-    private $InvoiceID;
+    protected $InvoiceID;
 
     /**
      * @var \DateTimeInterface
      */
-    private $InvoiceDate;
+    protected $InvoiceDate;
 
     /**
      * @var string
      */
-    private $InvoiceFileName;
+    protected $InvoiceFileName;
 
     /**
      * @var bool
      */
-    private $SendSMS;
+    protected $SendSMS;
 
     /**
      * @var string
      */
-    private $CommentSMS;
+    protected $CommentSMS;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\BinStreamObject
      */
-    private $Invoice;
+    protected $Invoice;
 
     /**
      * @var bool
      */
-    private $LockOrder;
+    protected $LockOrder;
 
     /**
      * @return int

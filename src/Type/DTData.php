@@ -8,7 +8,7 @@ class DTData
     /**
      * @var \DateTimeInterface
      */
-    private $DateTime;
+    protected $DateTime;
 
     /**
      * @return \DateTimeInterface

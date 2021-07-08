@@ -2,13 +2,13 @@
 
 namespace Heavymind\Oxatis\ApiClient\Type;
 
-class TaxAmountEntity
+class TaxAmountEntity extends \Heavymind\Oxatis\ApiClient\Type\OxatisEntity
 {
 
     /**
      * @var float
      */
-    private $Value;
+    protected $Value;
 
     /**
      * @return float

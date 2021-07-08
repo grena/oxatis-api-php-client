@@ -2,28 +2,28 @@
 
 namespace Heavymind\Oxatis\ApiClient\Type;
 
-class ImageGalleryIdEntity
+class ImageGalleryIdEntity extends \Heavymind\Oxatis\ApiClient\Type\OxatisEntity
 {
 
     /**
      * @var string
      */
-    private $Name;
+    protected $Name;
 
     /**
      * @var string
      */
-    private $FileName;
+    protected $FileName;
 
     /**
      * @var string
      */
-    private $ImageUrl;
+    protected $ImageUrl;
 
     /**
      * @var int
      */
-    private $FileSize;
+    protected $FileSize;
 
     /**
      * @return string

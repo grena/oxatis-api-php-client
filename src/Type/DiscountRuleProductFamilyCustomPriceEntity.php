@@ -8,17 +8,17 @@ class DiscountRuleProductFamilyCustomPriceEntity
     /**
      * @var string
      */
-    private $FamilyName;
+    protected $FamilyName;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\UserIdEntity
      */
-    private $UserIdEntity;
+    protected $UserIdEntity;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\DiscountRuleEntity
      */
-    private $DiscountRuleEntity;
+    protected $DiscountRuleEntity;
 
     /**
      * @return string

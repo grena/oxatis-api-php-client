@@ -10,7 +10,7 @@ class ArrayOfSoapDataResultServiceOfOxIdDataInt32 implements IteratorAggregate
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\SoapDataResultServiceOfOxIdDataInt32
      */
-    private $SoapDataResultServiceOfOxIdDataInt32;
+    protected $SoapDataResultServiceOfOxIdDataInt32;
 
     /**
      * @return \ArrayIterator

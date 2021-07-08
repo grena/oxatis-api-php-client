@@ -2,128 +2,128 @@
 
 namespace Heavymind\Oxatis\ApiClient\Type;
 
-class UserShippingAddressEntity
+class UserShippingAddressEntity extends UserIdEntity
 {
 
     /**
      * @var string
      */
-    private $AddressLabel;
+    protected $AddressLabel;
 
     /**
      * @var string
      */
-    private $Title;
+    protected $Title;
 
     /**
      * @var string
      */
-    private $FirstName;
+    protected $FirstName;
 
     /**
      * @var string
      */
-    private $LastName;
+    protected $LastName;
 
     /**
      * @var string
      */
-    private $Company;
+    protected $Company;
 
     /**
      * @var string
      */
-    private $Address;
+    protected $Address;
 
     /**
      * @var string
      */
-    private $AddressL1;
+    protected $AddressL1;
 
     /**
      * @var string
      */
-    private $AddressL2;
+    protected $AddressL2;
 
     /**
      * @var string
      */
-    private $AddressL3;
+    protected $AddressL3;
 
     /**
      * @var string
      */
-    private $AddressL4;
+    protected $AddressL4;
 
     /**
      * @var string
      */
-    private $AddressFloor;
+    protected $AddressFloor;
 
     /**
      * @var string
      */
-    private $AddressBuilding;
+    protected $AddressBuilding;
 
     /**
      * @var string
      */
-    private $AddressStreet;
+    protected $AddressStreet;
 
     /**
      * @var string
      */
-    private $AddressOtherInfo;
+    protected $AddressOtherInfo;
 
     /**
      * @var string
      */
-    private $ZipCode;
+    protected $ZipCode;
 
     /**
      * @var string
      */
-    private $City;
+    protected $City;
 
     /**
      * @var string
      */
-    private $State;
+    protected $State;
 
     /**
      * @var string
      */
-    private $CountryISOCode;
+    protected $CountryISOCode;
 
     /**
      * @var string
      */
-    private $CountryName;
+    protected $CountryName;
 
     /**
      * @var string
      */
-    private $Phone;
+    protected $Phone;
 
     /**
      * @var bool
      */
-    private $DefaultAddress;
+    protected $DefaultAddress;
 
     /**
      * @var \DateTimeInterface
      */
-    private $LastUpdateDate;
+    protected $LastUpdateDate;
 
     /**
      * @var int
      */
-    private $AddressID;
+    protected $AddressID;
 
     /**
      * @var string
      */
-    private $StateName;
+    protected $StateName;
 
     /**
      * @return string

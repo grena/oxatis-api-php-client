@@ -11,7 +11,7 @@ class QuotationCountResponse implements ResultInterface
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\SoapDataResultServiceOfCountDataInt32
      */
-    private $DataResultService;
+    protected $DataResultService;
 
     /**
      * @return \Heavymind\Oxatis\ApiClient\Type\SoapDataResultServiceOfCountDataInt32

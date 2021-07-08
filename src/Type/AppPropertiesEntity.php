@@ -8,22 +8,22 @@ class AppPropertiesEntity
     /**
      * @var int
      */
-    private $ServiceID;
+    protected $ServiceID;
 
     /**
      * @var string
      */
-    private $Language;
+    protected $Language;
 
     /**
      * @var string
      */
-    private $AppSKU;
+    protected $AppSKU;
 
     /**
      * @var string
      */
-    private $Properties;
+    protected $Properties;
 
     /**
      * @return int

@@ -2,13 +2,13 @@
 
 namespace Heavymind\Oxatis\ApiClient\Type;
 
-class ProductPriceIndexEntity
+class ProductPriceIndexEntity extends \Heavymind\Oxatis\ApiClient\Type\OxatisEntity
 {
 
     /**
      * @var int
      */
-    private $PriceIndex;
+    protected $PriceIndex;
 
     /**
      * @return int

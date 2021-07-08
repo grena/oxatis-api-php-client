@@ -2,18 +2,18 @@
 
 namespace Heavymind\Oxatis\ApiClient\Type;
 
-class TaskQueueEntity
+class TaskQueueEntity extends \Heavymind\Oxatis\ApiClient\Type\OxatisEntity
 {
 
     /**
      * @var int
      */
-    private $ProcessStep;
+    protected $ProcessStep;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\ArrayOfErrorEntity
      */
-    private $Errors;
+    protected $Errors;
 
     /**
      * @return int

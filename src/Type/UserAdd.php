@@ -11,12 +11,12 @@ class UserAdd implements RequestInterface
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\WSIdentitySoap
      */
-    private $WSIdentitySoap;
+    protected $WSIdentitySoap;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\UserEntity
      */
-    private $User;
+    protected $User;
 
     /**
      * Constructor

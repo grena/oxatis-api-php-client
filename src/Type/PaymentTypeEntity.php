@@ -2,48 +2,48 @@
 
 namespace Heavymind\Oxatis\ApiClient\Type;
 
-class PaymentTypeEntity
+class PaymentTypeEntity extends \Heavymind\Oxatis\ApiClient\Type\OxatisEntity
 {
 
     /**
      * @var string
      */
-    private $NameFR;
+    protected $NameFR;
 
     /**
      * @var string
      */
-    private $NameEN;
+    protected $NameEN;
 
     /**
      * @var string
      */
-    private $NameES;
+    protected $NameES;
 
     /**
      * @var string
      */
-    private $NameIT;
+    protected $NameIT;
 
     /**
      * @var string
      */
-    private $NameNL;
+    protected $NameNL;
 
     /**
      * @var string
      */
-    private $NameDE;
+    protected $NameDE;
 
     /**
      * @var string
      */
-    private $NameCA;
+    protected $NameCA;
 
     /**
      * @var string
      */
-    private $NamePT;
+    protected $NamePT;
 
     /**
      * @return string

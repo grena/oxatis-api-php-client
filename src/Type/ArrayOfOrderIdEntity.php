@@ -5,18 +5,18 @@ namespace Heavymind\Oxatis\ApiClient\Type;
 
 use IteratorAggregate;
 
-class ArrayOfOrderIdEntity implements IteratorAggregate, Traversable
+class ArrayOfOrderIdEntity implements IteratorAggregate
 {
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\OrderIdEntity
      */
-    private $OrderID;
+    protected $OrderID;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\OrderIdEntity
      */
-    private $Order;
+    protected $Order;
 
     /**
      * @param \Heavymind\Oxatis\ApiClient\Type\OrderIdEntity $OrderID

@@ -2,6 +2,7 @@
 
 namespace Heavymind\Oxatis\ApiClient\Type;
 
+
 use IteratorAggregate;
 
 class ArrayOfErrorEntity implements IteratorAggregate
@@ -10,7 +11,7 @@ class ArrayOfErrorEntity implements IteratorAggregate
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\ErrorEntity
      */
-    private $Error;
+    protected $Error;
 
     /**
      * @return \ArrayIterator

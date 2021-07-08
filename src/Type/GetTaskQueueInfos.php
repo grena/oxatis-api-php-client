@@ -11,12 +11,12 @@ class GetTaskQueueInfos implements RequestInterface
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\WSIdentitySoap
      */
-    private $WSIdentitySoap;
+    protected $WSIdentitySoap;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\TaskQueueEntity
      */
-    private $TaskQueue;
+    protected $TaskQueue;
 
     /**
      * Constructor

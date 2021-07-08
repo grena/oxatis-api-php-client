@@ -2,23 +2,23 @@
 
 namespace Heavymind\Oxatis\ApiClient\Type;
 
-class QuotationDetailEntity
+class QuotationDetailEntity extends \Heavymind\Oxatis\ApiClient\Type\QuotationDetailBaseEntity
 {
 
     /**
      * @var int
      */
-    private $Quantity;
+    protected $Quantity;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\ArrayOfQuotationDetailBundledItemEntity
      */
-    private $BundledItems;
+    protected $BundledItems;
 
     /**
      * @var int
      */
-    private $PackagingQty;
+    protected $PackagingQty;
 
     /**
      * @return int

@@ -12,7 +12,7 @@ class GetDataPlugInfosResponse implements ResultInterface
      * @var
      * \Heavymind\Oxatis\ApiClient\Type\SoapDataResultServiceOfDataPlugInfosDataDataPlugInfosEntity
      */
-    private $DataResultService;
+    protected $DataResultService;
 
     /**
      * @return \Heavymind\Oxatis\ApiClient\Type\SoapDataResultServiceOfDataPlugInfosDataDataPlugInfosEntity

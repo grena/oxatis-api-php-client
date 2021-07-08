@@ -2,13 +2,13 @@
 
 namespace Heavymind\Oxatis\ApiClient\Type;
 
-class CharacteristicsBatchEntity
+class CharacteristicsBatchEntity extends \Heavymind\Oxatis\ApiClient\Type\OxatisEntity
 {
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\ArrayOfCharacteristicsEntity
      */
-    private $CharacteristicsArray;
+    protected $CharacteristicsArray;
 
     /**
      * @return \Heavymind\Oxatis\ApiClient\Type\ArrayOfCharacteristicsEntity

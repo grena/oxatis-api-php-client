@@ -2,7 +2,7 @@
 
 namespace Heavymind\Oxatis\ApiClient\Type;
 
-class UserAddressIdEntity
+class UserAddressIdEntity extends OxatisEntity
 {
 
 

@@ -2,13 +2,13 @@
 
 namespace Heavymind\Oxatis\ApiClient\Type;
 
-class SoapDataResultServiceOfDataBoolBoolean
+class SoapDataResultServiceOfDataBoolBoolean extends SoapResultService
 {
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\DataBool
      */
-    private $Data;
+    protected $Data;
 
     /**
      * @return \Heavymind\Oxatis\ApiClient\Type\DataBool

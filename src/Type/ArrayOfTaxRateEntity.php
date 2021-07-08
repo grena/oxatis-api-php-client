@@ -2,6 +2,7 @@
 
 namespace Heavymind\Oxatis\ApiClient\Type;
 
+
 use IteratorAggregate;
 
 class ArrayOfTaxRateEntity implements IteratorAggregate
@@ -10,7 +11,7 @@ class ArrayOfTaxRateEntity implements IteratorAggregate
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\TaxRateEntity
      */
-    private $TaxRateID;
+    protected $TaxRateID;
 
     /**
      * @return \ArrayIterator

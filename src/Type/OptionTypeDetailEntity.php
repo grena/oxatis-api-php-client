@@ -2,58 +2,58 @@
 
 namespace Heavymind\Oxatis\ApiClient\Type;
 
-class OptionTypeDetailEntity
+class OptionTypeDetailEntity extends \Heavymind\Oxatis\ApiClient\Type\OxatisEntity
 {
 
     /**
      * @var string
      */
-    private $NameCA;
+    protected $NameCA;
 
     /**
      * @var string
      */
-    private $NameDE;
+    protected $NameDE;
 
     /**
      * @var string
      */
-    private $NameEN;
+    protected $NameEN;
 
     /**
      * @var string
      */
-    private $NameES;
+    protected $NameES;
 
     /**
      * @var string
      */
-    private $NameFR;
+    protected $NameFR;
 
     /**
      * @var string
      */
-    private $NameIT;
+    protected $NameIT;
 
     /**
      * @var string
      */
-    private $NameNL;
+    protected $NameNL;
 
     /**
      * @var string
      */
-    private $NamePT;
+    protected $NamePT;
 
     /**
      * @var string
      */
-    private $SystemName;
+    protected $SystemName;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\ArrayOfOptionValueDetailEntity
      */
-    private $OptionValueArray;
+    protected $OptionValueArray;
 
     /**
      * @return string

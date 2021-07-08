@@ -2,18 +2,18 @@
 
 namespace Heavymind\Oxatis\ApiClient\Type;
 
-class OptionValuesEntity
+class OptionValuesEntity extends \Heavymind\Oxatis\ApiClient\Type\OxatisEntity
 {
 
     /**
      * @var string
      */
-    private $Code;
+    protected $Code;
 
     /**
      * @var string
      */
-    private $Name;
+    protected $Name;
 
     /**
      * @return string

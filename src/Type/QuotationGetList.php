@@ -11,12 +11,12 @@ class QuotationGetList implements RequestInterface
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\WSIdentitySoap
      */
-    private $WSIdentitySoap;
+    protected $WSIdentitySoap;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\QuotationListEntity
      */
-    private $QuotationList;
+    protected $QuotationList;
 
     /**
      * Constructor

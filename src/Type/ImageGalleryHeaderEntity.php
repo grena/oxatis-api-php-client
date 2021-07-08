@@ -2,23 +2,23 @@
 
 namespace Heavymind\Oxatis\ApiClient\Type;
 
-class ImageGalleryHeaderEntity
+class ImageGalleryHeaderEntity extends \Heavymind\Oxatis\ApiClient\Type\ImageGalleryIdEntity
 {
 
     /**
      * @var bool
      */
-    private $DynamicImages;
+    protected $DynamicImages;
 
     /**
      * @var string
      */
-    private $RefPathFileName;
+    protected $RefPathFileName;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\CategoryEntity
      */
-    private $Category;
+    protected $Category;
 
     /**
      * @return bool

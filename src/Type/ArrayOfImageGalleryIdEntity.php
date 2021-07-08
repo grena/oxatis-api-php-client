@@ -2,6 +2,7 @@
 
 namespace Heavymind\Oxatis\ApiClient\Type;
 
+
 use IteratorAggregate;
 
 class ArrayOfImageGalleryIdEntity implements IteratorAggregate
@@ -10,7 +11,7 @@ class ArrayOfImageGalleryIdEntity implements IteratorAggregate
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\ImageGalleryIdEntity
      */
-    private $ImageGalleryId;
+    protected $ImageGalleryId;
 
     /**
      * @return \ArrayIterator

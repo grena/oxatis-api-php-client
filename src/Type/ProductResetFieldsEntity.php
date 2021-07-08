@@ -2,13 +2,13 @@
 
 namespace Heavymind\Oxatis\ApiClient\Type;
 
-class ProductResetFieldsEntity
+class ProductResetFieldsEntity extends OxatisEntity
 {
 
     /**
      * @var bool
      */
-    private $DateOfAvailability;
+    protected $DateOfAvailability;
 
     /**
      * @return bool

@@ -2,578 +2,578 @@
 
 namespace Heavymind\Oxatis\ApiClient\Type;
 
-class ShippingTypeEntity
+class ShippingTypeEntity extends \Heavymind\Oxatis\ApiClient\Type\ShippingTypeIdEntity
 {
 
     /**
      * @var float
      */
-    private $PriceVATExcluded;
+    protected $PriceVATExcluded;
 
     /**
      * @var float
      */
-    private $WeightVolumeEquivalent;
+    protected $WeightVolumeEquivalent;
 
     /**
      * @var float
      */
-    private $PercentageOrValueToAdd;
+    protected $PercentageOrValueToAdd;
 
     /**
      * @var string
      */
-    private $FormulaType;
+    protected $FormulaType;
 
     /**
      * @var float
      */
-    private $AmountMin;
+    protected $AmountMin;
 
     /**
      * @var float
      */
-    private $AmountMax;
+    protected $AmountMax;
 
     /**
      * @var \DateTimeInterface
      */
-    private $DateBegin;
+    protected $DateBegin;
 
     /**
      * @var \DateTimeInterface
      */
-    private $DateEnd;
+    protected $DateEnd;
 
     /**
      * @var string
      */
-    private $Description;
+    protected $Description;
 
     /**
      * @var string
      */
-    private $ImgFileName;
+    protected $ImgFileName;
 
     /**
      * @var int
      */
-    private $SalesOrderWeightMax;
+    protected $SalesOrderWeightMax;
 
     /**
      * @var int
      */
-    private $SalesOrderWeightMin;
+    protected $SalesOrderWeightMin;
 
     /**
      * @var bool
      */
-    private $PayCOD;
+    protected $PayCOD;
 
     /**
      * @var bool
      */
-    private $ApplyOnWebSite;
+    protected $ApplyOnWebSite;
 
     /**
      * @var bool
      */
-    private $ApplyOnMobileSite;
+    protected $ApplyOnMobileSite;
 
     /**
      * @var bool
      */
-    private $ApplyOnMOTO;
+    protected $ApplyOnMOTO;
 
     /**
      * @var bool
      */
-    private $ApplyOnPrice1;
+    protected $ApplyOnPrice1;
 
     /**
      * @var bool
      */
-    private $ApplyOnPrice2;
+    protected $ApplyOnPrice2;
 
     /**
      * @var bool
      */
-    private $ApplyOnPrice3;
+    protected $ApplyOnPrice3;
 
     /**
      * @var bool
      */
-    private $ApplyOnPrice4;
+    protected $ApplyOnPrice4;
 
     /**
      * @var bool
      */
-    private $ApplyOnPrice5;
+    protected $ApplyOnPrice5;
 
     /**
      * @var bool
      */
-    private $ApplyOnPrice6;
+    protected $ApplyOnPrice6;
 
     /**
      * @var bool
      */
-    private $ApplyOnPrice7;
+    protected $ApplyOnPrice7;
 
     /**
      * @var bool
      */
-    private $ApplyOnPrice8;
+    protected $ApplyOnPrice8;
 
     /**
      * @var bool
      */
-    private $ApplyOnPrice9;
+    protected $ApplyOnPrice9;
 
     /**
      * @var bool
      */
-    private $ApplyOnPrice10;
+    protected $ApplyOnPrice10;
 
     /**
      * @var int
      */
-    private $State;
+    protected $State;
 
     /**
      * @var int
      */
-    private $Position;
+    protected $Position;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\TaxClassEntity
      */
-    private $TaxClass;
+    protected $TaxClass;
 
     /**
      * @var float
      */
-    private $TaxRate;
+    protected $TaxRate;
 
     /**
      * @var string
      */
-    private $TaxCountryISOCode;
+    protected $TaxCountryISOCode;
 
     /**
      * @var string
      */
-    private $TransportName;
+    protected $TransportName;
 
     /**
      * @var int
      */
-    private $TransportSpeed;
+    protected $TransportSpeed;
 
     /**
      * @var string
      */
-    private $TransportType;
+    protected $TransportType;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\CategoryEntity
      */
-    private $UserAssociatedCategory;
+    protected $UserAssociatedCategory;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\CategoryEntity
      */
-    private $UserCategoryExcluded;
+    protected $UserCategoryExcluded;
 
     /**
      * @var string
      */
-    private $ZipCodeFilter;
+    protected $ZipCodeFilter;
 
     /**
      * @var string
      */
-    private $Comment;
+    protected $Comment;
 
     /**
      * @var bool
      */
-    private $StrictTier;
+    protected $StrictTier;
 
     /**
      * @var float
      */
-    private $StartRange;
+    protected $StartRange;
 
     /**
      * @var float
      */
-    private $UpRange1;
+    protected $UpRange1;
 
     /**
      * @var float
      */
-    private $Price1VATExcluded;
+    protected $Price1VATExcluded;
 
     /**
      * @var float
      */
-    private $UpRange2;
+    protected $UpRange2;
 
     /**
      * @var float
      */
-    private $Price2VATExcluded;
+    protected $Price2VATExcluded;
 
     /**
      * @var float
      */
-    private $UpRange3;
+    protected $UpRange3;
 
     /**
      * @var float
      */
-    private $Price3VATExcluded;
+    protected $Price3VATExcluded;
 
     /**
      * @var float
      */
-    private $UpRange4;
+    protected $UpRange4;
 
     /**
      * @var float
      */
-    private $Price4VATExcluded;
+    protected $Price4VATExcluded;
 
     /**
      * @var float
      */
-    private $UpRange5;
+    protected $UpRange5;
 
     /**
      * @var float
      */
-    private $Price5VATExcluded;
+    protected $Price5VATExcluded;
 
     /**
      * @var float
      */
-    private $UpRange6;
+    protected $UpRange6;
 
     /**
      * @var float
      */
-    private $Price6VATExcluded;
+    protected $Price6VATExcluded;
 
     /**
      * @var float
      */
-    private $UpRange7;
+    protected $UpRange7;
 
     /**
      * @var float
      */
-    private $Price7VATExcluded;
+    protected $Price7VATExcluded;
 
     /**
      * @var float
      */
-    private $UpRange8;
+    protected $UpRange8;
 
     /**
      * @var float
      */
-    private $Price8VATExcluded;
+    protected $Price8VATExcluded;
 
     /**
      * @var float
      */
-    private $UpRange9;
+    protected $UpRange9;
 
     /**
      * @var float
      */
-    private $Price9VATExcluded;
+    protected $Price9VATExcluded;
 
     /**
      * @var float
      */
-    private $UpRange10;
+    protected $UpRange10;
 
     /**
      * @var float
      */
-    private $Price10VATExcluded;
+    protected $Price10VATExcluded;
 
     /**
      * @var float
      */
-    private $UpRange11;
+    protected $UpRange11;
 
     /**
      * @var float
      */
-    private $Price11VATExcluded;
+    protected $Price11VATExcluded;
 
     /**
      * @var float
      */
-    private $UpRange12;
+    protected $UpRange12;
 
     /**
      * @var float
      */
-    private $Price12VATExcluded;
+    protected $Price12VATExcluded;
 
     /**
      * @var float
      */
-    private $UpRange13;
+    protected $UpRange13;
 
     /**
      * @var float
      */
-    private $Price13VATExcluded;
+    protected $Price13VATExcluded;
 
     /**
      * @var float
      */
-    private $UpRange14;
+    protected $UpRange14;
 
     /**
      * @var float
      */
-    private $Price14VATExcluded;
+    protected $Price14VATExcluded;
 
     /**
      * @var float
      */
-    private $UpRange15;
+    protected $UpRange15;
 
     /**
      * @var float
      */
-    private $Price15VATExcluded;
+    protected $Price15VATExcluded;
 
     /**
      * @var float
      */
-    private $UpRange16;
+    protected $UpRange16;
 
     /**
      * @var float
      */
-    private $Price16VATExcluded;
+    protected $Price16VATExcluded;
 
     /**
      * @var float
      */
-    private $UpRange17;
+    protected $UpRange17;
 
     /**
      * @var float
      */
-    private $Price17VATExcluded;
+    protected $Price17VATExcluded;
 
     /**
      * @var float
      */
-    private $UpRange18;
+    protected $UpRange18;
 
     /**
      * @var float
      */
-    private $Price18VATExcluded;
+    protected $Price18VATExcluded;
 
     /**
      * @var float
      */
-    private $UpRange19;
+    protected $UpRange19;
 
     /**
      * @var float
      */
-    private $Price19VATExcluded;
+    protected $Price19VATExcluded;
 
     /**
      * @var float
      */
-    private $UpRange20;
+    protected $UpRange20;
 
     /**
      * @var float
      */
-    private $Price20VATExcluded;
+    protected $Price20VATExcluded;
 
     /**
      * @var float
      */
-    private $UpRange21;
+    protected $UpRange21;
 
     /**
      * @var float
      */
-    private $Price21VATExcluded;
+    protected $Price21VATExcluded;
 
     /**
      * @var float
      */
-    private $UpRange22;
+    protected $UpRange22;
 
     /**
      * @var float
      */
-    private $Price22VATExcluded;
+    protected $Price22VATExcluded;
 
     /**
      * @var float
      */
-    private $UpRange23;
+    protected $UpRange23;
 
     /**
      * @var float
      */
-    private $Price23VATExcluded;
+    protected $Price23VATExcluded;
 
     /**
      * @var float
      */
-    private $UpRange24;
+    protected $UpRange24;
 
     /**
      * @var float
      */
-    private $Price24VATExcluded;
+    protected $Price24VATExcluded;
 
     /**
      * @var float
      */
-    private $UpRange25;
+    protected $UpRange25;
 
     /**
      * @var float
      */
-    private $Price25VATExcluded;
+    protected $Price25VATExcluded;
 
     /**
      * @var float
      */
-    private $UpRange26;
+    protected $UpRange26;
 
     /**
      * @var float
      */
-    private $Price26VATExcluded;
+    protected $Price26VATExcluded;
 
     /**
      * @var float
      */
-    private $UpRange27;
+    protected $UpRange27;
 
     /**
      * @var float
      */
-    private $Price27VATExcluded;
+    protected $Price27VATExcluded;
 
     /**
      * @var float
      */
-    private $UpRange28;
+    protected $UpRange28;
 
     /**
      * @var float
      */
-    private $Price28VATExcluded;
+    protected $Price28VATExcluded;
 
     /**
      * @var float
      */
-    private $UpRange29;
+    protected $UpRange29;
 
     /**
      * @var float
      */
-    private $Price29VATExcluded;
+    protected $Price29VATExcluded;
 
     /**
      * @var float
      */
-    private $UpRange30;
+    protected $UpRange30;
 
     /**
      * @var float
      */
-    private $Price30VATExcluded;
+    protected $Price30VATExcluded;
 
     /**
      * @var float
      */
-    private $UpRange31;
+    protected $UpRange31;
 
     /**
      * @var float
      */
-    private $Price31VATExcluded;
+    protected $Price31VATExcluded;
 
     /**
      * @var float
      */
-    private $UpRange32;
+    protected $UpRange32;
 
     /**
      * @var float
      */
-    private $Price32VATExcluded;
+    protected $Price32VATExcluded;
 
     /**
      * @var float
      */
-    private $UpRange33;
+    protected $UpRange33;
 
     /**
      * @var float
      */
-    private $Price33VATExcluded;
+    protected $Price33VATExcluded;
 
     /**
      * @var float
      */
-    private $UpRange34;
+    protected $UpRange34;
 
     /**
      * @var float
      */
-    private $Price34VATExcluded;
+    protected $Price34VATExcluded;
 
     /**
      * @var float
      */
-    private $UpRange35;
+    protected $UpRange35;
 
     /**
      * @var float
      */
-    private $Price35VATExcluded;
+    protected $Price35VATExcluded;
 
     /**
      * @var float
      */
-    private $UpRange36;
+    protected $UpRange36;
 
     /**
      * @var float
      */
-    private $Price36VATExcluded;
+    protected $Price36VATExcluded;
 
     /**
      * @var bool
      */
-    private $GeoZone;
+    protected $GeoZone;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\ArrayOfCountryEntity
      */
-    private $CountryArray;
+    protected $CountryArray;
 
     /**
      * @return float

@@ -2,68 +2,68 @@
 
 namespace Heavymind\Oxatis\ApiClient\Type;
 
-class ImagesListEntity
+class ImagesListEntity extends ImagesListIdEntity
 {
 
     /**
      * @var int
      */
-    private $ParentID;
+    protected $ParentID;
 
     /**
      * @var int
      */
-    private $ImgWidth;
+    protected $ImgWidth;
 
     /**
      * @var int
      */
-    private $ImgHeight;
+    protected $ImgHeight;
 
     /**
      * @var int
      */
-    private $Position;
+    protected $Position;
 
     /**
      * @var int
      */
-    private $ThumbnailImgWidth;
+    protected $ThumbnailImgWidth;
 
     /**
      * @var int
      */
-    private $ThumbnailChangeMode;
+    protected $ThumbnailChangeMode;
 
     /**
      * @var int
      */
-    private $ZoomPosition;
+    protected $ZoomPosition;
 
     /**
      * @var int
      */
-    private $ZoomWidth;
+    protected $ZoomWidth;
 
     /**
      * @var int
      */
-    private $ZoomHeight;
+    protected $ZoomHeight;
 
     /**
      * @var string
      */
-    private $ThumbnailImgUrl;
+    protected $ThumbnailImgUrl;
 
     /**
      * @var string
      */
-    private $ImgUrl;
+    protected $ImgUrl;
 
     /**
      * @var string
      */
-    private $ZoomImgUrl;
+    protected $ZoomImgUrl;
 
     /**
      * @return int

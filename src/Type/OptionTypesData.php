@@ -8,7 +8,7 @@ class OptionTypesData
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\OptionTypesEntity
      */
-    private $OptionTypes;
+    protected $OptionTypes;
 
     /**
      * @return \Heavymind\Oxatis\ApiClient\Type\OptionTypesEntity

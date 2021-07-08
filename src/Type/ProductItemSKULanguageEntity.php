@@ -8,12 +8,12 @@ class ProductItemSKULanguageEntity
     /**
      * @var string
      */
-    private $ItemSKU;
+    protected $ItemSKU;
 
     /**
      * @var string
      */
-    private $ProductLanguage;
+    protected $ProductLanguage;
 
     /**
      * @return string

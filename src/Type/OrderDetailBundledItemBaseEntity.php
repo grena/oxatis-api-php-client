@@ -2,73 +2,73 @@
 
 namespace Heavymind\Oxatis\ApiClient\Type;
 
-class OrderDetailBundledItemBaseEntity
+class OrderDetailBundledItemBaseEntity extends \Heavymind\Oxatis\ApiClient\Type\OxatisEntity
 {
 
     /**
      * @var int
      */
-    private $ItemOxID;
+    protected $ItemOxID;
 
     /**
      * @var string
      */
-    private $ItemSKU;
+    protected $ItemSKU;
 
     /**
      * @var string
      */
-    private $ItemName;
+    protected $ItemName;
 
     /**
      * @var float
      */
-    private $GrossPrice;
+    protected $GrossPrice;
 
     /**
      * @var string
      */
-    private $ItemMainImageUrl;
+    protected $ItemMainImageUrl;
 
     /**
      * @var string
      */
-    private $ItemThumbnailImageUrl;
+    protected $ItemThumbnailImageUrl;
 
     /**
      * @var string
      */
-    private $Option1Name;
+    protected $Option1Name;
 
     /**
      * @var string
      */
-    private $Option1Value;
+    protected $Option1Value;
 
     /**
      * @var string
      */
-    private $Option2Name;
+    protected $Option2Name;
 
     /**
      * @var string
      */
-    private $Option2Value;
+    protected $Option2Value;
 
     /**
      * @var string
      */
-    private $Option3Name;
+    protected $Option3Name;
 
     /**
      * @var string
      */
-    private $Option3Value;
+    protected $Option3Value;
 
     /**
      * @var bool
      */
-    private $Offered;
+    protected $Offered;
 
     /**
      * @return int

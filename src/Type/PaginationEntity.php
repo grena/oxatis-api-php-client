@@ -8,22 +8,22 @@ class PaginationEntity
     /**
      * @var int
      */
-    private $PageNumber;
+    protected $PageNumber;
 
     /**
      * @var int
      */
-    private $PageSize;
+    protected $PageSize;
 
     /**
      * @var int
      */
-    private $TotalItems;
+    protected $TotalItems;
 
     /**
      * @var int
      */
-    private $TotalPages;
+    protected $TotalPages;
 
     /**
      * @return int

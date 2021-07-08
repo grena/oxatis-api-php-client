@@ -2,28 +2,28 @@
 
 namespace Heavymind\Oxatis\ApiClient\Type;
 
-class ProductUserPricePerPackagingEntity
+class ProductUserPricePerPackagingEntity extends \Heavymind\Oxatis\ApiClient\Type\ProductUserIdEntity
 {
 
     /**
      * @var bool
      */
-    private $DisableDiscount;
+    protected $DisableDiscount;
 
     /**
      * @var float
      */
-    private $DefaultPackagingPrice;
+    protected $DefaultPackagingPrice;
 
     /**
      * @var string
      */
-    private $DefaultPackagingName;
+    protected $DefaultPackagingName;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\ProductPackagingItemEntity
      */
-    private $ProductPackagingItem;
+    protected $ProductPackagingItem;
 
     /**
      * @return bool

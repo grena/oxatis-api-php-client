@@ -2,6 +2,7 @@
 
 namespace Heavymind\Oxatis\ApiClient\Type;
 
+
 use IteratorAggregate;
 
 class ArrayOfCountryEntity implements IteratorAggregate
@@ -10,7 +11,7 @@ class ArrayOfCountryEntity implements IteratorAggregate
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\CountryEntity
      */
-    private $Country;
+    protected $Country;
 
     /**
      * @return \ArrayIterator

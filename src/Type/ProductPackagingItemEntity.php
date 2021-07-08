@@ -2,13 +2,13 @@
 
 namespace Heavymind\Oxatis\ApiClient\Type;
 
-class ProductPackagingItemEntity
+class ProductPackagingItemEntity extends \Heavymind\Oxatis\ApiClient\Type\ProductPackagingItemBaseEntity
 {
 
     /**
      * @var int
      */
-    private $Quantity;
+    protected $Quantity;
 
     /**
      * @return int

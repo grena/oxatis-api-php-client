@@ -2,18 +2,18 @@
 
 namespace Heavymind\Oxatis\ApiClient\Type;
 
-class ProductPackagingEntity
+class ProductPackagingEntity extends \Heavymind\Oxatis\ApiClient\Type\ProductPackagingPerPriceEntity
 {
 
     /**
      * @var string
      */
-    private $DefaultPackagingName;
+    protected $DefaultPackagingName;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\ProductPackagingItemEntity
      */
-    private $ProductPackagingItem;
+    protected $ProductPackagingItem;
 
     /**
      * @return string

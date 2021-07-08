@@ -8,7 +8,7 @@ class ProductData
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\ProductEntity
      */
-    private $Product;
+    protected $Product;
 
     /**
      * @return \Heavymind\Oxatis\ApiClient\Type\ProductEntity

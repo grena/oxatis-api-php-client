@@ -8,7 +8,7 @@ class LanguageEntity
     /**
      * @var string
      */
-    private $LanguageISOCode;
+    protected $LanguageISOCode;
 
     /**
      * @return string

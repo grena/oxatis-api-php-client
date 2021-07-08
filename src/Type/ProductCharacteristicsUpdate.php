@@ -11,12 +11,12 @@ class ProductCharacteristicsUpdate implements RequestInterface
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\WSIdentitySoap
      */
-    private $WSIdentitySoap;
+    protected $WSIdentitySoap;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\CharacteristicsEntity
      */
-    private $Characteristics;
+    protected $Characteristics;
 
     /**
      * Constructor

@@ -2,7 +2,6 @@
 
 namespace Heavymind\Oxatis\ApiClient\Type;
 
-
 use Phpro\SoapClient\Type\ResultInterface;
 
 class ProductIsItemSKUDuplicatedResponse implements ResultInterface
@@ -11,7 +10,7 @@ class ProductIsItemSKUDuplicatedResponse implements ResultInterface
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\SoapDataResultServiceOfDataBoolBoolean
      */
-    private $DataResultService;
+    protected $DataResultService;
 
     /**
      * @return \Heavymind\Oxatis\ApiClient\Type\SoapDataResultServiceOfDataBoolBoolean

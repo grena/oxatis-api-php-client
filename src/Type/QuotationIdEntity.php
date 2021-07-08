@@ -2,7 +2,7 @@
 
 namespace Heavymind\Oxatis\ApiClient\Type;
 
-class QuotationIdEntity
+class QuotationIdEntity extends OxatisEntity
 {
 
 

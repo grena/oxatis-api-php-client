@@ -2,18 +2,18 @@
 
 namespace Heavymind\Oxatis\ApiClient\Type;
 
-class ErrorEntity
+class ErrorEntity extends \Heavymind\Oxatis\ApiClient\Type\OxatisEntity
 {
 
     /**
      * @var string
      */
-    private $Message;
+    protected $Message;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\ArrayOfInt
      */
-    private $SourceIDArray;
+    protected $SourceIDArray;
 
     /**
      * @return string

@@ -8,42 +8,42 @@ class EmailQueueEntity
     /**
      * @var string
      */
-    private $Subject;
+    protected $Subject;
 
     /**
      * @var string
      */
-    private $Header;
+    protected $Header;
 
     /**
      * @var string
      */
-    private $Intro;
+    protected $Intro;
 
     /**
      * @var string
      */
-    private $Body;
+    protected $Body;
 
     /**
      * @var \DateTimeInterface
      */
-    private $SendDate;
+    protected $SendDate;
 
     /**
      * @var string
      */
-    private $Priority;
+    protected $Priority;
 
     /**
      * @var string
      */
-    private $Importance;
+    protected $Importance;
 
     /**
      * @var string
      */
-    private $MessageFormat;
+    protected $MessageFormat;
 
     /**
      * @return string

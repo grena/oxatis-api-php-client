@@ -2,83 +2,83 @@
 
 namespace Heavymind\Oxatis\ApiClient\Type;
 
-class OrderProgressStateHistoryEntity
+class OrderProgressStateHistoryEntity extends \Heavymind\Oxatis\ApiClient\Type\OxatisEntity
 {
 
     /**
      * @var int
      */
-    private $ID;
+    protected $ID;
 
     /**
      * @var string
      */
-    private $Code;
+    protected $Code;
 
     /**
      * @var string
      */
-    private $ProgressStateNameEN;
+    protected $ProgressStateNameEN;
 
     /**
      * @var string
      */
-    private $ProgressStateNameES;
+    protected $ProgressStateNameES;
 
     /**
      * @var string
      */
-    private $ProgressStateNameIT;
+    protected $ProgressStateNameIT;
 
     /**
      * @var string
      */
-    private $ProgressStateNameNL;
+    protected $ProgressStateNameNL;
 
     /**
      * @var string
      */
-    private $ProgressStateNameDE;
+    protected $ProgressStateNameDE;
 
     /**
      * @var string
      */
-    private $ProgressStateNameCA;
+    protected $ProgressStateNameCA;
 
     /**
      * @var string
      */
-    private $Color;
+    protected $Color;
 
     /**
      * @var int
      */
-    private $OrderID;
+    protected $OrderID;
 
     /**
      * @var \DateTimeInterface
      */
-    private $Date;
+    protected $Date;
 
     /**
      * @var string
      */
-    private $ProgressStateName;
+    protected $ProgressStateName;
 
     /**
      * @var string
      */
-    private $Comment;
+    protected $Comment;
 
     /**
      * @var bool
      */
-    private $Published;
+    protected $Published;
 
     /**
      * @var string
      */
-    private $FileAttachment;
+    protected $FileAttachment;
 
     /**
      * @return int

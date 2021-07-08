@@ -8,7 +8,7 @@ class BundledItemBaseEntity
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\ProductIdEntity
      */
-    private $ProductId;
+    protected $ProductId;
 
     /**
      * @return \Heavymind\Oxatis\ApiClient\Type\ProductIdEntity

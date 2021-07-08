@@ -2,7 +2,6 @@
 
 namespace Heavymind\Oxatis\ApiClient\Type;
 
-
 use Phpro\SoapClient\Type\RequestInterface;
 
 class UserUpdatePriceIndex implements RequestInterface
@@ -11,12 +10,12 @@ class UserUpdatePriceIndex implements RequestInterface
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\WSIdentitySoap
      */
-    private $WSIdentitySoap;
+    protected $WSIdentitySoap;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\UserEntity
      */
-    private $User;
+    protected $User;
 
     /**
      * Constructor

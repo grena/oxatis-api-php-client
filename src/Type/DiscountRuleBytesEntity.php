@@ -2,18 +2,18 @@
 
 namespace Heavymind\Oxatis\ApiClient\Type;
 
-class DiscountRuleBytesEntity
+class DiscountRuleBytesEntity extends OxatisEntity
 {
 
     /**
      * @var string
      */
-    private $GZipFileName;
+    protected $GZipFileName;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\BinStreamObject
      */
-    private $GZipBytes;
+    protected $GZipBytes;
 
     /**
      * @return string

@@ -2,183 +2,183 @@
 
 namespace Heavymind\Oxatis\ApiClient\Type;
 
-class QuotationDetailBaseEntity
+class QuotationDetailBaseEntity extends \Heavymind\Oxatis\ApiClient\Type\OxatisEntity
 {
 
     /**
      * @var int
      */
-    private $PdtOptID;
+    protected $PdtOptID;
 
     /**
      * @var int
      */
-    private $ItemOxID;
+    protected $ItemOxID;
 
     /**
      * @var string
      */
-    private $ItemSKU;
+    protected $ItemSKU;
 
     /**
      * @var string
      */
-    private $ItemSKUOriginal;
+    protected $ItemSKUOriginal;
 
     /**
      * @var string
      */
-    private $ItemName;
+    protected $ItemName;
 
     /**
      * @var float
      */
-    private $GrossPrice;
+    protected $GrossPrice;
 
     /**
      * @var float
      */
-    private $GrossAmount;
+    protected $GrossAmount;
 
     /**
      * @var float
      */
-    private $TaxRate;
+    protected $TaxRate;
 
     /**
      * @var float
      */
-    private $DiscountRate;
+    protected $DiscountRate;
 
     /**
      * @var float
      */
-    private $NetPrice;
+    protected $NetPrice;
 
     /**
      * @var float
      */
-    private $NetAmount;
+    protected $NetAmount;
 
     /**
      * @var float
      */
-    private $VATAmount;
+    protected $VATAmount;
 
     /**
      * @var float
      */
-    private $EcoTaxValueTaxIncl;
+    protected $EcoTaxValueTaxIncl;
 
     /**
      * @var string
      */
-    private $DiscountCoupon;
+    protected $DiscountCoupon;
 
     /**
      * @var string
      */
-    private $Attribute1Name;
+    protected $Attribute1Name;
 
     /**
      * @var string
      */
-    private $Attribute1Value;
+    protected $Attribute1Value;
 
     /**
      * @var string
      */
-    private $Attribute2Name;
+    protected $Attribute2Name;
 
     /**
      * @var string
      */
-    private $Attribute2Value;
+    protected $Attribute2Value;
 
     /**
      * @var string
      */
-    private $AttributeTextName;
+    protected $AttributeTextName;
 
     /**
      * @var string
      */
-    private $AttributeTextValue;
+    protected $AttributeTextValue;
 
     /**
      * @var string
      */
-    private $ItemMainImageUrl;
+    protected $ItemMainImageUrl;
 
     /**
      * @var string
      */
-    private $ItemThumbnailImageUrl;
+    protected $ItemThumbnailImageUrl;
 
     /**
      * @var string
      */
-    private $Option1Name;
+    protected $Option1Name;
 
     /**
      * @var string
      */
-    private $Option1Value;
+    protected $Option1Value;
 
     /**
      * @var string
      */
-    private $Option2Name;
+    protected $Option2Name;
 
     /**
      * @var string
      */
-    private $Option2Value;
+    protected $Option2Value;
 
     /**
      * @var string
      */
-    private $Option3Name;
+    protected $Option3Name;
 
     /**
      * @var string
      */
-    private $Option3Value;
+    protected $Option3Value;
 
     /**
      * @var bool
      */
-    private $Offered;
+    protected $Offered;
 
     /**
      * @var string
      */
-    private $PackagingName;
+    protected $PackagingName;
 
     /**
      * @var int
      */
-    private $LinkedTo;
+    protected $LinkedTo;
 
     /**
      * @var float
      */
-    private $Weight;
+    protected $Weight;
 
     /**
      * @var float
      */
-    private $DimensionHeight;
+    protected $DimensionHeight;
 
     /**
      * @var float
      */
-    private $DimensionWidth;
+    protected $DimensionWidth;
 
     /**
      * @var float
      */
-    private $DimensionLength;
+    protected $DimensionLength;
 
     /**
      * @return int

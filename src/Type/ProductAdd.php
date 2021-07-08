@@ -11,12 +11,12 @@ class ProductAdd implements RequestInterface
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\WSIdentitySoap
      */
-    private $WSIdentitySoap;
+    protected $WSIdentitySoap;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\ProductEntity
      */
-    private $Product;
+    protected $Product;
 
     /**
      * Constructor

@@ -2,523 +2,523 @@
 
 namespace Heavymind\Oxatis\ApiClient\Type;
 
-class ProductBaseEntity
+class ProductBaseEntity extends \Heavymind\Oxatis\ApiClient\Type\ProductIdEntity
 {
 
     /**
      * @var int
      */
-    private $OptPropertyID;
+    protected $OptPropertyID;
 
     /**
      * @var bool
      */
-    private $DynamicImages;
+    protected $DynamicImages;
 
     /**
      * @var string
      */
-    private $Name;
+    protected $Name;
 
     /**
      * @var string
      */
-    private $Description;
+    protected $Description;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\PriceVATModeEntity
      */
-    private $Price;
+    protected $Price;
 
     /**
      * @var float
      */
-    private $TaxRate;
+    protected $TaxRate;
 
     /**
      * @var float
      */
-    private $EcotaxTI;
+    protected $EcotaxTI;
 
     /**
      * @var string
      */
-    private $LongDescription;
+    protected $LongDescription;
 
     /**
      * @var string
      */
-    private $BigImgFileName;
+    protected $BigImgFileName;
 
     /**
      * @var string
      */
-    private $SmallImgFileName;
+    protected $SmallImgFileName;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\CategoryEntity
      */
-    private $Category1;
+    protected $Category1;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\CategoryEntity
      */
-    private $Category2;
+    protected $Category2;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\CategoryEntity
      */
-    private $Category3;
+    protected $Category3;
 
     /**
      * @var string
      */
-    private $FamilyName;
+    protected $FamilyName;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\BrandEntity
      */
-    private $Brand;
+    protected $Brand;
 
     /**
      * @var bool
      */
-    private $ShowInStockNote;
+    protected $ShowInStockNote;
 
     /**
      * @var bool
      */
-    private $ShowStockLevel;
+    protected $ShowStockLevel;
 
     /**
      * @var int
      */
-    private $DaysToShip;
+    protected $DaysToShip;
 
     /**
      * @var bool
      */
-    private $ShowIfOutOfStock;
+    protected $ShowIfOutOfStock;
 
     /**
      * @var bool
      */
-    private $SaleIfOutOfStock;
+    protected $SaleIfOutOfStock;
 
     /**
      * @var int
      */
-    private $SaleIfOutOfStockScenario;
+    protected $SaleIfOutOfStockScenario;
 
     /**
      * @var bool
      */
-    private $ShowDaysToship;
+    protected $ShowDaysToship;
 
     /**
      * @var int
      */
-    private $Weight;
+    protected $Weight;
 
     /**
      * @var int
      */
-    private $DimensionHeight;
+    protected $DimensionHeight;
 
     /**
      * @var int
      */
-    private $DimensionWidth;
+    protected $DimensionWidth;
 
     /**
      * @var int
      */
-    private $DimensionLength;
+    protected $DimensionLength;
 
     /**
      * @var float
      */
-    private $HandlingSurcharge1ST;
+    protected $HandlingSurcharge1ST;
 
     /**
      * @var float
      */
-    private $HandlingSurchargeOthers;
+    protected $HandlingSurchargeOthers;
 
     /**
      * @var float
      */
-    private $ShipPrice;
+    protected $ShipPrice;
 
     /**
      * @var string
      */
-    private $DiscountGridCode;
+    protected $DiscountGridCode;
 
     /**
      * @var string
      */
-    private $MetaTitle;
+    protected $MetaTitle;
 
     /**
      * @var string
      */
-    private $CanonicalURLCustomizedContent;
+    protected $CanonicalURLCustomizedContent;
 
     /**
      * @var string
      */
-    private $MetaDescription;
+    protected $MetaDescription;
 
     /**
      * @var string
      */
-    private $MetaKeywords;
+    protected $MetaKeywords;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\PriceVATModeEntity
      */
-    private $Price1;
+    protected $Price1;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\PriceVATModeEntity
      */
-    private $Price2;
+    protected $Price2;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\PriceVATModeEntity
      */
-    private $Price3;
+    protected $Price3;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\PriceVATModeEntity
      */
-    private $Price4;
+    protected $Price4;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\PriceVATModeEntity
      */
-    private $Price5;
+    protected $Price5;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\PriceVATModeEntity
      */
-    private $Price6;
+    protected $Price6;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\PriceVATModeEntity
      */
-    private $Price7;
+    protected $Price7;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\PriceVATModeEntity
      */
-    private $Price8;
+    protected $Price8;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\PriceVATModeEntity
      */
-    private $Price9;
+    protected $Price9;
 
     /**
      * @var \DateTimeInterface
      */
-    private $LastUpdateDate;
+    protected $LastUpdateDate;
 
     /**
      * @var int
      */
-    private $AdditionalImagesWidth;
+    protected $AdditionalImagesWidth;
 
     /**
      * @var int
      */
-    private $AdditionalImagesHeight;
+    protected $AdditionalImagesHeight;
 
     /**
      * @var int
      */
-    private $AdditionalImagesThumbnailWidth;
+    protected $AdditionalImagesThumbnailWidth;
 
     /**
      * @var int
      */
-    private $AdditionalImagesThumbnailChangeMode;
+    protected $AdditionalImagesThumbnailChangeMode;
 
     /**
      * @var int
      */
-    private $AdditionalImagesZoomWidth;
+    protected $AdditionalImagesZoomWidth;
 
     /**
      * @var int
      */
-    private $AdditionalImagesZoomHeight;
+    protected $AdditionalImagesZoomHeight;
 
     /**
      * @var int
      */
-    private $LinkedItemID;
+    protected $LinkedItemID;
 
     /**
      * @var string
      */
-    private $LinkedItemSKU;
+    protected $LinkedItemSKU;
 
     /**
      * @var string
      */
-    private $LinkedItemLanguage;
+    protected $LinkedItemLanguage;
 
     /**
      * @var int
      */
-    private $AdditionalImagesZoomPosition;
+    protected $AdditionalImagesZoomPosition;
 
     /**
      * @var string
      */
-    private $UrlExternalLink;
+    protected $UrlExternalLink;
 
     /**
      * @var bool
      */
-    private $OptionIsDefault;
+    protected $OptionIsDefault;
 
     /**
      * @var string
      */
-    private $EANCode;
+    protected $EANCode;
 
     /**
      * @var int
      */
-    private $ItemCondition;
+    protected $ItemCondition;
 
     /**
      * @var int
      */
-    private $Guarantee;
+    protected $Guarantee;
 
     /**
      * @var bool
      */
-    private $Visible;
+    protected $Visible;
 
     /**
      * @var int
      */
-    private $Position;
+    protected $Position;
 
     /**
      * @var string
      */
-    private $MPN;
+    protected $MPN;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\PriceVATModeEntity
      */
-    private $StrikethroughPrice;
+    protected $StrikethroughPrice;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\PriceVATModeEntity
      */
-    private $StrikethroughPrice1;
+    protected $StrikethroughPrice1;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\PriceVATModeEntity
      */
-    private $StrikethroughPrice2;
+    protected $StrikethroughPrice2;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\PriceVATModeEntity
      */
-    private $StrikethroughPrice3;
+    protected $StrikethroughPrice3;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\PriceVATModeEntity
      */
-    private $StrikethroughPrice4;
+    protected $StrikethroughPrice4;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\PriceVATModeEntity
      */
-    private $StrikethroughPrice5;
+    protected $StrikethroughPrice5;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\PriceVATModeEntity
      */
-    private $StrikethroughPrice6;
+    protected $StrikethroughPrice6;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\PriceVATModeEntity
      */
-    private $StrikethroughPrice7;
+    protected $StrikethroughPrice7;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\PriceVATModeEntity
      */
-    private $StrikethroughPrice8;
+    protected $StrikethroughPrice8;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\PriceVATModeEntity
      */
-    private $StrikethroughPrice9;
+    protected $StrikethroughPrice9;
 
     /**
      * @var string
      */
-    private $TaxCountryISOCode;
+    protected $TaxCountryISOCode;
 
     /**
      * @var float
      */
-    private $Cost;
+    protected $Cost;
 
     /**
      * @var float
      */
-    private $ReviewRating;
+    protected $ReviewRating;
 
     /**
      * @var int
      */
-    private $ReviewCount;
+    protected $ReviewCount;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\DiscountRuleIdEntity
      */
-    private $DiscountRuleId;
+    protected $DiscountRuleId;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\DiscountRuleIdEntity
      */
-    private $DiscountRuleId1;
+    protected $DiscountRuleId1;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\DiscountRuleIdEntity
      */
-    private $DiscountRuleId2;
+    protected $DiscountRuleId2;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\DiscountRuleIdEntity
      */
-    private $DiscountRuleId3;
+    protected $DiscountRuleId3;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\DiscountRuleIdEntity
      */
-    private $DiscountRuleId4;
+    protected $DiscountRuleId4;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\DiscountRuleIdEntity
      */
-    private $DiscountRuleId5;
+    protected $DiscountRuleId5;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\DiscountRuleIdEntity
      */
-    private $DiscountRuleId6;
+    protected $DiscountRuleId6;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\DiscountRuleIdEntity
      */
-    private $DiscountRuleId7;
+    protected $DiscountRuleId7;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\DiscountRuleIdEntity
      */
-    private $DiscountRuleId8;
+    protected $DiscountRuleId8;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\DiscountRuleIdEntity
      */
-    private $DiscountRuleId9;
+    protected $DiscountRuleId9;
 
     /**
      * @var string
      */
-    private $Comment;
+    protected $Comment;
 
     /**
      * @var int
      */
-    private $ItemType;
+    protected $ItemType;
 
     /**
      * @var \DateTimeInterface
      */
-    private $DateOfAvailability;
+    protected $DateOfAvailability;
 
     /**
      * @var int
      */
-    private $HighlightType;
+    protected $HighlightType;
 
     /**
      * @var int
      */
-    private $State;
+    protected $State;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\CategoryEntity
      */
-    private $Category4;
+    protected $Category4;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\CategoryEntity
      */
-    private $Category5;
+    protected $Category5;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\CategoryEntity
      */
-    private $Category6;
+    protected $Category6;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\CategoryEntity
      */
-    private $Category7;
+    protected $Category7;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\CategoryEntity
      */
-    private $Category8;
+    protected $Category8;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\CategoryEntity
      */
-    private $Category9;
+    protected $Category9;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\CategoryEntity
      */
-    private $Category10;
+    protected $Category10;
 
     /**
      * @var \DateTimeInterface
      */
-    private $CreationDate;
+    protected $CreationDate;
 
     /**
      * @var bool
      */
-    private $HasAttributes;
+    protected $HasAttributes;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\ArrayOfImagesListIdEntity
      */
-    private $ImagesList;
+    protected $ImagesList;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\ArrayOfTaxAmountEntity
      */
-    private $TaxAmountList;
+    protected $TaxAmountList;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\TaxClassEntity
      */
-    private $TaxClass;
+    protected $TaxClass;
 
     /**
      * @return int

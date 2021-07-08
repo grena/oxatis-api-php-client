@@ -2,23 +2,23 @@
 
 namespace Heavymind\Oxatis\ApiClient\Type;
 
-class ProductRelatedItemsEntity
+class ProductRelatedItemsEntity extends OxatisEntity
 {
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\ArrayOfOxatisEntity
      */
-    private $UpSellItems;
+    protected $UpSellItems;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\ArrayOfOxatisEntity1
      */
-    private $CrossSellItems;
+    protected $CrossSellItems;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\ArrayOfOxatisEntity2
      */
-    private $LinkedItems;
+    protected $LinkedItems;
 
     /**
      * @return \Heavymind\Oxatis\ApiClient\Type\ArrayOfOxatisEntity

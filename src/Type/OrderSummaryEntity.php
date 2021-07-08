@@ -2,88 +2,88 @@
 
 namespace Heavymind\Oxatis\ApiClient\Type;
 
-class OrderSummaryEntity
+class OrderSummaryEntity extends \Heavymind\Oxatis\ApiClient\Type\OrderIdEntity
 {
 
     /**
      * @var \DateTimeInterface
      */
-    private $Date;
+    protected $Date;
 
     /**
      * @var string
      */
-    private $BillingFirstName;
+    protected $BillingFirstName;
 
     /**
      * @var string
      */
-    private $BillingLastName;
+    protected $BillingLastName;
 
     /**
      * @var float
      */
-    private $SubTotalVAT;
+    protected $SubTotalVAT;
 
     /**
      * @var float
      */
-    private $ShippingPriceTaxExcl;
+    protected $ShippingPriceTaxExcl;
 
     /**
      * @var float
      */
-    private $NetAmountDue;
+    protected $NetAmountDue;
 
     /**
      * @var float
      */
-    private $ShippingVATAmount;
+    protected $ShippingVATAmount;
 
     /**
      * @var int
      */
-    private $PaymentStatusCode;
+    protected $PaymentStatusCode;
 
     /**
      * @var int
      */
-    private $ProgressStateID;
+    protected $ProgressStateID;
 
     /**
      * @var bool
      */
-    private $FollowUp;
+    protected $FollowUp;
 
     /**
      * @var float
      */
-    private $SubTotalNetVATExcluded;
+    protected $SubTotalNetVATExcluded;
 
     /**
      * @var int
      */
-    private $SourceTypeID;
+    protected $SourceTypeID;
 
     /**
      * @var int
      */
-    private $CampaignTrackingID;
+    protected $CampaignTrackingID;
 
     /**
      * @var bool
      */
-    private $Shipped;
+    protected $Shipped;
 
     /**
      * @var float
      */
-    private $PaymentFeesTaxExc;
+    protected $PaymentFeesTaxExc;
 
     /**
      * @var float
      */
-    private $PaymentFeesVATAmount;
+    protected $PaymentFeesVATAmount;
 
     /**
      * @return \DateTimeInterface

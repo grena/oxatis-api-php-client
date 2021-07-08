@@ -11,12 +11,12 @@ class GetAppProperties implements RequestInterface
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\WSIdentitySoap
      */
-    private $WSIdentitySoap;
+    protected $WSIdentitySoap;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\AppPropertiesEntity
      */
-    private $AppProperties;
+    protected $AppProperties;
 
     /**
      * Constructor

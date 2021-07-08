@@ -6,10 +6,9 @@ class SummaryResultList
 {
 
     /**
-     * @var
-     * \Heavymind\Oxatis\ApiClient\Type\ArrayOfSoapDataResultServiceOfOxIdDataInt32
+     * @var \Heavymind\Oxatis\ApiClient\Type\ArrayOfSoapDataResultServiceOfOxIdDataInt32
      */
-    private $SummaryResults;
+    protected $SummaryResults;
 
     /**
      * @return \Heavymind\Oxatis\ApiClient\Type\ArrayOfSoapDataResultServiceOfOxIdDataInt32

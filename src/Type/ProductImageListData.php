@@ -8,7 +8,7 @@ class ProductImageListData
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\ProductImageListEntity
      */
-    private $ProductImageList;
+    protected $ProductImageList;
 
     /**
      * @return \Heavymind\Oxatis\ApiClient\Type\ProductImageListEntity

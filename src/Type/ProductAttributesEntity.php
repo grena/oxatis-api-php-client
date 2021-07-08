@@ -2,23 +2,23 @@
 
 namespace Heavymind\Oxatis\ApiClient\Type;
 
-class ProductAttributesEntity
+class ProductAttributesEntity extends \Heavymind\Oxatis\ApiClient\Type\ProductIdEntity
 {
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\ProductAttributeTextEntity
      */
-    private $TextAttribute;
+    protected $TextAttribute;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\ProductMultipleAttributeEntity
      */
-    private $MultipleAttribute1;
+    protected $MultipleAttribute1;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\ProductMultipleAttributeEntity
      */
-    private $MultipleAttribute2;
+    protected $MultipleAttribute2;
 
     /**
      * @return \Heavymind\Oxatis\ApiClient\Type\ProductAttributeTextEntity

@@ -2,13 +2,13 @@
 
 namespace Heavymind\Oxatis\ApiClient\Type;
 
-class ProductImageListEntity
+class ProductImageListEntity extends OxatisEntity
 {
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\ArrayOfImagesListEntity
      */
-    private $ImageList;
+    protected $ImageList;
 
     /**
      * @return \Heavymind\Oxatis\ApiClient\Type\ArrayOfImagesListEntity

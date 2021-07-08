@@ -8,7 +8,7 @@ class DataAccountSetting
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\AccountSetting
      */
-    private $AccountSetting;
+    protected $AccountSetting;
 
     /**
      * @return \Heavymind\Oxatis\ApiClient\Type\AccountSetting

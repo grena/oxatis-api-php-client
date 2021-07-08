@@ -2,13 +2,13 @@
 
 namespace Heavymind\Oxatis\ApiClient\Type;
 
-class OrderBO
+class OrderBO extends OrderBOBase
 {
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\ArrayOfOrderItemBO
      */
-    private $OrderItemArray;
+    protected $OrderItemArray;
 
     /**
      * @return \Heavymind\Oxatis\ApiClient\Type\ArrayOfOrderItemBO

@@ -2,6 +2,7 @@
 
 namespace Heavymind\Oxatis\ApiClient\Type;
 
+
 use IteratorAggregate;
 
 class ArrayOfProgressStateEntity implements IteratorAggregate
@@ -10,7 +11,7 @@ class ArrayOfProgressStateEntity implements IteratorAggregate
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\ProgressStateEntity
      */
-    private $ProgressState;
+    protected $ProgressState;
 
     /**
      * @return \ArrayIterator

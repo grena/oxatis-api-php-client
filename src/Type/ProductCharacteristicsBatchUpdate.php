@@ -11,12 +11,12 @@ class ProductCharacteristicsBatchUpdate implements RequestInterface
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\WSIdentitySoap
      */
-    private $WSIdentitySoap;
+    protected $WSIdentitySoap;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\CharacteristicsBatchEntity
      */
-    private $CharacteristicsBatch;
+    protected $CharacteristicsBatch;
 
     /**
      * Constructor

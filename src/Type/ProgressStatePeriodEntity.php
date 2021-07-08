@@ -8,22 +8,22 @@ class ProgressStatePeriodEntity
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\PaginationEntity
      */
-    private $PageInformation;
+    protected $PageInformation;
 
     /**
      * @var \DateTimeInterface
      */
-    private $StartDate;
+    protected $StartDate;
 
     /**
      * @var \DateTimeInterface
      */
-    private $EndDate;
+    protected $EndDate;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\ArrayOfOrderIdEntity
      */
-    private $Orders;
+    protected $Orders;
 
     /**
      * @return \Heavymind\Oxatis\ApiClient\Type\PaginationEntity

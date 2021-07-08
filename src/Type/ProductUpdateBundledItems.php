@@ -11,12 +11,12 @@ class ProductUpdateBundledItems implements RequestInterface
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\WSIdentitySoap
      */
-    private $WSIdentitySoap;
+    protected $WSIdentitySoap;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\BundleEntity
      */
-    private $Bundle;
+    protected $Bundle;
 
     /**
      * Constructor

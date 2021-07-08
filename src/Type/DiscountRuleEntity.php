@@ -2,158 +2,158 @@
 
 namespace Heavymind\Oxatis\ApiClient\Type;
 
-class DiscountRuleEntity
+class DiscountRuleEntity extends \Heavymind\Oxatis\ApiClient\Type\DiscountRuleIdEntity
 {
 
     /**
      * @var string
      */
-    private $DiscountType;
+    protected $DiscountType;
 
     /**
      * @var float
      */
-    private $DiscountValue;
+    protected $DiscountValue;
 
     /**
      * @var string
      */
-    private $DiscountCoupon;
+    protected $DiscountCoupon;
 
     /**
      * @var string
      */
-    private $GridDiscountType;
+    protected $GridDiscountType;
 
     /**
      * @var float
      */
-    private $GridLowerStep1Value;
+    protected $GridLowerStep1Value;
 
     /**
      * @var float
      */
-    private $GridLowerStep1Result;
+    protected $GridLowerStep1Result;
 
     /**
      * @var float
      */
-    private $GridLowerStep2Value;
+    protected $GridLowerStep2Value;
 
     /**
      * @var float
      */
-    private $GridLowerStep2Result;
+    protected $GridLowerStep2Result;
 
     /**
      * @var float
      */
-    private $GridLowerStep3Value;
+    protected $GridLowerStep3Value;
 
     /**
      * @var float
      */
-    private $GridLowerStep3Result;
+    protected $GridLowerStep3Result;
 
     /**
      * @var float
      */
-    private $GridLowerStep4Value;
+    protected $GridLowerStep4Value;
 
     /**
      * @var float
      */
-    private $GridLowerStep4Result;
+    protected $GridLowerStep4Result;
 
     /**
      * @var float
      */
-    private $GridLowerStep5Value;
+    protected $GridLowerStep5Value;
 
     /**
      * @var float
      */
-    private $GridLowerStep5Result;
+    protected $GridLowerStep5Result;
 
     /**
      * @var float
      */
-    private $GridLowerStep6Value;
+    protected $GridLowerStep6Value;
 
     /**
      * @var float
      */
-    private $GridLowerStep6Result;
+    protected $GridLowerStep6Result;
 
     /**
      * @var float
      */
-    private $GridLowerStep7Value;
+    protected $GridLowerStep7Value;
 
     /**
      * @var float
      */
-    private $GridLowerStep7Result;
+    protected $GridLowerStep7Result;
 
     /**
      * @var float
      */
-    private $GridLowerStep8Value;
+    protected $GridLowerStep8Value;
 
     /**
      * @var float
      */
-    private $GridLowerStep8Result;
+    protected $GridLowerStep8Result;
 
     /**
      * @var float
      */
-    private $GridLowerStep9Value;
+    protected $GridLowerStep9Value;
 
     /**
      * @var float
      */
-    private $GridLowerStep9Result;
+    protected $GridLowerStep9Result;
 
     /**
      * @var float
      */
-    private $GridLowerStep10Value;
+    protected $GridLowerStep10Value;
 
     /**
      * @var float
      */
-    private $GridLowerStep10Result;
+    protected $GridLowerStep10Result;
 
     /**
      * @var \DateTimeInterface
      */
-    private $StartDate;
+    protected $StartDate;
 
     /**
      * @var \DateTimeInterface
      */
-    private $EndDate;
+    protected $EndDate;
 
     /**
      * @var bool
      */
-    private $ShowStrikePrice;
+    protected $ShowStrikePrice;
 
     /**
      * @var bool
      */
-    private $Active;
+    protected $Active;
 
     /**
      * @var bool
      */
-    private $StopProcessingDiscount;
+    protected $StopProcessingDiscount;
 
     /**
      * @var string
      */
-    private $OriginalDiscount;
+    protected $OriginalDiscount;
 
     /**
      * @return string

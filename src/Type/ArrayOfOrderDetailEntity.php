@@ -5,13 +5,13 @@ namespace Heavymind\Oxatis\ApiClient\Type;
 
 use IteratorAggregate;
 
-class ArrayOfOrderDetailEntity implements IteratorAggregate, Traversable
+class ArrayOfOrderDetailEntity implements IteratorAggregate
 {
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\OrderDetailEntity
      */
-    private $Item;
+    protected $Item;
 
     /**
      * @return \ArrayIterator

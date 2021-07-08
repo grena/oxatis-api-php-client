@@ -8,12 +8,12 @@ class QuantityEntity
     /**
      * @var int
      */
-    private $Value;
+    protected $Value;
 
     /**
      * @var bool
      */
-    private $Append;
+    protected $Append;
 
     /**
      * @return int

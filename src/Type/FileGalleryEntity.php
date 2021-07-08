@@ -2,23 +2,23 @@
 
 namespace Heavymind\Oxatis\ApiClient\Type;
 
-class FileGalleryEntity
+class FileGalleryEntity extends \Heavymind\Oxatis\ApiClient\Type\OxatisEntity
 {
 
     /**
      * @var string
      */
-    private $Name;
+    protected $Name;
 
     /**
      * @var string
      */
-    private $FileName;
+    protected $FileName;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\BinStreamObject
      */
-    private $FileBytes;
+    protected $FileBytes;
 
     /**
      * @return string

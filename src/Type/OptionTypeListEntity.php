@@ -8,7 +8,7 @@ class OptionTypeListEntity
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\ArrayOfOxatisEntity
      */
-    private $OxIDArray;
+    protected $OxIDArray;
 
     /**
      * @return \Heavymind\Oxatis\ApiClient\Type\ArrayOfOxatisEntity

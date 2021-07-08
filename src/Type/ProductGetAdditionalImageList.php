@@ -2,7 +2,6 @@
 
 namespace Heavymind\Oxatis\ApiClient\Type;
 
-
 use Phpro\SoapClient\Type\RequestInterface;
 
 class ProductGetAdditionalImageList implements RequestInterface
@@ -11,12 +10,12 @@ class ProductGetAdditionalImageList implements RequestInterface
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\WSIdentitySoap
      */
-    private $WSIdentitySoap;
+    protected $WSIdentitySoap;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\ProductKeyEntity
      */
-    private $ProductKey;
+    protected $ProductKey;
 
     /**
      * Constructor
