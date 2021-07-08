@@ -2,18 +2,18 @@
 
 namespace Heavymind\Oxatis\ApiClient\Type;
 
-class TaxRateListEntity
+class TaxRateListEntity extends \Heavymind\Oxatis\ApiClient\Type\OxatisEntity
 {
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\ArrayOfTaxRateEntity
      */
-    private $TaxRateIDs;
+    protected $TaxRateIDs;
 
     /**
      * @var string
      */
-    private $VATCountryISOCode;
+    protected $VATCountryISOCode;
 
     /**
      * @return \Heavymind\Oxatis\ApiClient\Type\ArrayOfTaxRateEntity

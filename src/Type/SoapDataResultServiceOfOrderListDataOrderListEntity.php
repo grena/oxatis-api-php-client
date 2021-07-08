@@ -2,13 +2,13 @@
 
 namespace Heavymind\Oxatis\ApiClient\Type;
 
-class SoapDataResultServiceOfOrderListDataOrderListEntity
+class SoapDataResultServiceOfOrderListDataOrderListEntity extends SoapResultService
 {
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\OrderListData
      */
-    private $Data;
+    protected $Data;
 
     /**
      * @return \Heavymind\Oxatis\ApiClient\Type\OrderListData

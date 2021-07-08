@@ -2,7 +2,6 @@
 
 namespace Heavymind\Oxatis\ApiClient\Type;
 
-
 use Phpro\SoapClient\Type\RequestInterface;
 
 class GetUpdatedOrderList implements RequestInterface
@@ -11,12 +10,12 @@ class GetUpdatedOrderList implements RequestInterface
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\WSIdentitySoap
      */
-    private $WSIdentitySoap;
+    protected $WSIdentitySoap;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\ProgressStatePeriodEntity
      */
-    private $ProgressStatePeriod;
+    protected $ProgressStatePeriod;
 
     /**
      * Constructor

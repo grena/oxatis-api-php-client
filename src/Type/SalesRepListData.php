@@ -8,7 +8,7 @@ class SalesRepListData
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\SalesRepListEntity
      */
-    private $SalesRepList;
+    protected $SalesRepList;
 
     /**
      * @return \Heavymind\Oxatis\ApiClient\Type\SalesRepListEntity

@@ -8,42 +8,42 @@ class AddressBO
     /**
      * @var string
      */
-    private $Floor;
+    protected $Floor;
 
     /**
      * @var string
      */
-    private $Building;
+    protected $Building;
 
     /**
      * @var string
      */
-    private $Street;
+    protected $Street;
 
     /**
      * @var string
      */
-    private $OtherInfo;
+    protected $OtherInfo;
 
     /**
      * @var string
      */
-    private $City;
+    protected $City;
 
     /**
      * @var string
      */
-    private $CountryISOCode;
+    protected $CountryISOCode;
 
     /**
      * @var string
      */
-    private $State;
+    protected $State;
 
     /**
      * @var string
      */
-    private $ZipCode;
+    protected $ZipCode;
 
     /**
      * @return string

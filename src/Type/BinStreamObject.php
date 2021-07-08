@@ -8,7 +8,7 @@ class BinStreamObject
     /**
      * @var string
      */
-    private $StrBytes;
+    protected $StrBytes;
 
     /**
      * @return string

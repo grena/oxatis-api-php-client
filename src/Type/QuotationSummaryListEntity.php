@@ -2,18 +2,18 @@
 
 namespace Heavymind\Oxatis\ApiClient\Type;
 
-class QuotationSummaryListEntity
+class QuotationSummaryListEntity extends \Heavymind\Oxatis\ApiClient\Type\QuotationListHeaderEntity
 {
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\PaginationEntity
      */
-    private $PageInformation;
+    protected $PageInformation;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\ArrayOfQuotationSummaryEntity
      */
-    private $QuotationSummaries;
+    protected $QuotationSummaries;
 
     /**
      * @return \Heavymind\Oxatis\ApiClient\Type\PaginationEntity

@@ -2,6 +2,7 @@
 
 namespace Heavymind\Oxatis\ApiClient\Type;
 
+
 use IteratorAggregate;
 
 class ArrayOfSalesRepIdEntity implements IteratorAggregate
@@ -10,7 +11,7 @@ class ArrayOfSalesRepIdEntity implements IteratorAggregate
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\SalesRepIdEntity
      */
-    private $SalesRepID;
+    protected $SalesRepID;
 
     /**
      * @return \ArrayIterator

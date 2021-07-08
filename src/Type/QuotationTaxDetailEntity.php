@@ -2,7 +2,7 @@
 
 namespace Heavymind\Oxatis\ApiClient\Type;
 
-class QuotationTaxDetailEntity
+class QuotationTaxDetailEntity extends OrderTaxDetailEntity
 {
 
 

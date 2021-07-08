@@ -11,12 +11,12 @@ class ProductAttributesUpdate implements RequestInterface
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\WSIdentitySoap
      */
-    private $WSIdentitySoap;
+    protected $WSIdentitySoap;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\ProductAttributesEntity
      */
-    private $ProductAttributes;
+    protected $ProductAttributes;
 
     /**
      * Constructor

@@ -12,7 +12,7 @@ class OptionTypesGetResponse implements ResultInterface
      * @var
      * \Heavymind\Oxatis\ApiClient\Type\SoapDataResultServiceOfOptionTypesDataOptionTypesEntity
      */
-    private $DataResultService;
+    protected $DataResultService;
 
     /**
      * @return \Heavymind\Oxatis\ApiClient\Type\SoapDataResultServiceOfOptionTypesDataOptionTypesEntity

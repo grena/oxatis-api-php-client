@@ -2,68 +2,68 @@
 
 namespace Heavymind\Oxatis\ApiClient\Type;
 
-class ProductEntity
+class ProductEntity extends \Heavymind\Oxatis\ApiClient\Type\ProductBaseEntity
 {
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\QuantityEntity
      */
-    private $QuantityInStock;
+    protected $QuantityInStock;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\QuantityEntity
      */
-    private $QuantityReorder;
+    protected $QuantityReorder;
 
     /**
      * @var int
      */
-    private $UnitsForSale;
+    protected $UnitsForSale;
 
     /**
      * @var int
      */
-    private $UnitsForSale1;
+    protected $UnitsForSale1;
 
     /**
      * @var int
      */
-    private $UnitsForSale2;
+    protected $UnitsForSale2;
 
     /**
      * @var int
      */
-    private $UnitsForSale3;
+    protected $UnitsForSale3;
 
     /**
      * @var int
      */
-    private $UnitsForSale4;
+    protected $UnitsForSale4;
 
     /**
      * @var int
      */
-    private $UnitsForSale5;
+    protected $UnitsForSale5;
 
     /**
      * @var int
      */
-    private $UnitsForSale6;
+    protected $UnitsForSale6;
 
     /**
      * @var int
      */
-    private $UnitsForSale7;
+    protected $UnitsForSale7;
 
     /**
      * @var int
      */
-    private $UnitsForSale8;
+    protected $UnitsForSale8;
 
     /**
      * @var int
      */
-    private $UnitsForSale9;
+    protected $UnitsForSale9;
 
     /**
      * @return \Heavymind\Oxatis\ApiClient\Type\QuantityEntity

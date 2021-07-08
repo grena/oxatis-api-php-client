@@ -8,12 +8,12 @@ class WSIdentitySoap
     /**
      * @var string
      */
-    private $Appid;
+    protected $Appid;
 
     /**
      * @var string
      */
-    private $Token;
+    protected $Token;
 
     /**
      * @return string

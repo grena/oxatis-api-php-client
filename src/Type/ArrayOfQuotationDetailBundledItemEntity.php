@@ -2,6 +2,7 @@
 
 namespace Heavymind\Oxatis\ApiClient\Type;
 
+
 use IteratorAggregate;
 
 class ArrayOfQuotationDetailBundledItemEntity implements IteratorAggregate
@@ -10,7 +11,7 @@ class ArrayOfQuotationDetailBundledItemEntity implements IteratorAggregate
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\QuotationDetailBundledItemEntity
      */
-    private $BundledItem;
+    protected $BundledItem;
 
     /**
      * @return \ArrayIterator

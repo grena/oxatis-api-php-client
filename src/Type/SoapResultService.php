@@ -8,17 +8,17 @@ class SoapResultService
     /**
      * @var int
      */
-    private $StatusCode;
+    protected $StatusCode;
 
     /**
      * @var string
      */
-    private $ErrorDetails;
+    protected $ErrorDetails;
 
     /**
      * @var int
      */
-    private $StatusSubCode;
+    protected $StatusSubCode;
 
     /**
      * @return int

@@ -11,12 +11,12 @@ class SetDataPlugOnlineInfos implements RequestInterface
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\WSIdentitySoap
      */
-    private $WSIdentitySoap;
+    protected $WSIdentitySoap;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\DataPlugOnlineInfosEntity
      */
-    private $DataPlugOnlineInfos;
+    protected $DataPlugOnlineInfos;
 
     /**
      * Constructor

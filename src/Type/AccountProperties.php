@@ -8,52 +8,52 @@ class AccountProperties
     /**
      * @var string
      */
-    private $SiteName;
+    protected $SiteName;
 
     /**
      * @var string
      */
-    private $Status;
+    protected $Status;
 
     /**
      * @var int
      */
-    private $AccountId;
+    protected $AccountId;
 
     /**
      * @var int
      */
-    private $LangId;
+    protected $LangId;
 
     /**
      * @var string
      */
-    private $IsoLang;
+    protected $IsoLang;
 
     /**
      * @var string
      */
-    private $CountryISOCode;
+    protected $CountryISOCode;
 
     /**
      * @var string
      */
-    private $Email;
+    protected $Email;
 
     /**
      * @var bool
      */
-    private $IsAdmin;
+    protected $IsAdmin;
 
     /**
      * @var bool
      */
-    private $IsOpenEntreprise;
+    protected $IsOpenEntreprise;
 
     /**
      * @var int
      */
-    private $CurrencyCode;
+    protected $CurrencyCode;
 
     /**
      * @return string

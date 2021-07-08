@@ -2,13 +2,13 @@
 
 namespace Heavymind\Oxatis\ApiClient\Type;
 
-class TaxClassEntity
+class TaxClassEntity extends \Heavymind\Oxatis\ApiClient\Type\OxatisEntity
 {
 
     /**
      * @var string
      */
-    private $Name;
+    protected $Name;
 
     /**
      * @return string

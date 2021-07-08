@@ -8,77 +8,77 @@ class OrderListHeaderEntity
     /**
      * @var int
      */
-    private $ShippingProcessorCode;
+    protected $ShippingProcessorCode;
 
     /**
      * @var bool
      */
-    private $OrdersShipped;
+    protected $OrdersShipped;
 
     /**
      * @var bool
      */
-    private $SetOrderDesc;
+    protected $SetOrderDesc;
 
     /**
      * @var \DateTimeInterface
      */
-    private $OrderDateStart;
+    protected $OrderDateStart;
 
     /**
      * @var \DateTimeInterface
      */
-    private $OrderDateEnd;
+    protected $OrderDateEnd;
 
     /**
      * @var \DateTimeInterface
      */
-    private $PaymentStatusDateStart;
+    protected $PaymentStatusDateStart;
 
     /**
      * @var \DateTimeInterface
      */
-    private $PaymentStatusDateEnd;
+    protected $PaymentStatusDateEnd;
 
     /**
      * @var \DateTimeInterface
      */
-    private $LogisticDateStart;
+    protected $LogisticDateStart;
 
     /**
      * @var \DateTimeInterface
      */
-    private $LogisticDateEnd;
+    protected $LogisticDateEnd;
 
     /**
      * @var int
      */
-    private $PaymentStatusCode;
+    protected $PaymentStatusCode;
 
     /**
      * @var int
      */
-    private $OrderStatus;
+    protected $OrderStatus;
 
     /**
      * @var bool
      */
-    private $OrdersProcessed;
+    protected $OrdersProcessed;
 
     /**
      * @var bool
      */
-    private $OrdersInvoiced;
+    protected $OrdersInvoiced;
 
     /**
      * @var \DateTimeInterface
      */
-    private $InvoiceDateStart;
+    protected $InvoiceDateStart;
 
     /**
      * @var \DateTimeInterface
      */
-    private $InvoiceDateEnd;
+    protected $InvoiceDateEnd;
 
     /**
      * @return int

@@ -10,7 +10,7 @@ class ArrayOfOrderItemBO implements IteratorAggregate
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\OrderItemBO
      */
-    private $OrderItem;
+    protected $OrderItem;
 
     /**
      * @return \ArrayIterator

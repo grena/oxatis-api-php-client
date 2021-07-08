@@ -8,7 +8,7 @@ class SalesRepListEntity
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\ArrayOfSalesRepIdEntity
      */
-    private $SalesRepsID;
+    protected $SalesRepsID;
 
     /**
      * @return \Heavymind\Oxatis\ApiClient\Type\ArrayOfSalesRepIdEntity

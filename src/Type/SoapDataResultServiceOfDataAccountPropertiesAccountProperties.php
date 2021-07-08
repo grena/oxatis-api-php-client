@@ -2,13 +2,13 @@
 
 namespace Heavymind\Oxatis\ApiClient\Type;
 
-class SoapDataResultServiceOfDataAccountPropertiesAccountProperties
+class SoapDataResultServiceOfDataAccountPropertiesAccountProperties extends \Heavymind\Oxatis\ApiClient\Type\SoapResultService
 {
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\DataAccountProperties
      */
-    private $Data;
+    protected $Data;
 
     /**
      * @return \Heavymind\Oxatis\ApiClient\Type\DataAccountProperties

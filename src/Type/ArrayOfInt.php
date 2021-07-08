@@ -2,6 +2,7 @@
 
 namespace Heavymind\Oxatis\ApiClient\Type;
 
+
 use IteratorAggregate;
 
 class ArrayOfInt implements IteratorAggregate
@@ -10,7 +11,7 @@ class ArrayOfInt implements IteratorAggregate
     /**
      * @var int
      */
-    private $SourceID;
+    protected $SourceID;
 
     /**
      * @return \ArrayIterator

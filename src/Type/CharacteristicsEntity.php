@@ -2,18 +2,18 @@
 
 namespace Heavymind\Oxatis\ApiClient\Type;
 
-class CharacteristicsEntity
+class CharacteristicsEntity extends \Heavymind\Oxatis\ApiClient\Type\OxatisEntity
 {
 
     /**
      * @var string
      */
-    private $ItemSKU;
+    protected $ItemSKU;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\CharacteristicEntity
      */
-    private $Characteristic;
+    protected $Characteristic;
 
     /**
      * @return string

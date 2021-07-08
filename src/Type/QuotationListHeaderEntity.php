@@ -8,17 +8,17 @@ class QuotationListHeaderEntity
     /**
      * @var bool
      */
-    private $SetOrderDesc;
+    protected $SetOrderDesc;
 
     /**
      * @var \DateTimeInterface
      */
-    private $StartDate;
+    protected $StartDate;
 
     /**
      * @var \DateTimeInterface
      */
-    private $EndDate;
+    protected $EndDate;
 
     /**
      * @return bool

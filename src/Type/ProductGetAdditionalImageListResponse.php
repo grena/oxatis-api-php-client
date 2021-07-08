@@ -2,17 +2,15 @@
 
 namespace Heavymind\Oxatis\ApiClient\Type;
 
-
 use Phpro\SoapClient\Type\ResultInterface;
 
 class ProductGetAdditionalImageListResponse implements ResultInterface
 {
 
     /**
-     * @var
-     * \Heavymind\Oxatis\ApiClient\Type\SoapDataResultServiceOfProductImageListDataProductImageListEntity
+     * @var \Heavymind\Oxatis\ApiClient\Type\SoapDataResultServiceOfProductImageListDataProductImageListEntity
      */
-    private $DataResultService;
+    protected $DataResultService;
 
     /**
      * @return \Heavymind\Oxatis\ApiClient\Type\SoapDataResultServiceOfProductImageListDataProductImageListEntity

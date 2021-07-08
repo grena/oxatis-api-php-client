@@ -8,7 +8,7 @@ class OrderProgressStateLogsEntity
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\ArrayOfOrderProgressStateHistoryEntity
      */
-    private $OrderProgressStateLogs;
+    protected $OrderProgressStateLogs;
 
     /**
      * @return \Heavymind\Oxatis\ApiClient\Type\ArrayOfOrderProgressStateHistoryEntity

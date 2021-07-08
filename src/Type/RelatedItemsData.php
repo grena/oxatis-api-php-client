@@ -8,7 +8,7 @@ class RelatedItemsData
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\ProductRelatedItemsEntity
      */
-    private $roductRelatedItems;
+    protected $roductRelatedItems;
 
     /**
      * @return \Heavymind\Oxatis\ApiClient\Type\ProductRelatedItemsEntity

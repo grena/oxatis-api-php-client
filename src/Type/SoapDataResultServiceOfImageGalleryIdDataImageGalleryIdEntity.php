@@ -2,13 +2,13 @@
 
 namespace Heavymind\Oxatis\ApiClient\Type;
 
-class SoapDataResultServiceOfImageGalleryIdDataImageGalleryIdEntity
+class SoapDataResultServiceOfImageGalleryIdDataImageGalleryIdEntity extends \Heavymind\Oxatis\ApiClient\Type\SoapResultService
 {
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\ImageGalleryIdData
      */
-    private $Data;
+    protected $Data;
 
     /**
      * @return \Heavymind\Oxatis\ApiClient\Type\ImageGalleryIdData

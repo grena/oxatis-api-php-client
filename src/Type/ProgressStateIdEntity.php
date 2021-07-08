@@ -2,7 +2,7 @@
 
 namespace Heavymind\Oxatis\ApiClient\Type;
 
-class ProgressStateIdEntity
+class ProgressStateIdEntity extends OxatisEntity
 {
 
 

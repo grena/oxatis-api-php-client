@@ -2,18 +2,18 @@
 
 namespace Heavymind\Oxatis\ApiClient\Type;
 
-class ShippingTypeIdEntity
+class ShippingTypeIdEntity extends \Heavymind\Oxatis\ApiClient\Type\OxatisEntity
 {
 
     /**
      * @var string
      */
-    private $Name;
+    protected $Name;
 
     /**
      * @var string
      */
-    private $LanguageISOCode;
+    protected $LanguageISOCode;
 
     /**
      * @return string

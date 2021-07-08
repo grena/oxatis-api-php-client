@@ -2,17 +2,15 @@
 
 namespace Heavymind\Oxatis\ApiClient\Type;
 
-
 use Phpro\SoapClient\Type\ResultInterface;
 
 class OrderGetManuallyConfirmedResponse implements ResultInterface
 {
 
     /**
-     * @var
-     * \Heavymind\Oxatis\ApiClient\Type\SoapDataResultServiceOfOrderIdListDataOrderIdListEntity
+     * @var \Heavymind\Oxatis\ApiClient\Type\SoapDataResultServiceOfOrderIdListDataOrderIdListEntity
      */
-    private $DataResultService;
+    protected $DataResultService;
 
     /**
      * @return \Heavymind\Oxatis\ApiClient\Type\SoapDataResultServiceOfOrderIdListDataOrderIdListEntity

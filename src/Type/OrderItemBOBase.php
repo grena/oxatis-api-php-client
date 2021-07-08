@@ -8,77 +8,77 @@ class OrderItemBOBase
     /**
      * @var string
      */
-    private $PdtOptDesc;
+    protected $PdtOptDesc;
 
     /**
      * @var int
      */
-    private $ParentID;
+    protected $ParentID;
 
     /**
      * @var string
      */
-    private $Code;
+    protected $Code;
 
     /**
      * @var string
      */
-    private $ProductLanguageISOCode;
+    protected $ProductLanguageISOCode;
 
     /**
      * @var string
      */
-    private $Name;
+    protected $Name;
 
     /**
      * @var float
      */
-    private $UnitPriceVATIncluded;
+    protected $UnitPriceVATIncluded;
 
     /**
      * @var float
      */
-    private $TaxRate;
+    protected $TaxRate;
 
     /**
      * @var float
      */
-    private $DiscountRate;
+    protected $DiscountRate;
 
     /**
      * @var float
      */
-    private $EcoTaxValueTaxIncluded;
+    protected $EcoTaxValueTaxIncluded;
 
     /**
      * @var float
      */
-    private $UnitPriceVATExcluded;
+    protected $UnitPriceVATExcluded;
 
     /**
      * @var bool
      */
-    private $UpdateStock;
+    protected $UpdateStock;
 
     /**
      * @var int
      */
-    private $Weight;
+    protected $Weight;
 
     /**
      * @var int
      */
-    private $DimensionHeight;
+    protected $DimensionHeight;
 
     /**
      * @var int
      */
-    private $DimensionLength;
+    protected $DimensionLength;
 
     /**
      * @var int
      */
-    private $DimensionWidth;
+    protected $DimensionWidth;
 
     /**
      * @return string

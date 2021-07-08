@@ -2,6 +2,7 @@
 
 namespace Heavymind\Oxatis\ApiClient\Type;
 
+
 use IteratorAggregate;
 
 class ArrayOfString implements IteratorAggregate
@@ -10,7 +11,7 @@ class ArrayOfString implements IteratorAggregate
     /**
      * @var string
      */
-    private $string;
+    protected $string;
 
     /**
      * @return \ArrayIterator

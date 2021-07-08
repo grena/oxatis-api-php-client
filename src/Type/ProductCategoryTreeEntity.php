@@ -2,13 +2,13 @@
 
 namespace Heavymind\Oxatis\ApiClient\Type;
 
-class ProductCategoryTreeEntity
+class ProductCategoryTreeEntity extends \Heavymind\Oxatis\ApiClient\Type\ProductCategoryEntity
 {
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\ArrayOfProductCategoryTreeEntity
      */
-    private $ChildCategoryCollection;
+    protected $ChildCategoryCollection;
 
     /**
      * @return \Heavymind\Oxatis\ApiClient\Type\ArrayOfProductCategoryTreeEntity

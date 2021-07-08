@@ -2,17 +2,15 @@
 
 namespace Heavymind\Oxatis\ApiClient\Type;
 
-
 use Phpro\SoapClient\Type\ResultInterface;
 
 class ProductGetRelatedItemsResponse implements ResultInterface
 {
 
     /**
-     * @var
-     * \Heavymind\Oxatis\ApiClient\Type\SoapDataResultServiceOfRelatedItemsDataProductRelatedItemsEntity
+     * @var \Heavymind\Oxatis\ApiClient\Type\SoapDataResultServiceOfRelatedItemsDataProductRelatedItemsEntity
      */
-    private $DataResultService;
+    protected $DataResultService;
 
     /**
      * @return \Heavymind\Oxatis\ApiClient\Type\SoapDataResultServiceOfRelatedItemsDataProductRelatedItemsEntity

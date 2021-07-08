@@ -2,13 +2,13 @@
 
 namespace Heavymind\Oxatis\ApiClient\Type;
 
-class ShippingTypeListEntity
+class ShippingTypeListEntity extends \Heavymind\Oxatis\ApiClient\Type\OxatisEntity
 {
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\ArrayOfShippingTypeEntity
      */
-    private $ShippingTypeIDs;
+    protected $ShippingTypeIDs;
 
     /**
      * @return \Heavymind\Oxatis\ApiClient\Type\ArrayOfShippingTypeEntity

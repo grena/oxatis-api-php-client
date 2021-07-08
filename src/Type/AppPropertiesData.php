@@ -8,7 +8,7 @@ class AppPropertiesData
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\AppPropertiesEntity
      */
-    private $AppProperties;
+    protected $AppProperties;
 
     /**
      * @return \Heavymind\Oxatis\ApiClient\Type\AppPropertiesEntity

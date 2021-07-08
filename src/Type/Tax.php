@@ -8,27 +8,27 @@ class Tax
     /**
      * @var string
      */
-    private $name;
+    protected $name;
 
     /**
      * @var float
      */
-    private $excvat;
+    protected $excvat;
 
     /**
      * @var float
      */
-    private $incvat;
+    protected $incvat;
 
     /**
      * @var bool
      */
-    private $prop;
+    protected $prop;
 
     /**
      * @var string
      */
-    private $f;
+    protected $f;
 
     /**
      * @return string

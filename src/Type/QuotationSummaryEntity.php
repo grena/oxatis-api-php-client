@@ -2,63 +2,63 @@
 
 namespace Heavymind\Oxatis\ApiClient\Type;
 
-class QuotationSummaryEntity
+class QuotationSummaryEntity extends \Heavymind\Oxatis\ApiClient\Type\QuotationIdEntity
 {
 
     /**
      * @var \DateTimeInterface
      */
-    private $Date;
+    protected $Date;
 
     /**
      * @var string
      */
-    private $BillingFirstName;
+    protected $BillingFirstName;
 
     /**
      * @var string
      */
-    private $BillingLastName;
+    protected $BillingLastName;
 
     /**
      * @var float
      */
-    private $SubTotalVAT;
+    protected $SubTotalVAT;
 
     /**
      * @var float
      */
-    private $ShippingPriceTaxExcl;
+    protected $ShippingPriceTaxExcl;
 
     /**
      * @var float
      */
-    private $NetAmountDue;
+    protected $NetAmountDue;
 
     /**
      * @var float
      */
-    private $ShippingVATAmount;
+    protected $ShippingVATAmount;
 
     /**
      * @var bool
      */
-    private $FollowUp;
+    protected $FollowUp;
 
     /**
      * @var float
      */
-    private $SubTotalNetVATExcluded;
+    protected $SubTotalNetVATExcluded;
 
     /**
      * @var int
      */
-    private $SourceTypeID;
+    protected $SourceTypeID;
 
     /**
      * @var int
      */
-    private $CampaignTrackingID;
+    protected $CampaignTrackingID;
 
     /**
      * @return \DateTimeInterface

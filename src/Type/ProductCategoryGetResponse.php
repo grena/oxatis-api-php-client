@@ -12,7 +12,7 @@ class ProductCategoryGetResponse implements ResultInterface
      * @var
      * \Heavymind\Oxatis\ApiClient\Type\SoapDataResultServiceOfProductCategoryDataProductCategoryEntity
      */
-    private $DataResultService;
+    protected $DataResultService;
 
     /**
      * @return \Heavymind\Oxatis\ApiClient\Type\SoapDataResultServiceOfProductCategoryDataProductCategoryEntity

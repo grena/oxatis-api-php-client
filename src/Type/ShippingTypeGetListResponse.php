@@ -12,7 +12,7 @@ class ShippingTypeGetListResponse implements ResultInterface
      * @var
      * \Heavymind\Oxatis\ApiClient\Type\SoapDataResultServiceOfShippingTypeListDataShippingTypeListEntity
      */
-    private $DataResultService;
+    protected $DataResultService;
 
     /**
      * @return \Heavymind\Oxatis\ApiClient\Type\SoapDataResultServiceOfShippingTypeListDataShippingTypeListEntity

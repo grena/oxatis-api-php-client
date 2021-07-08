@@ -12,7 +12,7 @@ class GetAppPropertiesResponse implements ResultInterface
      * @var
      * \Heavymind\Oxatis\ApiClient\Type\SoapDataResultServiceOfAppPropertiesDataAppPropertiesEntity
      */
-    private $DataResultService;
+    protected $DataResultService;
 
     /**
      * @return \Heavymind\Oxatis\ApiClient\Type\SoapDataResultServiceOfAppPropertiesDataAppPropertiesEntity

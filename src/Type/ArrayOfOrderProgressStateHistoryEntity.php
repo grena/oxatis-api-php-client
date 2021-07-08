@@ -10,7 +10,7 @@ class ArrayOfOrderProgressStateHistoryEntity implements IteratorAggregate
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\OrderProgressStateHistoryEntity
      */
-    private $OrderProgressStateHistoryEntity;
+    protected $OrderProgressStateHistoryEntity;
 
     /**
      * @return \ArrayIterator

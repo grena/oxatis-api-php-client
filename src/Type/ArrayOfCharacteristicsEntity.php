@@ -2,6 +2,7 @@
 
 namespace Heavymind\Oxatis\ApiClient\Type;
 
+
 use IteratorAggregate;
 
 class ArrayOfCharacteristicsEntity implements IteratorAggregate
@@ -10,7 +11,7 @@ class ArrayOfCharacteristicsEntity implements IteratorAggregate
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\CharacteristicsEntity
      */
-    private $Characteristics;
+    protected $Characteristics;
 
     /**
      * @return \ArrayIterator

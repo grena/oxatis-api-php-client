@@ -8,7 +8,7 @@ class UserListData
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\UserListEntity
      */
-    private $UserList;
+    protected $UserList;
 
     /**
      * @return \Heavymind\Oxatis\ApiClient\Type\UserListEntity

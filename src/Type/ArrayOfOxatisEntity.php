@@ -5,18 +5,18 @@ namespace Heavymind\Oxatis\ApiClient\Type;
 
 use IteratorAggregate;
 
-class ArrayOfOxatisEntity implements IteratorAggregate, Traversable
+class ArrayOfOxatisEntity implements IteratorAggregate
 {
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\OxatisEntity
      */
-    private $UpSellItem;
+    protected $UpSellItem;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\OxatisEntity
      */
-    private $OxID;
+    protected $OxID;
 
     /**
      * @param \Heavymind\Oxatis\ApiClient\Type\OxatisEntity $UpSellItem

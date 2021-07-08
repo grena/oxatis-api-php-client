@@ -8,7 +8,7 @@ class TaskQueueData
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\TaskQueueEntity
      */
-    private $TaskQueue;
+    protected $TaskQueue;
 
     /**
      * @return \Heavymind\Oxatis\ApiClient\Type\TaskQueueEntity

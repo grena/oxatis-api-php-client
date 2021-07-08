@@ -8,7 +8,7 @@ class OrderIdListData
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\OrderIdListEntity
      */
-    private $OrderIdList;
+    protected $OrderIdList;
 
     /**
      * @return \Heavymind\Oxatis\ApiClient\Type\OrderIdListEntity

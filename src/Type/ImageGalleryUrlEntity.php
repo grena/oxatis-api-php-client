@@ -2,13 +2,13 @@
 
 namespace Heavymind\Oxatis\ApiClient\Type;
 
-class ImageGalleryUrlEntity
+class ImageGalleryUrlEntity extends \Heavymind\Oxatis\ApiClient\Type\ImageGalleryHeaderEntity
 {
 
     /**
      * @var string
      */
-    private $Url;
+    protected $Url;
 
     /**
      * @return string

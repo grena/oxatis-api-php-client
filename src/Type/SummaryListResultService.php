@@ -2,13 +2,13 @@
 
 namespace Heavymind\Oxatis\ApiClient\Type;
 
-class SummaryListResultService
+class SummaryListResultService extends SoapResultService
 {
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\SummaryResultList
      */
-    private $Data;
+    protected $Data;
 
     /**
      * @return \Heavymind\Oxatis\ApiClient\Type\SummaryResultList

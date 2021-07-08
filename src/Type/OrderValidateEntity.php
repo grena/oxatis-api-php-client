@@ -2,18 +2,18 @@
 
 namespace Heavymind\Oxatis\ApiClient\Type;
 
-class OrderValidateEntity
+class OrderValidateEntity extends OrderIdEntity
 {
 
     /**
      * @var string
      */
-    private $ChequeNumber;
+    protected $ChequeNumber;
 
     /**
      * @var string
      */
-    private $Notes;
+    protected $Notes;
 
     /**
      * @return string

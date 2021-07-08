@@ -12,7 +12,7 @@ class ProductCharacteristicsBatchUpdateResponse implements ResultInterface
      * @var
      * \Heavymind\Oxatis\ApiClient\Type\SoapDataResultServiceOfProductIdListDataProductIdListEntity
      */
-    private $DataResultService;
+    protected $DataResultService;
 
     /**
      * @return \Heavymind\Oxatis\ApiClient\Type\SoapDataResultServiceOfProductIdListDataProductIdListEntity

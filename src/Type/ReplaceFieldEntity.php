@@ -8,12 +8,12 @@ class ReplaceFieldEntity
     /**
      * @var string
      */
-    private $Name;
+    protected $Name;
 
     /**
      * @var string
      */
-    private $Value;
+    protected $Value;
 
     /**
      * @return string

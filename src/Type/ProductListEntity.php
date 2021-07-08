@@ -8,77 +8,77 @@ class ProductListEntity
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\PaginationEntity
      */
-    private $PageInformation;
+    protected $PageInformation;
 
     /**
      * @var \DateTimeInterface
      */
-    private $LatestModifiedDateStart;
+    protected $LatestModifiedDateStart;
 
     /**
      * @var \DateTimeInterface
      */
-    private $LatestModifiedDateEnd;
+    protected $LatestModifiedDateEnd;
 
     /**
      * @var bool
      */
-    private $Visible;
+    protected $Visible;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\CategoryEntity
      */
-    private $Category1;
+    protected $Category1;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\CategoryEntity
      */
-    private $Category2;
+    protected $Category2;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\CategoryEntity
      */
-    private $Category3;
+    protected $Category3;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\CategoryEntity
      */
-    private $Category4;
+    protected $Category4;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\CategoryEntity
      */
-    private $Category5;
+    protected $Category5;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\CategoryEntity
      */
-    private $Category6;
+    protected $Category6;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\CategoryEntity
      */
-    private $Category7;
+    protected $Category7;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\CategoryEntity
      */
-    private $Category8;
+    protected $Category8;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\CategoryEntity
      */
-    private $Category9;
+    protected $Category9;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\CategoryEntity
      */
-    private $Category10;
+    protected $Category10;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\ArrayOfProductIdEntity
      */
-    private $ProductsID;
+    protected $ProductsID;
 
     /**
      * @return \Heavymind\Oxatis\ApiClient\Type\PaginationEntity

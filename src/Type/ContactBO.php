@@ -8,32 +8,32 @@ class ContactBO
     /**
      * @var string
      */
-    private $Phone;
+    protected $Phone;
 
     /**
      * @var string
      */
-    private $Title;
+    protected $Title;
 
     /**
      * @var string
      */
-    private $FirstName;
+    protected $FirstName;
 
     /**
      * @var string
      */
-    private $LastName;
+    protected $LastName;
 
     /**
      * @var string
      */
-    private $Company;
+    protected $Company;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\AddressBO
      */
-    private $Address;
+    protected $Address;
 
     /**
      * @return string

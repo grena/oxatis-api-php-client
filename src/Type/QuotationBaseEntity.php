@@ -2,443 +2,443 @@
 
 namespace Heavymind\Oxatis\ApiClient\Type;
 
-class QuotationBaseEntity
+class QuotationBaseEntity extends \Heavymind\Oxatis\ApiClient\Type\QuotationSummaryEntity
 {
 
     /**
      * @var int
      */
-    private $UserTypology;
+    protected $UserTypology;
 
     /**
      * @var string
      */
-    private $LegalForm;
+    protected $LegalForm;
 
     /**
      * @var string
      */
-    private $NAFCode;
+    protected $NAFCode;
 
     /**
      * @var int
      */
-    private $OrderFlags;
+    protected $OrderFlags;
 
     /**
      * @var string
      */
-    private $ShippingParam3;
+    protected $ShippingParam3;
 
     /**
      * @var float
      */
-    private $AmountTaxesVATExc;
+    protected $AmountTaxesVATExc;
 
     /**
      * @var float
      */
-    private $AmountTaxesVATInc;
+    protected $AmountTaxesVATInc;
 
     /**
      * @var float
      */
-    private $AmountTaxesVATAmount;
+    protected $AmountTaxesVATAmount;
 
     /**
      * @var string
      */
-    private $ShippingAmountTaxList;
+    protected $ShippingAmountTaxList;
 
     /**
      * @var string
      */
-    private $ShippingTaxFormula;
+    protected $ShippingTaxFormula;
 
     /**
      * @var string
      */
-    private $CustomerCode;
+    protected $CustomerCode;
 
     /**
      * @var string
      */
-    private $UserEmail;
+    protected $UserEmail;
 
     /**
      * @var int
      */
-    private $UserOxID;
+    protected $UserOxID;
 
     /**
      * @var string
      */
-    private $BillingTitle;
+    protected $BillingTitle;
 
     /**
      * @var string
      */
-    private $BillingCompany;
+    protected $BillingCompany;
 
     /**
      * @var string
      */
-    private $BillingAddress;
+    protected $BillingAddress;
 
     /**
      * @var string
      */
-    private $BillingAddressL1;
+    protected $BillingAddressL1;
 
     /**
      * @var string
      */
-    private $BillingAddressL2;
+    protected $BillingAddressL2;
 
     /**
      * @var string
      */
-    private $BillingAddressL3;
+    protected $BillingAddressL3;
 
     /**
      * @var string
      */
-    private $BillingAddressL4;
+    protected $BillingAddressL4;
 
     /**
      * @var string
      */
-    private $BillingAddressFloor;
+    protected $BillingAddressFloor;
 
     /**
      * @var string
      */
-    private $BillingAddressBuilding;
+    protected $BillingAddressBuilding;
 
     /**
      * @var string
      */
-    private $BillingAddressStreet;
+    protected $BillingAddressStreet;
 
     /**
      * @var string
      */
-    private $BillingAddressOtherInfo;
+    protected $BillingAddressOtherInfo;
 
     /**
      * @var string
      */
-    private $BillingZipCode;
+    protected $BillingZipCode;
 
     /**
      * @var string
      */
-    private $BillingCity;
+    protected $BillingCity;
 
     /**
      * @var string
      */
-    private $BillingState;
+    protected $BillingState;
 
     /**
      * @var string
      */
-    private $BillingStateName;
+    protected $BillingStateName;
 
     /**
      * @var string
      */
-    private $BillingCountryISOCode;
+    protected $BillingCountryISOCode;
 
     /**
      * @var string
      */
-    private $BillingCountryName;
+    protected $BillingCountryName;
 
     /**
      * @var string
      */
-    private $BillingPhone;
+    protected $BillingPhone;
 
     /**
      * @var string
      */
-    private $BillingCellPhone;
+    protected $BillingCellPhone;
 
     /**
      * @var string
      */
-    private $BillingFax;
+    protected $BillingFax;
 
     /**
      * @var string
      */
-    private $CompanyVATNumber;
+    protected $CompanyVATNumber;
 
     /**
      * @var string
      */
-    private $ShippingCompany;
+    protected $ShippingCompany;
 
     /**
      * @var string
      */
-    private $ShippingTitle;
+    protected $ShippingTitle;
 
     /**
      * @var string
      */
-    private $ShippingFirstName;
+    protected $ShippingFirstName;
 
     /**
      * @var string
      */
-    private $ShippingLastName;
+    protected $ShippingLastName;
 
     /**
      * @var string
      */
-    private $ShippingAddress;
+    protected $ShippingAddress;
 
     /**
      * @var string
      */
-    private $ShippingAddressL1;
+    protected $ShippingAddressL1;
 
     /**
      * @var string
      */
-    private $ShippingAddressL2;
+    protected $ShippingAddressL2;
 
     /**
      * @var string
      */
-    private $ShippingAddressL3;
+    protected $ShippingAddressL3;
 
     /**
      * @var string
      */
-    private $ShippingAddressL4;
+    protected $ShippingAddressL4;
 
     /**
      * @var string
      */
-    private $ShippingAddressFloor;
+    protected $ShippingAddressFloor;
 
     /**
      * @var string
      */
-    private $ShippingAddressBuilding;
+    protected $ShippingAddressBuilding;
 
     /**
      * @var string
      */
-    private $ShippingAddressStreet;
+    protected $ShippingAddressStreet;
 
     /**
      * @var string
      */
-    private $ShippingAddressOtherInfo;
+    protected $ShippingAddressOtherInfo;
 
     /**
      * @var string
      */
-    private $ShippingZipCode;
+    protected $ShippingZipCode;
 
     /**
      * @var string
      */
-    private $ShippingCity;
+    protected $ShippingCity;
 
     /**
      * @var string
      */
-    private $ShippingState;
+    protected $ShippingState;
 
     /**
      * @var string
      */
-    private $ShippingStateName;
+    protected $ShippingStateName;
 
     /**
      * @var string
      */
-    private $ShippingCountryISOCode;
+    protected $ShippingCountryISOCode;
 
     /**
      * @var string
      */
-    private $ShippingCountryName;
+    protected $ShippingCountryName;
 
     /**
      * @var string
      */
-    private $ShippingPhone;
+    protected $ShippingPhone;
 
     /**
      * @var string
      */
-    private $ShippingInfo;
+    protected $ShippingInfo;
 
     /**
      * @var bool
      */
-    private $VATIncluded;
+    protected $VATIncluded;
 
     /**
      * @var bool
      */
-    private $EcoTaxIncluded;
+    protected $EcoTaxIncluded;
 
     /**
      * @var float
      */
-    private $SubTotalNet;
+    protected $SubTotalNet;
 
     /**
      * @var float
      */
-    private $SubTotalNetDiscounted;
+    protected $SubTotalNetDiscounted;
 
     /**
      * @var float
      */
-    private $GlobalDiscountRate;
+    protected $GlobalDiscountRate;
 
     /**
      * @var float
      */
-    private $GlobalDiscountAmount;
+    protected $GlobalDiscountAmount;
 
     /**
      * @var int
      */
-    private $ShippingID;
+    protected $ShippingID;
 
     /**
      * @var string
      */
-    private $ShippingMethodName;
+    protected $ShippingMethodName;
 
     /**
      * @var int
      */
-    private $ShippingProcessorCode;
+    protected $ShippingProcessorCode;
 
     /**
      * @var string
      */
-    private $ShippingParam1;
+    protected $ShippingParam1;
 
     /**
      * @var string
      */
-    private $ShippingParam2;
+    protected $ShippingParam2;
 
     /**
      * @var float
      */
-    private $ShippingTaxRate;
+    protected $ShippingTaxRate;
 
     /**
      * @var float
      */
-    private $ShippingPriceTaxIncl;
+    protected $ShippingPriceTaxIncl;
 
     /**
      * @var float
      */
-    private $EcoTaxAmountTaxIncl;
+    protected $EcoTaxAmountTaxIncl;
 
     /**
      * @var string
      */
-    private $CartCoupon;
+    protected $CartCoupon;
 
     /**
      * @var string
      */
-    private $Language;
+    protected $Language;
 
     /**
      * @var string
      */
-    private $RemoteIPAddr;
+    protected $RemoteIPAddr;
 
     /**
      * @var string
      */
-    private $SalesRepCode;
+    protected $SalesRepCode;
 
     /**
      * @var string
      */
-    private $SalesRepFirstName;
+    protected $SalesRepFirstName;
 
     /**
      * @var string
      */
-    private $SalesRepLastName;
+    protected $SalesRepLastName;
 
     /**
      * @var string
      */
-    private $SpecialInstructions;
+    protected $SpecialInstructions;
 
     /**
      * @var string
      */
-    private $CurrencyCode;
+    protected $CurrencyCode;
 
     /**
      * @var string
      */
-    private $InternalNote;
+    protected $InternalNote;
 
     /**
      * @var string
      */
-    private $FiscalCode;
+    protected $FiscalCode;
 
     /**
      * @var string
      */
-    private $CustomFieldText1;
+    protected $CustomFieldText1;
 
     /**
      * @var string
      */
-    private $CustomFieldText2;
+    protected $CustomFieldText2;
 
     /**
      * @var string
      */
-    private $CustomFieldText3;
+    protected $CustomFieldText3;
 
     /**
      * @var string
      */
-    private $CustomFieldText4;
+    protected $CustomFieldText4;
 
     /**
      * @var float
      */
-    private $CustomFieldNumeric1;
+    protected $CustomFieldNumeric1;
 
     /**
      * @var float
      */
-    private $CustomFieldNumeric2;
+    protected $CustomFieldNumeric2;
 
     /**
      * @var \DateTimeInterface
      */
-    private $CustomFieldDate;
+    protected $CustomFieldDate;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\ArrayOfQuotationTaxDetailEntity
      */
-    private $QuotationTaxDetails;
+    protected $QuotationTaxDetails;
 
     /**
      * @return int

@@ -8,12 +8,12 @@ class DataPlugOnlineInfosEntity
     /**
      * @var bool
      */
-    private $Active;
+    protected $Active;
 
     /**
      * @var \DateTimeInterface
      */
-    private $LastDateOfUse;
+    protected $LastDateOfUse;
 
     /**
      * @return bool

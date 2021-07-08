@@ -11,12 +11,12 @@ class ShippingTypeGet implements RequestInterface
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\WSIdentitySoap
      */
-    private $WSIdentitySoap;
+    protected $WSIdentitySoap;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\ShippingTypeIdEntity
      */
-    private $ShippingTypeId;
+    protected $ShippingTypeId;
 
     /**
      * Constructor

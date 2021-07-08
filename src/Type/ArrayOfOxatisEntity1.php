@@ -10,7 +10,7 @@ class ArrayOfOxatisEntity1 implements IteratorAggregate
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\OxatisEntity
      */
-    private $CrossSellItem;
+    protected $CrossSellItem;
 
     /**
      * @return \ArrayIterator

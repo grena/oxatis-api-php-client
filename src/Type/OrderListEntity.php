@@ -2,18 +2,18 @@
 
 namespace Heavymind\Oxatis\ApiClient\Type;
 
-class OrderListEntity
+class OrderListEntity extends OrderListHeaderEntity
 {
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\PaginationEntity
      */
-    private $PageInformation;
+    protected $PageInformation;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\ArrayOfOrderIdEntity
      */
-    private $OrderIDs;
+    protected $OrderIDs;
 
     /**
      * @return \Heavymind\Oxatis\ApiClient\Type\PaginationEntity

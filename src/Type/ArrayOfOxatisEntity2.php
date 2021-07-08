@@ -10,7 +10,7 @@ class ArrayOfOxatisEntity2 implements IteratorAggregate
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\OxatisEntity
      */
-    private $LinkedItem;
+    protected $LinkedItem;
 
     /**
      * @return \ArrayIterator

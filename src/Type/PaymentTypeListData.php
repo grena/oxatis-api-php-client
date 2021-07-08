@@ -8,7 +8,7 @@ class PaymentTypeListData
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\PaymentTypeListEntity
      */
-    private $PaymentTypeList;
+    protected $PaymentTypeList;
 
     /**
      * @return \Heavymind\Oxatis\ApiClient\Type\PaymentTypeListEntity

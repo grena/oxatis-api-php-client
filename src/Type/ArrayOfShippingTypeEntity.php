@@ -2,6 +2,7 @@
 
 namespace Heavymind\Oxatis\ApiClient\Type;
 
+
 use IteratorAggregate;
 
 class ArrayOfShippingTypeEntity implements IteratorAggregate
@@ -10,7 +11,7 @@ class ArrayOfShippingTypeEntity implements IteratorAggregate
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\ShippingTypeEntity
      */
-    private $ShippingTypeID;
+    protected $ShippingTypeID;
 
     /**
      * @return \ArrayIterator

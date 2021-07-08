@@ -2,13 +2,13 @@
 
 namespace Heavymind\Oxatis\ApiClient\Type;
 
-class DiscountRuleIdEntity
+class DiscountRuleIdEntity extends \Heavymind\Oxatis\ApiClient\Type\OxatisEntity
 {
 
     /**
      * @var string
      */
-    private $Name;
+    protected $Name;
 
     /**
      * @return string

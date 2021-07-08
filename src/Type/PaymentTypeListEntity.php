@@ -2,13 +2,13 @@
 
 namespace Heavymind\Oxatis\ApiClient\Type;
 
-class PaymentTypeListEntity
+class PaymentTypeListEntity extends \Heavymind\Oxatis\ApiClient\Type\OxatisEntity
 {
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\ArrayOfPaymentTypeEntity
      */
-    private $PaymentTypeIDs;
+    protected $PaymentTypeIDs;
 
     /**
      * @return \Heavymind\Oxatis\ApiClient\Type\ArrayOfPaymentTypeEntity

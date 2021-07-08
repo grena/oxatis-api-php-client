@@ -2,18 +2,18 @@
 
 namespace Heavymind\Oxatis\ApiClient\Type;
 
-class OrderSourceEntity
+class OrderSourceEntity extends OrderPeriodEntity
 {
 
     /**
      * @var string
      */
-    private $SourceOrderID;
+    protected $SourceOrderID;
 
     /**
      * @var int
      */
-    private $SourceTypeID;
+    protected $SourceTypeID;
 
     /**
      * @return string

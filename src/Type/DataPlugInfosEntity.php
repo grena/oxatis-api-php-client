@@ -8,87 +8,87 @@ class DataPlugInfosEntity
     /**
      * @var string
      */
-    private $MachineSerialNumber;
+    protected $MachineSerialNumber;
 
     /**
      * @var string
      */
-    private $DataBaseFolder;
+    protected $DataBaseFolder;
 
     /**
      * @var string
      */
-    private $Version;
+    protected $Version;
 
     /**
      * @var \DateTimeInterface
      */
-    private $LastDateOfUse;
+    protected $LastDateOfUse;
 
     /**
      * @var int
      */
-    private $QuickConnectMode;
+    protected $QuickConnectMode;
 
     /**
      * @var int
      */
-    private $Users;
+    protected $Users;
 
     /**
      * @var int
      */
-    private $Products;
+    protected $Products;
 
     /**
      * @var int
      */
-    private $Images;
+    protected $Images;
 
     /**
      * @var int
      */
-    private $DiscountRules;
+    protected $DiscountRules;
 
     /**
      * @var int
      */
-    private $ProductPackaging;
+    protected $ProductPackaging;
 
     /**
      * @var int
      */
-    private $Orders;
+    protected $Orders;
 
     /**
      * @var int
      */
-    private $Quotations;
+    protected $Quotations;
 
     /**
      * @var int
      */
-    private $OrderProressStates;
+    protected $OrderProressStates;
 
     /**
      * @var int
      */
-    private $ShippingAddresses;
+    protected $ShippingAddresses;
 
     /**
      * @var bool
      */
-    private $CopyCurrentInfosToOld;
+    protected $CopyCurrentInfosToOld;
 
     /**
      * @var string
      */
-    private $Connectors;
+    protected $Connectors;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\ConnectorInfosEntity
      */
-    private $ConnectorInfos;
+    protected $ConnectorInfos;
 
     /**
      * @return string

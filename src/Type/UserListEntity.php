@@ -8,22 +8,22 @@ class UserListEntity
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\PaginationEntity
      */
-    private $PageInformation;
+    protected $PageInformation;
 
     /**
      * @var \DateTimeInterface
      */
-    private $LatestModifiedDateStart;
+    protected $LatestModifiedDateStart;
 
     /**
      * @var \DateTimeInterface
      */
-    private $LatestModifiedDateEnd;
+    protected $LatestModifiedDateEnd;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\ArrayOfUserIdEntity
      */
-    private $UsersID;
+    protected $UsersID;
 
     /**
      * @return \Heavymind\Oxatis\ApiClient\Type\PaginationEntity

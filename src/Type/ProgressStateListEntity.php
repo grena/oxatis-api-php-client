@@ -2,13 +2,13 @@
 
 namespace Heavymind\Oxatis\ApiClient\Type;
 
-class ProgressStateListEntity
+class ProgressStateListEntity extends \Heavymind\Oxatis\ApiClient\Type\OxatisEntity
 {
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\ArrayOfProgressStateEntity
      */
-    private $ProgressStateList;
+    protected $ProgressStateList;
 
     /**
      * @return \Heavymind\Oxatis\ApiClient\Type\ArrayOfProgressStateEntity

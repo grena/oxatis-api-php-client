@@ -8,37 +8,37 @@ class LinkedProductBaseEntity
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\ProductIdEntity
      */
-    private $Item;
+    protected $Item;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\ProductIdEntity
      */
-    private $LinkedItem;
+    protected $LinkedItem;
 
     /**
      * @var bool
      */
-    private $Fixed;
+    protected $Fixed;
 
     /**
      * @var bool
      */
-    private $Compulsory;
+    protected $Compulsory;
 
     /**
      * @var bool
      */
-    private $Deletable;
+    protected $Deletable;
 
     /**
      * @var bool
      */
-    private $Offered;
+    protected $Offered;
 
     /**
      * @var int
      */
-    private $Position;
+    protected $Position;
 
     /**
      * @return \Heavymind\Oxatis\ApiClient\Type\ProductIdEntity

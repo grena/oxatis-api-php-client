@@ -12,7 +12,7 @@ class TaxRateGetListResponse implements ResultInterface
      * @var
      * \Heavymind\Oxatis\ApiClient\Type\SoapDataResultServiceOfTaxRateListDataTaxRateListEntity
      */
-    private $DataResultService;
+    protected $DataResultService;
 
     /**
      * @return \Heavymind\Oxatis\ApiClient\Type\SoapDataResultServiceOfTaxRateListDataTaxRateListEntity

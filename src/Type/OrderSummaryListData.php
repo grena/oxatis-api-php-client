@@ -8,7 +8,7 @@ class OrderSummaryListData
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\OrderSummaryListEntity
      */
-    private $OrderSummaryList;
+    protected $OrderSummaryList;
 
     /**
      * @return \Heavymind\Oxatis\ApiClient\Type\OrderSummaryListEntity

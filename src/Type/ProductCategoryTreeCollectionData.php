@@ -8,7 +8,7 @@ class ProductCategoryTreeCollectionData
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\ProductCategoryTreeCollectionEntity
      */
-    private $ProductCategoryTreeCollection;
+    protected $ProductCategoryTreeCollection;
 
     /**
      * @return \Heavymind\Oxatis\ApiClient\Type\ProductCategoryTreeCollectionEntity

@@ -2,6 +2,7 @@
 
 namespace Heavymind\Oxatis\ApiClient\Type;
 
+
 use IteratorAggregate;
 
 class ArrayOfQuotationDetailEntity implements IteratorAggregate
@@ -10,7 +11,7 @@ class ArrayOfQuotationDetailEntity implements IteratorAggregate
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\QuotationDetailEntity
      */
-    private $Item;
+    protected $Item;
 
     /**
      * @return \ArrayIterator

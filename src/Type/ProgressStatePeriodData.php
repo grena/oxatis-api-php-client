@@ -8,7 +8,7 @@ class ProgressStatePeriodData
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\ProgressStatePeriodEntity
      */
-    private $ProgressStatePeriod;
+    protected $ProgressStatePeriod;
 
     /**
      * @return \Heavymind\Oxatis\ApiClient\Type\ProgressStatePeriodEntity

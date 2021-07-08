@@ -2,18 +2,18 @@
 
 namespace Heavymind\Oxatis\ApiClient\Type;
 
-class DiscountRuleCustomPriceEntity
+class DiscountRuleCustomPriceEntity extends OxatisEntity
 {
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\UserIdEntity
      */
-    private $UserIdEntity;
+    protected $UserIdEntity;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\DiscountRuleEntity
      */
-    private $DiscountRuleEntity;
+    protected $DiscountRuleEntity;
 
     /**
      * @return \Heavymind\Oxatis\ApiClient\Type\UserIdEntity

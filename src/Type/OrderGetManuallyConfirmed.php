@@ -2,7 +2,6 @@
 
 namespace Heavymind\Oxatis\ApiClient\Type;
 
-
 use Phpro\SoapClient\Type\RequestInterface;
 
 class OrderGetManuallyConfirmed implements RequestInterface
@@ -11,12 +10,12 @@ class OrderGetManuallyConfirmed implements RequestInterface
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\WSIdentitySoap
      */
-    private $WSIdentitySoap;
+    protected $WSIdentitySoap;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\OrderPeriodEntity
      */
-    private $OrderPeriod;
+    protected $OrderPeriod;
 
     /**
      * Constructor

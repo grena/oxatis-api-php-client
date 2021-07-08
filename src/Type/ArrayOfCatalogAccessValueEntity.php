@@ -5,13 +5,13 @@ namespace Heavymind\Oxatis\ApiClient\Type;
 
 use IteratorAggregate;
 
-class ArrayOfCatalogAccessValueEntity implements IteratorAggregate, Traversable
+class ArrayOfCatalogAccessValueEntity implements IteratorAggregate
 {
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\CatalogAccessValueEntity
      */
-    private $CatalogAccessValue;
+    protected $CatalogAccessValue;
 
     /**
      * @return \ArrayIterator

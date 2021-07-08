@@ -2,18 +2,18 @@
 
 namespace Heavymind\Oxatis\ApiClient\Type;
 
-class OrderEntity
+class OrderEntity extends \Heavymind\Oxatis\ApiClient\Type\OrderBaseEntity
 {
 
     /**
      * @var int
      */
-    private $TotalWeight;
+    protected $TotalWeight;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\ArrayOfOrderDetailEntity
      */
-    private $OrderItems;
+    protected $OrderItems;
 
     /**
      * @return int

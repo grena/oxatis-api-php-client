@@ -2,23 +2,23 @@
 
 namespace Heavymind\Oxatis\ApiClient\Type;
 
-class CategoryEntity
+class CategoryEntity extends \Heavymind\Oxatis\ApiClient\Type\OxatisEntity
 {
 
     /**
      * @var string
      */
-    private $Name;
+    protected $Name;
 
     /**
      * @var string
      */
-    private $Language;
+    protected $Language;
 
     /**
      * @var int
      */
-    private $ParentOxId;
+    protected $ParentOxId;
 
     /**
      * @return string

@@ -12,7 +12,7 @@ class ProductCategoryGetTreeCollectionResponse implements ResultInterface
      * @var
      * \Heavymind\Oxatis\ApiClient\Type\SoapDataResultServiceOfProductCategoryTreeCollectionDataProductCategoryTreeCollectionEntity
      */
-    private $DataResultService;
+    protected $DataResultService;
 
     /**
      * @return \Heavymind\Oxatis\ApiClient\Type\SoapDataResultServiceOfProductCategoryTreeCollectionDataProductCategoryTreeCollectionEntity

@@ -11,12 +11,12 @@ class ProductCategoryGetTreeCollection implements RequestInterface
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\WSIdentitySoap
      */
-    private $WSIdentitySoap;
+    protected $WSIdentitySoap;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\RootCategoryEntity
      */
-    private $RootCategory;
+    protected $RootCategory;
 
     /**
      * Constructor

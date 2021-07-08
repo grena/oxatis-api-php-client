@@ -8,12 +8,12 @@ class PriceVATModeEntity
     /**
      * @var float
      */
-    private $Value;
+    protected $Value;
 
     /**
      * @var bool
      */
-    private $VATIncluded;
+    protected $VATIncluded;
 
     /**
      * @return float

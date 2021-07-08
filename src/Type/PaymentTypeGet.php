@@ -11,12 +11,12 @@ class PaymentTypeGet implements RequestInterface
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\WSIdentitySoap
      */
-    private $WSIdentitySoap;
+    protected $WSIdentitySoap;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\PaymentTypeEntity
      */
-    private $PaymentType;
+    protected $PaymentType;
 
     /**
      * Constructor

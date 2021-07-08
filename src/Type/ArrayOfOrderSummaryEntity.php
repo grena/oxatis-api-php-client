@@ -10,7 +10,7 @@ class ArrayOfOrderSummaryEntity implements IteratorAggregate
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\OrderSummaryEntity
      */
-    private $OrderSummary;
+    protected $OrderSummary;
 
     /**
      * @return \ArrayIterator

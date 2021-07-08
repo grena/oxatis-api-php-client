@@ -2,6 +2,7 @@
 
 namespace Heavymind\Oxatis\ApiClient\Type;
 
+
 use IteratorAggregate;
 
 class ArrayOfOptionValueDetailEntity implements IteratorAggregate
@@ -10,7 +11,7 @@ class ArrayOfOptionValueDetailEntity implements IteratorAggregate
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\OptionValueDetailEntity
      */
-    private $OptionValue;
+    protected $OptionValue;
 
     /**
      * @return \ArrayIterator

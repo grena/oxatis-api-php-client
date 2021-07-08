@@ -2,453 +2,453 @@
 
 namespace Heavymind\Oxatis\ApiClient\Type;
 
-class UserEntity
+class UserEntity extends \Heavymind\Oxatis\ApiClient\Type\UserIdEntity
 {
 
     /**
      * @var string
      */
-    private $BillingTitle;
+    protected $BillingTitle;
 
     /**
      * @var string
      */
-    private $FirstName;
+    protected $FirstName;
 
     /**
      * @var string
      */
-    private $LastName;
+    protected $LastName;
 
     /**
      * @var string
      */
-    private $Company;
+    protected $Company;
 
     /**
      * @var string
      */
-    private $VATNumber;
+    protected $VATNumber;
 
     /**
      * @var string
      */
-    private $BillingAddressStreet;
+    protected $BillingAddressStreet;
 
     /**
      * @var string
      */
-    private $BillingAddressOtherInfo;
+    protected $BillingAddressOtherInfo;
 
     /**
      * @var string
      */
-    private $BillingZipCode;
+    protected $BillingZipCode;
 
     /**
      * @var string
      */
-    private $BillingCity;
+    protected $BillingCity;
 
     /**
      * @var string
      */
-    private $BillingState;
+    protected $BillingState;
 
     /**
      * @var string
      */
-    private $BillingStateName;
+    protected $BillingStateName;
 
     /**
      * @var string
      */
-    private $BillingCountryISOCode;
+    protected $BillingCountryISOCode;
 
     /**
      * @var string
      */
-    private $BillingCountryName;
+    protected $BillingCountryName;
 
     /**
      * @var string
      */
-    private $BillingPhone;
+    protected $BillingPhone;
 
     /**
      * @var string
      */
-    private $BillingCellPhone;
+    protected $BillingCellPhone;
 
     /**
      * @var string
      */
-    private $BillingFax;
+    protected $BillingFax;
 
     /**
      * @var string
      */
-    private $ShippingTitle;
+    protected $ShippingTitle;
 
     /**
      * @var string
      */
-    private $ShippingFirstName;
+    protected $ShippingFirstName;
 
     /**
      * @var string
      */
-    private $ShippingLastName;
+    protected $ShippingLastName;
 
     /**
      * @var string
      */
-    private $ShippingCompany;
+    protected $ShippingCompany;
 
     /**
      * @var string
      */
-    private $ShippingPhone;
+    protected $ShippingPhone;
 
     /**
      * @var string
      */
-    private $ShippingAddressStreet;
+    protected $ShippingAddressStreet;
 
     /**
      * @var string
      */
-    private $ShippingAddressOtherInfo;
+    protected $ShippingAddressOtherInfo;
 
     /**
      * @var string
      */
-    private $ShippingZipCode;
+    protected $ShippingZipCode;
 
     /**
      * @var string
      */
-    private $ShippingCity;
+    protected $ShippingCity;
 
     /**
      * @var string
      */
-    private $ShippingState;
+    protected $ShippingState;
 
     /**
      * @var string
      */
-    private $ShippingStateName;
+    protected $ShippingStateName;
 
     /**
      * @var string
      */
-    private $ShippingCountryISOCode;
+    protected $ShippingCountryISOCode;
 
     /**
      * @var string
      */
-    private $ShippingCountryName;
+    protected $ShippingCountryName;
 
     /**
      * @var string
      */
-    private $SalesRepCode;
+    protected $SalesRepCode;
 
     /**
      * @var bool
      */
-    private $SubscribeToNewletters;
+    protected $SubscribeToNewletters;
 
     /**
      * @var bool
      */
-    private $CustomerAccount;
+    protected $CustomerAccount;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\CategoryEntity
      */
-    private $Category1;
+    protected $Category1;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\CategoryEntity
      */
-    private $Category2;
+    protected $Category2;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\CategoryEntity
      */
-    private $Category3;
+    protected $Category3;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\CategoryEntity
      */
-    private $Category4;
+    protected $Category4;
 
     /**
      * @var string
      */
-    private $UserLanguage;
+    protected $UserLanguage;
 
     /**
      * @var int
      */
-    private $PriceIndex;
+    protected $PriceIndex;
 
     /**
      * @var float
      */
-    private $Discount;
+    protected $Discount;
 
     /**
      * @var string
      */
-    private $DiscountGridCode;
+    protected $DiscountGridCode;
 
     /**
      * @var \DateTimeInterface
      */
-    private $LastUpdateDate;
+    protected $LastUpdateDate;
 
     /**
      * @var string
      */
-    private $FiscalCode;
+    protected $FiscalCode;
 
     /**
      * @var \DateTimeInterface
      */
-    private $BirthDate;
+    protected $BirthDate;
 
     /**
      * @var string
      */
-    private $Comments;
+    protected $Comments;
 
     /**
      * @var int
      */
-    private $RewardPoints;
+    protected $RewardPoints;
 
     /**
      * @var bool
      */
-    private $SubscribeToSMSCampaign;
+    protected $SubscribeToSMSCampaign;
 
     /**
      * @var string
      */
-    private $CustomFieldText1;
+    protected $CustomFieldText1;
 
     /**
      * @var string
      */
-    private $CustomFieldText2;
+    protected $CustomFieldText2;
 
     /**
      * @var string
      */
-    private $CustomFieldText3;
+    protected $CustomFieldText3;
 
     /**
      * @var string
      */
-    private $CustomFieldText4;
+    protected $CustomFieldText4;
 
     /**
      * @var float
      */
-    private $CustomFieldNumeric1;
+    protected $CustomFieldNumeric1;
 
     /**
      * @var float
      */
-    private $CustomFieldNumeric2;
+    protected $CustomFieldNumeric2;
 
     /**
      * @var \DateTimeInterface
      */
-    private $CustomFieldDate;
+    protected $CustomFieldDate;
 
     /**
      * @var string
      */
-    private $CustomFieldTextInternal;
+    protected $CustomFieldTextInternal;
 
     /**
      * @var float
      */
-    private $DiscountCartItems;
+    protected $DiscountCartItems;
 
     /**
      * @var string
      */
-    private $CustomerFamily;
+    protected $CustomerFamily;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\TaxClassEntity
      */
-    private $TaxClass;
+    protected $TaxClass;
 
     /**
      * @var int
      */
-    private $UserTypology;
+    protected $UserTypology;
 
     /**
      * @var string
      */
-    private $LegalForm;
+    protected $LegalForm;
 
     /**
      * @var string
      */
-    private $NAFCode;
+    protected $NAFCode;
 
     /**
      * @var string
      */
-    private $Source;
+    protected $Source;
 
     /**
      * @var string
      */
-    private $BillingAddress;
+    protected $BillingAddress;
 
     /**
      * @var string
      */
-    private $BillingAddressL1;
+    protected $BillingAddressL1;
 
     /**
      * @var string
      */
-    private $BillingAddressL2;
+    protected $BillingAddressL2;
 
     /**
      * @var string
      */
-    private $BillingAddressL3;
+    protected $BillingAddressL3;
 
     /**
      * @var string
      */
-    private $BillingAddressL4;
+    protected $BillingAddressL4;
 
     /**
      * @var string
      */
-    private $ShippingAddress;
+    protected $ShippingAddress;
 
     /**
      * @var string
      */
-    private $ShippingAddressL1;
+    protected $ShippingAddressL1;
 
     /**
      * @var string
      */
-    private $ShippingAddressL2;
+    protected $ShippingAddressL2;
 
     /**
      * @var string
      */
-    private $ShippingAddressL3;
+    protected $ShippingAddressL3;
 
     /**
      * @var string
      */
-    private $ShippingAddressL4;
+    protected $ShippingAddressL4;
 
     /**
      * @var string
      */
-    private $CustomerCode;
+    protected $CustomerCode;
 
     /**
      * @var string
      */
-    private $CustomField1;
+    protected $CustomField1;
 
     /**
      * @var string
      */
-    private $CustomField2;
+    protected $CustomField2;
 
     /**
      * @var string
      */
-    private $CustomField3;
+    protected $CustomField3;
 
     /**
      * @var string
      */
-    private $CustomField4;
+    protected $CustomField4;
 
     /**
      * @var string
      */
-    private $CustomField5;
+    protected $CustomField5;
 
     /**
      * @var string
      */
-    private $CustomField6;
+    protected $CustomField6;
 
     /**
      * @var string
      */
-    private $CustomField7;
+    protected $CustomField7;
 
     /**
      * @var string
      */
-    private $CustomField8;
+    protected $CustomField8;
 
     /**
      * @var string
      */
-    private $CustomField9;
+    protected $CustomField9;
 
     /**
      * @var string
      */
-    private $CustomField10;
+    protected $CustomField10;
 
     /**
      * @var string
      */
-    private $Password;
+    protected $Password;
 
     /**
      * @var \DateTimeInterface
      */
-    private $CreationDate;
+    protected $CreationDate;
 
     /**
      * @var string
      */
-    private $BillingAddressBuilding;
+    protected $BillingAddressBuilding;
 
     /**
      * @var string
      */
-    private $BillingAddressFloor;
+    protected $BillingAddressFloor;
 
     /**
      * @var string
      */
-    private $ShippingAddressBuilding;
+    protected $ShippingAddressBuilding;
 
     /**
      * @var string
      */
-    private $ShippingAddressFloor;
+    protected $ShippingAddressFloor;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\ArrayOfCatalogAccessValueEntity
      */
-    private $CatalogAccessValues;
+    protected $CatalogAccessValues;
 
     /**
      * @return string

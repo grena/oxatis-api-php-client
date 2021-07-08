@@ -2,13 +2,13 @@
 
 namespace Heavymind\Oxatis\ApiClient\Type;
 
-class BundleEntity
+class BundleEntity extends \Heavymind\Oxatis\ApiClient\Type\OxatisEntity
 {
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\BundledItemEntity
      */
-    private $BundledItem;
+    protected $BundledItem;
 
     /**
      * @return \Heavymind\Oxatis\ApiClient\Type\BundledItemEntity

@@ -8,12 +8,12 @@ class ImageGalleryListEntity
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\PaginationEntity
      */
-    private $PageInformation;
+    protected $PageInformation;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\ArrayOfImageGalleryIdEntity
      */
-    private $ImageGalleryIdList;
+    protected $ImageGalleryIdList;
 
     /**
      * @return \Heavymind\Oxatis\ApiClient\Type\PaginationEntity

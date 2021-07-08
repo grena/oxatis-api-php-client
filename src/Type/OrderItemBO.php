@@ -2,13 +2,13 @@
 
 namespace Heavymind\Oxatis\ApiClient\Type;
 
-class OrderItemBO
+class OrderItemBO extends OrderItemBOBase
 {
 
     /**
      * @var int
      */
-    private $Quantity;
+    protected $Quantity;
 
     /**
      * @return int

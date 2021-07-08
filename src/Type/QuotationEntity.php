@@ -2,18 +2,18 @@
 
 namespace Heavymind\Oxatis\ApiClient\Type;
 
-class QuotationEntity
+class QuotationEntity extends \Heavymind\Oxatis\ApiClient\Type\QuotationBaseEntity
 {
 
     /**
      * @var int
      */
-    private $TotalWeight;
+    protected $TotalWeight;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\ArrayOfQuotationDetailEntity
      */
-    private $QuotationItems;
+    protected $QuotationItems;
 
     /**
      * @return int

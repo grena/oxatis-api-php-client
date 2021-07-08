@@ -12,7 +12,7 @@ class GetDataPlugOnlineInfosResponse implements ResultInterface
      * @var
      * \Heavymind\Oxatis\ApiClient\Type\SoapDataResultServiceOfDataPlugOnlineInfosDataDataPlugOnlineInfosEntity
      */
-    private $DataResultService;
+    protected $DataResultService;
 
     /**
      * @return \Heavymind\Oxatis\ApiClient\Type\SoapDataResultServiceOfDataPlugOnlineInfosDataDataPlugOnlineInfosEntity

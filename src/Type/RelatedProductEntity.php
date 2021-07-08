@@ -2,23 +2,23 @@
 
 namespace Heavymind\Oxatis\ApiClient\Type;
 
-class RelatedProductEntity
+class RelatedProductEntity extends OxatisEntity
 {
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\ProductIdEntity
      */
-    private $Item;
+    protected $Item;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\ProductIdEntity
      */
-    private $RelatedItem;
+    protected $RelatedItem;
 
     /**
      * @var int
      */
-    private $Position;
+    protected $Position;
 
     /**
      * @return \Heavymind\Oxatis\ApiClient\Type\ProductIdEntity

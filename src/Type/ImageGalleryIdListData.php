@@ -8,7 +8,7 @@ class ImageGalleryIdListData
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\ImageGalleryListEntity
      */
-    private $ImageGalleryIdList;
+    protected $ImageGalleryIdList;
 
     /**
      * @return \Heavymind\Oxatis\ApiClient\Type\ImageGalleryListEntity

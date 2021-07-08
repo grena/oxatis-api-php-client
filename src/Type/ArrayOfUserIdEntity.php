@@ -10,7 +10,7 @@ class ArrayOfUserIdEntity implements IteratorAggregate
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\UserIdEntity
      */
-    private $UserID;
+    protected $UserID;
 
     /**
      * @return \ArrayIterator

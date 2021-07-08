@@ -2,33 +2,33 @@
 
 namespace Heavymind\Oxatis\ApiClient\Type;
 
-class ImagesListIdEntity
+class ImagesListIdEntity extends \Heavymind\Oxatis\ApiClient\Type\OxatisEntity
 {
 
     /**
      * @var string
      */
-    private $ItemSKU;
+    protected $ItemSKU;
 
     /**
      * @var int
      */
-    private $ItemOxId;
+    protected $ItemOxId;
 
     /**
      * @var string
      */
-    private $ThumbnailImgFileName;
+    protected $ThumbnailImgFileName;
 
     /**
      * @var string
      */
-    private $ImgFileName;
+    protected $ImgFileName;
 
     /**
      * @var string
      */
-    private $ZoomImgFileName;
+    protected $ZoomImgFileName;
 
     /**
      * @return string

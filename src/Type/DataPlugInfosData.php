@@ -8,7 +8,7 @@ class DataPlugInfosData
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\DataPlugInfosEntity
      */
-    private $dataPlugInfos;
+    protected $dataPlugInfos;
 
     /**
      * @return \Heavymind\Oxatis\ApiClient\Type\DataPlugInfosEntity

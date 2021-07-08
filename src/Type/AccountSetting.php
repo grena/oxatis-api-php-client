@@ -8,17 +8,17 @@ class AccountSetting
     /**
      * @var string
      */
-    private $CurrencySymbol;
+    protected $CurrencySymbol;
 
     /**
      * @var int
      */
-    private $CurrencyCode;
+    protected $CurrencyCode;
 
     /**
      * @var string
      */
-    private $CurrencyName;
+    protected $CurrencyName;
 
     /**
      * @return string

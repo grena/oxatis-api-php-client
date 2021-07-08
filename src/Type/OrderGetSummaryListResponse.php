@@ -2,17 +2,15 @@
 
 namespace Heavymind\Oxatis\ApiClient\Type;
 
-
 use Phpro\SoapClient\Type\ResultInterface;
 
 class OrderGetSummaryListResponse implements ResultInterface
 {
 
     /**
-     * @var
-     * \Heavymind\Oxatis\ApiClient\Type\SoapDataResultServiceOfOrderSummaryListDataOrderSummaryListEntity
+     * @var \Heavymind\Oxatis\ApiClient\Type\SoapDataResultServiceOfOrderSummaryListDataOrderSummaryListEntity
      */
-    private $DataResultService;
+    protected $DataResultService;
 
     /**
      * @return \Heavymind\Oxatis\ApiClient\Type\SoapDataResultServiceOfOrderSummaryListDataOrderSummaryListEntity

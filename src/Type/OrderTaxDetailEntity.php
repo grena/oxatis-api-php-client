@@ -2,38 +2,38 @@
 
 namespace Heavymind\Oxatis\ApiClient\Type;
 
-class OrderTaxDetailEntity
+class OrderTaxDetailEntity extends \Heavymind\Oxatis\ApiClient\Type\OxatisEntity
 {
 
     /**
      * @var float
      */
-    private $TotalNetTaxExcl;
+    protected $TotalNetTaxExcl;
 
     /**
      * @var float
      */
-    private $TaxRate;
+    protected $TaxRate;
 
     /**
      * @var float
      */
-    private $TotalNetVATAmount;
+    protected $TotalNetVATAmount;
 
     /**
      * @var int
      */
-    private $TaxRateID;
+    protected $TaxRateID;
 
     /**
      * @var string
      */
-    private $TaxRateName;
+    protected $TaxRateName;
 
     /**
      * @var int
      */
-    private $TaxType;
+    protected $TaxType;
 
     /**
      * @return float

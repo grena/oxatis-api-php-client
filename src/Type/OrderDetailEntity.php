@@ -2,23 +2,23 @@
 
 namespace Heavymind\Oxatis\ApiClient\Type;
 
-class OrderDetailEntity
+class OrderDetailEntity extends \Heavymind\Oxatis\ApiClient\Type\OrderDetailBaseEntity
 {
 
     /**
      * @var int
      */
-    private $Quantity;
+    protected $Quantity;
 
     /**
      * @var int
      */
-    private $PackagingQty;
+    protected $PackagingQty;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\ArrayOfOrderDetailBundledItemEntity
      */
-    private $BundledItems;
+    protected $BundledItems;
 
     /**
      * @return int

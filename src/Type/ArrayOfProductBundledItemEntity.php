@@ -2,6 +2,7 @@
 
 namespace Heavymind\Oxatis\ApiClient\Type;
 
+
 use IteratorAggregate;
 
 class ArrayOfProductBundledItemEntity implements IteratorAggregate
@@ -10,7 +11,7 @@ class ArrayOfProductBundledItemEntity implements IteratorAggregate
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\ProductBundledItemEntity
      */
-    private $BundledItem;
+    protected $BundledItem;
 
     /**
      * @return \ArrayIterator

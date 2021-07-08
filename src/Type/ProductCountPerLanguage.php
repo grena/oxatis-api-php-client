@@ -2,7 +2,6 @@
 
 namespace Heavymind\Oxatis\ApiClient\Type;
 
-
 use Phpro\SoapClient\Type\RequestInterface;
 
 class ProductCountPerLanguage implements RequestInterface
@@ -11,12 +10,12 @@ class ProductCountPerLanguage implements RequestInterface
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\WSIdentitySoap
      */
-    private $WSIdentitySoap;
+    protected $WSIdentitySoap;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\LanguageEntity
      */
-    private $Language;
+    protected $Language;
 
     /**
      * Constructor

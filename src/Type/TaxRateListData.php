@@ -8,7 +8,7 @@ class TaxRateListData
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\TaxRateListEntity
      */
-    private $TaxRateList;
+    protected $TaxRateList;
 
     /**
      * @return \Heavymind\Oxatis\ApiClient\Type\TaxRateListEntity

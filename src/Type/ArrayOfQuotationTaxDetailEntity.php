@@ -2,6 +2,7 @@
 
 namespace Heavymind\Oxatis\ApiClient\Type;
 
+
 use IteratorAggregate;
 
 class ArrayOfQuotationTaxDetailEntity implements IteratorAggregate
@@ -10,7 +11,7 @@ class ArrayOfQuotationTaxDetailEntity implements IteratorAggregate
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\QuotationTaxDetailEntity
      */
-    private $Item;
+    protected $Item;
 
     /**
      * @return \ArrayIterator

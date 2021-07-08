@@ -2,18 +2,18 @@
 
 namespace Heavymind\Oxatis\ApiClient\Type;
 
-class ProductWebBlockEntity
+class ProductWebBlockEntity extends \Heavymind\Oxatis\ApiClient\Type\OxatisEntity
 {
 
     /**
      * @var string
      */
-    private $DescriptionWebBlock;
+    protected $DescriptionWebBlock;
 
     /**
      * @var string
      */
-    private $LongDescriptionWebBlock;
+    protected $LongDescriptionWebBlock;
 
     /**
      * @return string

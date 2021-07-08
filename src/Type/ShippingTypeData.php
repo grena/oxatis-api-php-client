@@ -8,7 +8,7 @@ class ShippingTypeData
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\ShippingTypeEntity
      */
-    private $ShippingType;
+    protected $ShippingType;
 
     /**
      * @return \Heavymind\Oxatis\ApiClient\Type\ShippingTypeEntity

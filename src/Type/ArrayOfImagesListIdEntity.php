@@ -5,13 +5,13 @@ namespace Heavymind\Oxatis\ApiClient\Type;
 
 use IteratorAggregate;
 
-class ArrayOfImagesListIdEntity implements IteratorAggregate, Traversable
+class ArrayOfImagesListIdEntity implements IteratorAggregate
 {
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\ImagesListIdEntity
      */
-    private $ImageList;
+    protected $ImageList;
 
     /**
      * @return \ArrayIterator

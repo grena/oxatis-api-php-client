@@ -12,7 +12,7 @@ class ImageGetListResponse implements ResultInterface
      * @var
      * \Heavymind\Oxatis\ApiClient\Type\SoapDataResultServiceOfImageGalleryIdListDataImageGalleryListEntity
      */
-    private $DataResultService;
+    protected $DataResultService;
 
     /**
      * @return \Heavymind\Oxatis\ApiClient\Type\SoapDataResultServiceOfImageGalleryIdListDataImageGalleryListEntity

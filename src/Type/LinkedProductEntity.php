@@ -2,13 +2,13 @@
 
 namespace Heavymind\Oxatis\ApiClient\Type;
 
-class LinkedProductEntity
+class LinkedProductEntity extends LinkedProductBaseEntity
 {
 
     /**
      * @var int
      */
-    private $Quantity;
+    protected $Quantity;
 
     /**
      * @return int

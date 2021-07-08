@@ -2,7 +2,7 @@
 
 namespace Heavymind\Oxatis\ApiClient\Type;
 
-class OrderIdEntity
+class OrderIdEntity extends OxatisEntity
 {
 
 

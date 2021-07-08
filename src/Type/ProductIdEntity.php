@@ -2,68 +2,68 @@
 
 namespace Heavymind\Oxatis\ApiClient\Type;
 
-class ProductIdEntity
+class ProductIdEntity extends \Heavymind\Oxatis\ApiClient\Type\OxatisEntity
 {
 
     /**
      * @var string
      */
-    private $ItemSKU;
+    protected $ItemSKU;
 
     /**
      * @var string
      */
-    private $ProductLanguage;
+    protected $ProductLanguage;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\OptionValuesEntity
      */
-    private $OptionValues1;
+    protected $OptionValues1;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\OptionValuesEntity
      */
-    private $OptionValues2;
+    protected $OptionValues2;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\OptionValuesEntity
      */
-    private $OptionValues3;
+    protected $OptionValues3;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\OptionTypesEntity
      */
-    private $OptionTypes1;
+    protected $OptionTypes1;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\OptionTypesEntity
      */
-    private $OptionTypes2;
+    protected $OptionTypes2;
 
     /**
      * @var \Heavymind\Oxatis\ApiClient\Type\OptionTypesEntity
      */
-    private $OptionTypes3;
+    protected $OptionTypes3;
 
     /**
      * @var int
      */
-    private $ParentItemID;
+    protected $ParentItemID;
 
     /**
      * @var string
      */
-    private $ParentItemSKU;
+    protected $ParentItemSKU;
 
     /**
      * @var int
      */
-    private $ProductType;
+    protected $ProductType;
 
     /**
      * @var int
      */
-    private $ExternalSourceID;
+    protected $ExternalSourceID;
 
     /**
      * @return string
