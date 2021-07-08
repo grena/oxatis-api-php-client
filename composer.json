@@ -33,7 +33,10 @@
         "phpro/soap-client": "^1.6",
         "php-http/message-factory": "^1.0",
         "php-http/message": "^1.8",
-        "php-http/client-common": "^2.1"
+        "php-http/client-common": "^2.1",
+        "symfony/http-client": "^5.3",
+        "symfony/dom-crawler": "^5.3",
+        "symfony/css-selector": "^5.3"
     },
     "require-dev": {
         "friendsofphp/php-cs-fixer": "^2.14",
