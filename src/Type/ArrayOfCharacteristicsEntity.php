@@ -22,7 +22,7 @@ class ArrayOfCharacteristicsEntity implements IteratorAggregate
     }
 
     /**
-     * @param \Heavymind\Oxatis\ApiClient\Type\CharacteristicsEntity $Characteristics
+     * @param \Heavymind\Oxatis\ApiClient\Type\CharacteristicsEntity|array $Characteristics
      * @return ArrayOfCharacteristicsEntity
      */
     public function withCharacteristics($Characteristics)

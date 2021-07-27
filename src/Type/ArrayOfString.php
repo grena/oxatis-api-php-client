@@ -22,7 +22,7 @@ class ArrayOfString implements IteratorAggregate
     }
 
     /**
-     * @param string $string
+     * @param string|array $string
      * @return ArrayOfString
      */
     public function withString($string)
