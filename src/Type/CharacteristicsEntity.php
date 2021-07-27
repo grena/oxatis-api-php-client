@@ -11,7 +11,7 @@ class CharacteristicsEntity extends \Heavymind\Oxatis\ApiClient\Type\OxatisEntit
     protected $ItemSKU;
 
     /**
-     * @var \Heavymind\Oxatis\ApiClient\Type\CharacteristicEntity
+     * @var \Heavymind\Oxatis\ApiClient\Type\CharacteristicEntity[]
      */
     protected $Characteristic;
 
@@ -36,18 +36,18 @@ class CharacteristicsEntity extends \Heavymind\Oxatis\ApiClient\Type\OxatisEntit
     }
 
     /**
-     * @return \Heavymind\Oxatis\ApiClient\Type\CharacteristicEntity
+     * @return \Heavymind\Oxatis\ApiClient\Type\CharacteristicEntity[]
      */
     public function getCharacteristic()
     {
-        return $this->Characteristic;
+        return is_array($this->Characteristic) ? $this->Characteristic : [$this->Characteristic];
     }
 
     /**
-     * @param \Heavymind\Oxatis\ApiClient\Type\CharacteristicEntity $Characteristic
+     * @param \Heavymind\Oxatis\ApiClient\Type\CharacteristicEntity[] $Characteristic
      * @return CharacteristicsEntity
      */
-    public function withCharacteristic($Characteristic)
+    public function withCharacteristic(array $Characteristic)
     {
         $new = clone $this;
         $new->Characteristic = $Characteristic;
